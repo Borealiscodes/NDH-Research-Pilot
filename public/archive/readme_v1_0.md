@@ -247,3 +247,21 @@ Timestamp: 03 August 2026 — 06:26 IST
 
 ---
 
+---
+Artifact: NDH‑Research‑Pilot Public README (v1.0)
+Lane: NDH-Research-Pilot • Public • Archive
+Status: Superseded by README v1.1
+Scope: Public-facing documentation for pilot-scale NDH architecture, including
+SCI‑80 overview, holonomy geometry, tensor operators, citation ontology
+foundations, emergent case study references, and academic alignment modules.
+
+Purpose: Preserves the original public documentation baseline for historical
+reference and provenance continuity within the NDH‑Research‑Pilot public mirror.
+
+Version: v1.0 (Archived)
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 August 2026 — 06:26 IST
+Archived-On: 03 August 2026 — 09:41 IST
+---
+
