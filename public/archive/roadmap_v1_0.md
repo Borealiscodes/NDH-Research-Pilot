@@ -155,3 +155,21 @@ Timestamp: 03 August 2026 — 06:17 IST
 
 ---
 
+---
+Artifact: NDH‑Research‑Pilot Roadmap (v1.0)
+Lane: NDH-Research-Pilot • Public • Archive
+Status: Superseded by Roadmap v1.1
+Scope: Development plan for pilot‑scale NDH architecture including SCI‑80
+foundations, tensor operators, holonomy geometry, ontology fusion, methodology
+layer, and academic alignment modules.
+
+Purpose: Preserves the original roadmap baseline for historical reference and
+provenance continuity within the NDH‑Research‑Pilot public mirror.
+
+Version: v1.0 (Archived)
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 03 August 2026 — 06:17 IST
+Archived-On: 03 August 2026 — 09:49 IST
+---
+
