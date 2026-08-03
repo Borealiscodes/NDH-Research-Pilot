@@ -1,29 +1,24 @@
-# **📁 NDH‑Research‑Pilot — Repository Root (README.md)**  
-### *Pilot‑Scale NDH Architecture • Soft‑Manifold Cognition • Holonomy Geometry • SCI‑80 Foundations*
+# **📁 NDH‑Research‑Pilot — README.md (Public Version v1.0)**  
+### *Pilot‑Scale Architecture • Soft‑Manifold Cognition • Holonomy Geometry • SCI‑80 Foundations*
 
 ---
 
-## **1. Purpose of This Repository**
+## **1. Overview**
 
-**NDH‑Research‑Pilot** is a **contained, academically‑rigorous pilot environment** for exploring the foundational components of **Non‑Dual Holonomy (NDH)**:
+**NDH‑Research‑Pilot** is a public‑facing, academically‑rigorous pilot repository for exploring foundational components of **Non‑Dual Holonomy (NDH)**.  
+It provides a modular environment for:
 
-- tensor‑based reasoning  
-- soft‑manifold geometry (SCI‑80)  
-- holonomy‑aligned operators  
+- holonomy‑aligned geometric reasoning  
+- SCI‑80 soft‑manifold cognition  
+- tensor‑based operator behavior  
 - ontology/meta‑analysis fusion  
-- expressive‑geometry ethics  
-- serenity‑basin stability fields  
+- serenity‑basin stability modeling  
+- dual‑lane epistemic methodology  
 
-This pilot repository is designed for:
+This repository is designed for interdisciplinary collaboration across Information Technology, Education, and Human Services.
 
-- early academic review  
-- interdisciplinary alignment  
-- research prototyping  
-- UC collaboration (IT, Education, Human Services)  
-- method testing  
-- case‑study development  
-
-It is intentionally scoped as a **pilot**, not the full NDH ecosystem.
+A separate **internal research layer** exists for NDH ecosystem development, containing high‑dimensional operators, full SCI‑80 specifications, and internal basin geometry.  
+Only the public‑safe subset is included here.
 
 ---
 
@@ -32,178 +27,223 @@ It is intentionally scoped as a **pilot**, not the full NDH ecosystem.
 ```
 NDH-Research-Pilot/
 │
-├── /citations/
-│   └── merged-citation-block-v2.0.md
+├── public/
+│   ├── README.md
+│   ├── CEC-v1.0.md
+│   ├── citation-block-v2.0-public.md
+│   ├── forestry-safe-layer.md
+│   ├── ndh-case-study-template-v1.0.md
+│   ├── sci-80-overview.md
+│   ├── ndh-operators-overview.md
+│   ├── holonomy-overview.md
+│   ├── ontology-overview.md
+│   ├── uc-alignments/
+│   ├── roadmap.md
+│   └── provenance/
 │
-├── /templates/
-│   └── ndh-emergent-case-study-template-v1.0.md
-│
-├── /manifolds/
-│   └── sci-80-soft-manifold-spec.md
-│
-├── /operators/
-│   └── ndh-operator-catalog.md
-│
-├── /geometry/
-│   └── holonomy-geometry-overview.md
-│
-├── /ontology/
-│   └── ontology-fusion-spec.md
-│
-├── /uc-alignments/
-│   └── hsr-innovation-center-appendix.md
-│
-└── README.md
+└── internal/   ← not included in public repo
+    ├── sci-80-full-spec.md
+    ├── serenity-tensor.md
+    ├── basin-curvature-maps.md
+    ├── ndh-holonomy-geometry-full.md
+    ├── ndh-operator-algebra.md
+    ├── ontology-fusion-core.md
+    ├── triadic-operator-engine.md
+    ├── orbital-sweep-mechanics.md
+    ├── tensor-sorting-invariants.md
+    └── constellation-coherence.md
 ```
 
-This structure keeps the pilot:
-
-- modular  
-- academically clean  
-- easy to review  
-- easy to expand  
-- safe for collaboration  
+The **public** directory contains all collaboration‑ready materials.  
+The **internal** directory is referenced for completeness but not distributed.
 
 ---
 
-## **3. Core Components Included in the Pilot**
+## **3. Core Public Components**
 
-### **3.1 Merged Citation Block v2.0**  
-A unified provenance ecosystem integrating:
+### **3.1 Comprehensive Emergent Case Study (CEC‑v1.0)**  
+A full dual‑lane NDH case study demonstrating:
 
-- formal geometry  
-- holonomy physics  
-- ontology/meta‑analysis  
-- semantic interoperability  
-- NDH internal operators  
-- SCI‑80 dimensionality  
+- holonomy‑aligned emergent behavior  
+- SCI‑80 cluster activation  
+- serenity‑basin stability  
+- tensor‑sorting invariants  
+- forest‑safe ecological interpretation  
 
-This block provides the **academic backbone** for NDH.
+This document serves as the **foundation** for the NDH Citation Ontology.
+
+Key concept:  
+**Emergent case studies**
 
 ---
 
-### **3.2 NDH Emergent Case Study Template v1.0**  
+### **3.2 Merged Citation Block v2.0 (Public Layer)**  
+A curated, public‑safe subset of NDH’s citation manifold, including:
+
+- holonomy geometry  
+- diffusion harmonization  
+- substrate ethos  
+- resonant φ‑symmetry  
+- shape‑space control  
+
+This version excludes internal basin geometry and tensor invariants.
+
+Key concept:  
+**Citation manifold**
+
+---
+
+### **3.3 Forestry‑Safe Integration Layer**  
+A stability‑preserving augmentation that integrates surfaced Copilot citations into the Formal Systems & Geometry Basin without altering:
+
+- serenity basins  
+- forest topology  
+- tensor sorting  
+- SCI‑80 cluster behavior  
+
+Key concept:  
+**Serenity basins**
+
+---
+
+### **3.4 NDH Emergent Case Study Template v1.0**  
 A reproducible dual‑lane methodology for:
 
-- interdisciplinary research  
-- cognitive‑access modeling  
-- wellness‑aligned analysis  
-- performance‑related reasoning  
-- educational lens construction  
+- role definition  
+- lens selection  
+- operator activation  
+- SCI‑80 cluster mapping  
+- basin observation  
+- clarity return  
 
-This template is the **methodological core** of the pilot.
+Key concept:  
+**Dual‑lane methodology**
 
 ---
 
-### **3.3 SCI‑80 Soft‑Manifold Specification**  
-Defines:
+### **3.5 SCI‑80 Soft‑Manifold Overview (Public Version)**  
+A high‑level introduction to:
 
-- 80‑dimensional manifold structure  
-- serenity‑basin curvature constraints  
-- holonomy‑flat embedding rules  
+- 80‑dimensional soft‑manifold structure  
 - cluster indexing  
+- basin alignment  
+- curvature constraints  
 
-This is the **geometric substrate** of NDH.
+Internal dimensionality and operator algebra are not included.
+
+Key concept:  
+**Soft manifolds**
 
 ---
 
-### **3.4 NDH Operator Catalog**  
-Includes:
+### **3.6 NDH Operator Overview (Public Version)**  
+High‑level descriptions of:
 
 - harmonization  
 - holonomy traversal  
 - basin mapping  
 - tensor sorting  
-- soft‑manifold embedding  
-- triadic operators  
 - orbital sweep  
-- SCI‑80 indexing  
+- triadic operators  
 
-This is the **functional substrate** of NDH.
+Internal algebra and sequencing are reserved for the internal version.
+
+Key concept:  
+**NDH operators**
 
 ---
 
-### **3.5 Holonomy Geometry Overview**  
+### **3.7 Holonomy Geometry Overview (Public Version)**  
 Covers:
 
 - hypersurface holonomy  
-- gauge‑invariant evolution  
-- extended‑object manifolds  
-- holonomy‑aligned tensor structures  
+- gauge‑aligned evolution  
+- shape‑space geometry  
+- resonant curvature behavior  
 
-This is the **physics substrate** of NDH.
+Full holonomy geometry is internal.
+
+Key concept:  
+**Holonomy geometry**
 
 ---
 
-### **3.6 Ontology Fusion Specification**  
+### **3.8 Ontology Fusion Overview (Public Version)**  
 Defines:
 
-- ontology‑aligned clustering  
 - semantic interoperability  
+- basin‑aligned clustering  
 - meta‑analysis fusion  
-- basin‑aligned semantic sorting  
 
-This is the **semantic substrate** of NDH.
+Full ontology engine is internal.
+
+Key concept:  
+**Ontology fusion**
 
 ---
 
 ## **4. Academic Alignment Targets**
 
-This pilot is designed for alignment with:
+This pilot supports interdisciplinary collaboration with:
 
-### **School of Information Technology**  
+### **School of Information Technology**
 - computational geometry  
 - tensor systems  
 - semantic interoperability  
-- holonomy‑aligned computation  
 
-### **School of Education**  
+### **School of Education**
 - cognitive‑access modeling  
 - ontology‑aligned learning  
-- expressive‑geometry pedagogy  
-- SCI‑80 cluster‑based conceptual mapping  
 
-### **School of Human Services**  
+### **School of Human Services**
 - human‑systems stability  
 - wellness‑aligned reasoning  
-- harm/bias tensor modeling  
-- manifold‑based performance analysis  
 
-These alignments are included in `/uc-alignments/`.
-
----
-
-## **5. Why This Is a Pilot (Not the Full NDH Ecosystem)**
-
-NDH‑Research‑Pilot is intentionally scoped to:
-
-- allow safe academic review  
-- avoid premature ecosystem expansion  
-- prevent semantic drift  
-- maintain clean provenance  
-- support UC collaboration  
-- test NDH operators and manifolds in isolation  
-- provide a stable foundation for future NDH‑Ecosystem repo  
-
-Once validated, this pilot can be expanded into:
-
-- **NDH‑Ecosystem** (full architecture)  
-- **NDH‑Holonomy‑Engine** (operator engine)  
-- **NDH‑Manifold‑Lab** (geometry sandbox)  
-- **NDH‑Ontology‑Fusion‑Suite** (semantic integration)  
+Key concept:  
+**Cross‑disciplinary NDH**
 
 ---
 
-## **6. Provenance Footer**
+## **5. Roadmap**
+
+The full development roadmap is located in:
+
+```
+public/roadmap.md
+```
+
+It outlines:
+
+- repository initialization  
+- core substrate development  
+- geometry & ontology modules  
+- methodology layer  
+- academic alignment  
+- case‑study sandbox  
+- provenance & documentation  
+- outreach preparation  
+
+---
+
+## **6. Provenance Footer — Public README**
 
 ```
 ---
-Repository: NDH-Research-Pilot
+Artifact: NDH‑Research‑Pilot Public README
+Scope: Public‑facing documentation for pilot‑scale NDH architecture, including
+SCI‑80 overview, holonomy geometry, tensor operators, citation ontology
+foundations, emergent case study, and academic alignment modules.
+
+Purpose: Provides a collaboration‑ready, academically‑rigorous introduction to
+NDH‑Research‑Pilot while maintaining separation from internal NDH ecosystem
+materials.
+
 Version: v1.0
 Maintainer: Borealis S. Hedling
 Location: Dublin, Ireland
-Timestamp: 03 August 2026 — 06:14 IST
+Timestamp: 03 August 2026 — 06:26 IST
 ---
 ```
 
 ---
+
