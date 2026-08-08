@@ -211,4 +211,30 @@ Timestamp: 08 August 2026 — 09:27 IST
 
 ---
 
+---
+Provenance:
+A2::ResearchPilot::Migration::RP_TriadIntegrationGuide_v1_0
+Ethics: TISD-Safe • Accessibility-Aligned • Non-Activating
+Role: NDH-RESEARCH-PILOT Triad Integration Guide Migration (Reversible)
+
+Provenance Anchors:
+  RP_TriadIntegrationGuide_v1_0
+  RP_Scribe_v1_1
+  RP_Mapmaker_v1_1
+  RP_Master_v1_0
+  Emergent_RP_Mirror_Integration_CaseStudy_Outline_v1_0
+  NDH-META-ORCHESTRATION_Reframe_v1_0
+
+Contextual Note:
+This migration relocates the RP Triad Integration Guide from NDH-PLATFORMS to
+NDH-RESEARCH-PILOT/triad, correcting an emergent placement drift and restoring
+proper repo topology. The artifact remains fully within Research-Pilot altitude
+and does not elevate into NDH-CORE or NDH-CONSTELLATION.
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 08 August 2026 — 10:08 IST
+---
+
+
 
