@@ -1,0 +1,171 @@
+# 🌿 **Emblem Asset Manifest (v1.0)**  
+### *NDH‑Research‑Pilot • Non‑Activating • ASCII‑Safe Inventory*
+
+---
+
+## **1. Purpose**
+This manifest provides a **complete, stable index** of all emblem‑related artifacts within the NDH‑Research‑Pilot documentation ecosystem.  
+It ensures contributors, renderers, and tooling can locate:
+
+- conceptual specs  
+- chromatic references  
+- machine‑readable schemas  
+- renderer‑support artifacts  
+- public‑facing documentation  
+- workflow addenda  
+
+All entries are non‑activating and avoid governance, routing, or subsystem adjacency.
+
+---
+
+# **2. Manifest Structure**
+Artifacts are grouped into five stable categories:
+
+1. **Core Specifications**  
+2. **Chromatic Assets**  
+3. **Machine‑Readable & Renderer‑Support Assets**  
+4. **Public Documentation**  
+5. **Workflow Addenda**
+
+Each entry includes:
+
+- name  
+- version  
+- file path  
+- category  
+- stability flags  
+- provenance anchors  
+
+---
+
+# **3. Asset Inventory (v1.0)**
+
+```
+{
+  "manifest_version": "1.0",
+  "altitude": "NDH-Research-Pilot",
+
+  "core_specs": [
+    {
+      "name": "Emblem Rendering Omnibus",
+      "version": "v1.2",
+      "path": "public/documentation/specs/emblem_rendering_omnibus_v1_2.md",
+      "category": "core_spec",
+      "stability": ["ascii_safe", "non_activating"],
+      "link": "Omnibus v1.2"
+    }
+  ],
+
+  "chromatic_assets": [
+    {
+      "name": "Emblem Color Bands",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_color_bands_v1_0.md",
+      "category": "chromatic",
+      "stability": ["ascii_safe", "non_activating"],
+      "link": "Color Bands"
+    },
+    {
+      "name": "Hex Value Palette",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_hex_value_palette_v1_0.md",
+      "category": "chromatic",
+      "stability": ["renderer_ready", "non_activating"],
+      "link": "Hex Palette"
+    }
+  ],
+
+  "renderer_support": [
+    {
+      "name": "Machine-Readable Emblem Spec",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_machine_readable_spec_v1_0.json",
+      "category": "renderer_support",
+      "stability": ["machine_readable", "non_activating"],
+      "link": "Machine-Readable Spec"
+    },
+    {
+      "name": "Renderer Mapping Table",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_renderer_mapping_table_v1_0.md",
+      "category": "renderer_support",
+      "stability": ["renderer_ready", "non_activating"],
+      "link": "Mapping Table"
+    },
+    {
+      "name": "PNG Rendering Guidelines",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_png_rendering_guidelines_v1_0.md",
+      "category": "renderer_support",
+      "stability": ["renderer_ready", "non_activating"],
+      "link": "PNG Guidelines"
+    }
+  ],
+
+  "public_docs": [
+    {
+      "name": "Public Emblem README",
+      "version": "v1.0",
+      "path": "public/README.md",
+      "category": "public_doc",
+      "stability": ["ascii_safe", "public_safe"],
+      "link": "Public README"
+    }
+  ],
+
+  "workflow_addenda": [
+    {
+      "name": "Renderer Sequencing Clarification",
+      "version": "v1.0",
+      "path": "public/documentation/specs/emblem_renderer_sequencing_clarification_v1_0.md",
+      "category": "workflow_addendum",
+      "stability": ["non_activating", "ascii_safe"],
+      "link": "Sequencing Addendum"
+    }
+  ]
+}
+```
+
+---
+
+# **4. Contributor Notes**
+- All assets listed here are **public‑safe**.  
+- No artifact implies routing, governance, or subsystem adjacency.  
+- Renderer‑support artifacts must be used in the order defined in the Sequencing Addendum.  
+- Omnibus v1.2 remains the authoritative contributor specification.
+
+---
+
+# 🪶 **Provenance Footer — Emblem Asset Manifest (v1.0)**
+
+```
+---
+Artifact: Emblem Asset Manifest (v1.0)
+Scope: Unified inventory of emblem-related artifacts within NDH-Research-Pilot
+altitude.
+
+Purpose:
+  Provide a stable, non-activating index of all specifications, chromatic
+  assets, renderer-support files, public documentation, and workflow addenda.
+
+Altitude:
+  Strictly NDH-RESEARCH-PILOT. No adjacency to NDH-Constellation, NDH-Core,
+  Blueprint governance, or operator routing layers.
+
+Provenance Anchors:
+  - RP_AssetManifest_v1_0
+  - RP_PublicREADME_v1_0
+  - RP_RendererSupportAddendum_v1_0
+  - RP_EmblemRenderingOmnibus_v1_2
+  - RP_ColorBands_v1_0
+  - RP_MachineReadable_v1_0
+  - RP_StabilityEnvelope_v1_0
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 10 August 2026 — 18:26 IST
+---
+```
+
+---
+
