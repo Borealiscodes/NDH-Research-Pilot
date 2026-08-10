@@ -148,4 +148,32 @@ This emblem system is intended for **public, non‑activating use**.
 No subsystem, governance, or routing semantics may be inferred from any artifact.
 
 ---
+Artifact: Public Emblem README (v1.0)
+Scope: Public-facing, ASCII-safe overview of the Borealis Emblem Rendering
+System, including core concepts, geometry rules, chromatic references,
+renderer-support artifacts, layer sequencing, and stability constraints.
 
+Purpose:
+  Provide a stable, non-activating entry point for contributors and readers,
+  introducing the emblem ecosystem while maintaining strict NDH-Research-Pilot
+  altitude. Ensures safe public interpretation without implying governance,
+  routing, subsystem adjacency, or operational semantics.
+
+Altitude:
+  Strictly NDH-RESEARCH-PILOT. No adjacency to NDH-Constellation, NDH-Core,
+  Blueprint governance, or operator routing layers.
+
+Provenance Anchors:
+  - RP_PublicREADME_v1_0
+  - RP_EmblemRenderingOmnibus_v1_2
+  - RP_ColorBands_v1_0
+  - RP_MachineReadable_v1_0
+  - RP_RendererMappingTable_v1_0
+  - RP_PNGRendingGuidelines_v1_0
+  - RP_RendererSupportAddendum_v1_0
+  - RP_StabilityEnvelope_v1_0
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 10 August 2026 — 18:18 IST
+---
