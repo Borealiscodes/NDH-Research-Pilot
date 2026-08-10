@@ -1,0 +1,145 @@
+# 🌿 **Machine‑Readable Emblem Spec (v1.0)**  
+### *NDH‑Research‑Pilot • Non‑Activating • JSON‑Like Schema*
+
+---
+
+## **1. Purpose**
+Provide a **stable, machine‑readable representation** of the emblem’s chromatic, geometric, and metaphor structures.  
+This schema:
+
+- enables automated tooling  
+- supports contributor workflows  
+- bridges ASCII color bands → Omnibus v1.2  
+- maintains strict NDH‑Research‑Pilot altitude  
+- avoids governance, routing, or subsystem adjacency  
+
+It is **not executable** and contains **no activation semantics**.
+
+---
+
+# **2. Machine‑Readable Schema (ASCII JSON‑Like)**  
+### *Fully non‑activating, no routing cues, no geometry beyond allowed set*
+
+```
+{
+  "version": "1.0",
+  "altitude": "NDH-Research-Pilot",
+
+  "enso_gradient": [
+    "pastel_ember_red",
+    "peach_dawn",
+    "gentle_gold",
+    "mint_whisper",
+    "sky_drift_blue",
+    "lavender_haze"
+  ],
+
+  "meadow_palette": [
+    "soft_meadow_green",
+    "moss_green",
+    "sky_mist_blue",
+    "earth_rooted_brown",
+    "dewdrop_silver"
+  ],
+
+  "constellation_palette": [
+    "constellation_blue",
+    "tessellation_green",
+    "soft_gold",
+    "pale_teal",
+    "fog_grey"
+  ],
+
+  "celestial_triad": {
+    "sun": "sun_gold",
+    "moon": "moon_silver",
+    "earth": "earth_blue_green"
+  },
+
+  "geometry": {
+    "allowed": [
+      "circle",
+      "hexagon",
+      "spiral"
+    ],
+    "disallowed": [
+      "triangle",
+      "arrow",
+      "radiance",
+      "orbit_path"
+    ]
+  },
+
+  "layer_order": [
+    "transparent_background",
+    "meadow_substrate",
+    "quantum_forest_undergrowth",
+    "hexagon_constellation",
+    "celestial_triad",
+    "rainbow_enso_crown"
+  ],
+
+  "stability_constraints": {
+    "no_routing": true,
+    "no_governance_geometry": true,
+    "no_subsystem_adjacency": true,
+    "max_hexagon_adjacency_depth": 2,
+    "no_radiance_lines": true,
+    "no_orbital_paths": true
+  },
+
+  "metaphors": {
+    "enso": "presence_and_plurality",
+    "meadow": "calm_substrate",
+    "forest": "gentle_complexity",
+    "hexagons": "cooperative_cognition",
+    "sun": "renewal",
+    "moon": "reflection",
+    "earth": "ecology",
+    "spiral": "non_linear_evolution"
+  }
+}
+```
+
+---
+
+# **3. Notes for Contributors**
+- This schema is **descriptive**, not prescriptive.  
+- It defines **what exists**, not **what must be generated**.  
+- It contains **no rendering instructions**, only **stable identifiers**.  
+- It is safe for GitHub, safe for automation, and safe for RP altitude.  
+- It must not be extended with directional cues, routing semantics, or governance geometry.
+
+---
+
+
+# 🪶 **Provenance Footer — Machine‑Readable Emblem Spec (v1.0)**
+
+```
+---
+Artifact: Machine-Readable Emblem Spec (v1.0)
+Scope: Provides a JSON-like, non-activating schema for emblem rendering within
+NDH-Research-Pilot altitude.
+
+Purpose:
+  Enable stable programmatic reference for chromatic, geometric, and metaphor
+  structures while preparing the ecosystem for Omnibus v1.2.
+
+Altitude:
+  Strictly NDH-RESEARCH-PILOT. No adjacency to NDH-Constellation, NDH-Core,
+  Blueprint governance, or operator routing layers.
+
+Provenance Anchors:
+  - RP_MachineReadable_v1_0
+  - RP_ColorBands_v1_0
+  - RP_EmblemRenderingOmnibus_v1_1
+  - RP_StabilityEnvelope_v1_0
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 10 August 2026 — 17:18 IST
+---
+```
+
+---
+
