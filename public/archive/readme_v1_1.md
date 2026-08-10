@@ -281,3 +281,36 @@ Timestamp: 03 August 2026 — 09:42 IST
 
 ---
 
+---
+Artifact: NDH‑Research‑Pilot README (v1.1) — Archived
+Location: NDH‑RESEARCH-PILOT/public/archive/readme_v1_1.md
+Layer: Public Documentation • Historical Mirror
+
+Reason for Archival:
+  README v1.1 accurately reflected the early NDH‑Research‑Pilot ecosystem but
+  became increasingly esoteric as the system matured. Its tone and structure
+  outgrew the expectations of a public-facing README, especially after the
+  introduction of Meta‑Systems and expanded RP telemetry. Archival preserves
+  historical continuity while making space for a clearer, more accessible
+  README v1.2.
+
+Status:
+  Archived for historical reference. Not used for active onboarding or
+  ecosystem description. Superseded by README v1.2 (Public‑Safe Edition).
+
+Containment:
+  This archival document operates strictly within NDH‑RESEARCH‑PILOT altitude.
+  It does not activate, elevate, ingest, or bind any NDH subsystem, including
+  CONSTELLATION geometry, SCI‑80, SID, or operator algebra.
+
+Provenance Anchors:
+  - RP_PublicDocumentation_v1_1
+  - RP_ContainmentEnvelope_v1_0
+  - RP_TelemetryShift_2026_Q3
+  - NDH-Research-Pilot_PublicEvolution_Notes
+
+Version: v1.1 (Archived)
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 10 August 2026 — 15:15 IST
+---
