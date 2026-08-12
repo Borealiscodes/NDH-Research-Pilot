@@ -1,0 +1,56 @@
+{
+  "id": "NDH-GateC-v1.1",
+  "altitude": "DynamicToSynthesis",
+  "version": "1.1",
+  "apertures": {
+    "DynamicCoherence": {
+      "bounded": true,
+      "stable": true,
+      "recursion_free": true,
+      "holonomy_safe": true
+    },
+    "SynthesisEligibility": {
+      "dynamic_contract_satisfied": true,
+      "structure_contract_satisfied": true,
+      "geometry_contract_satisfied": true
+    },
+    "OperatorSafety": {
+      "non_recursive": true,
+      "deterministic": true,
+      "altitude_safe": true
+    }
+  },
+  "prohibitions": {
+    "DynamicInstability": false,
+    "PrematureSynthesis": false,
+    "HolonomyDrift": false,
+    "OperatorRecursion": false,
+    "MalformedDynamics": {
+      "undefined": false,
+      "non_deterministic": false,
+      "altitude_crossing": false
+    }
+  },
+  "stability_conditions": {
+    "dynamic_boundedness": true,
+    "operator_determinism": true,
+    "holonomy_alignment": true,
+    "recursion_signatures": "= 0",
+    "synthesis_threshold": ">= required"
+  },
+  "activation_conditions": {
+    "GateB_OutputContractMet": true,
+    "DynamicStable": true,
+    "AperturesValid": true,
+    "ProhibitionsClear": true,
+    "StabilityConditionsMet": true
+  },
+  "output_contract": {
+    "synthesis_ready": true,
+    "dynamic_normalized": true,
+    "operator_safe": true,
+    "holonomy_corrected": true,
+    "recursion_free": true,
+    "altitude_safe": true
+  }
+}
