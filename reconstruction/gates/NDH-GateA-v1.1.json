@@ -1,0 +1,62 @@
+{
+  "id": "NDH-GateA-v1.1",
+  "altitude": "GeometryToStructure",
+  "version": "1.1",
+  "apertures": {
+    "UnifiedManifold": {
+      "stitched": true,
+      "hydrated": true,
+      "holonomy_corrected": true,
+      "stability": ">= threshold"
+    },
+    "HydratedOperator": {
+      "hydration_level": ">= threshold",
+      "adjacency_neutral": true,
+      "ecology_coherent": true
+    },
+    "HolonomyCorrection": {
+      "drift": "= 0",
+      "curvature_normalized": true,
+      "epoch_aligned": true
+    },
+    "StabilityEnvelope": {
+      "saturation": "< limit",
+      "recursion_signatures": "= 0",
+      "adjacency_loops": false
+    }
+  },
+  "prohibitions": {
+    "TensorMath": false,
+    "CurvatureFields": false,
+    "AlgebraicPosture": false,
+    "DynamicMath": false,
+    "UnstableGeometry": {
+      "recursion": false,
+      "drift": false,
+      "malformed_operators": false,
+      "envelope_instability": false
+    }
+  },
+  "stability_conditions": {
+    "holonomy_drift": "= 0",
+    "operator_hydration": ">= threshold",
+    "envelope_saturation": "< limit",
+    "manifold_stitching": "complete",
+    "recursion_signatures": "= 0"
+  },
+  "activation_conditions": {
+    "ReconstructionOutputStable": true,
+    "GeometryNormalized": true,
+    "AperturesValid": true,
+    "ProhibitionsClear": true,
+    "StabilityConditionsMet": true
+  },
+  "output_contract": {
+    "normalized": true,
+    "hydrated": true,
+    "holonomy_corrected": true,
+    "envelope_stable": true,
+    "recursion_free": true,
+    "altitude_safe": true
+  }
+}
