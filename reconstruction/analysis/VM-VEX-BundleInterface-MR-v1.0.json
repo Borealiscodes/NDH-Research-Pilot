@@ -1,0 +1,99 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-BundleInterface-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "permissions": {
+    "lanes": [
+      "analysis",
+      "governance-adjacent"
+    ],
+    "forbidden": [
+      "runtime",
+      "gpu-planning",
+      "constellation-binding"
+    ]
+  },
+  "bundle-interface": {
+    "metadata-interface": {
+      "read-only": true,
+      "allowed-fields": [
+        "bundle-name",
+        "bundle-version",
+        "bundle-provenance",
+        "stability-flags",
+        "altitude",
+        "lane"
+      ],
+      "forbidden-fields": [
+        "runtime-code",
+        "gpu-instructions",
+        "activation-triggers"
+      ]
+    },
+    "stability-interface": {
+      "require-ecology-flags": true,
+      "stability_ecology_required": true
+    },
+    "altitude-interface": {
+      "enforce-min": "A6",
+      "enforce-max": "A7",
+      "reject-missing-altitude": true,
+      "reject-symbolic-altitude": true
+    },
+    "lane-interface": {
+      "allowed-lanes": [
+        "analysis",
+        "governance-adjacent"
+      ],
+      "forbidden-lanes": [
+        "runtime",
+        "gpu-planning",
+        "constellation-binding"
+      ]
+    },
+    "safety-interface": {
+      "non_activating": true,
+      "pre_runtime_only": true,
+      "no_gpu_binding": true,
+      "no_constellation_binding": true
+    }
+  },
+  "safety-flags": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_constellation_binding": true,
+    "stability_ecology_required": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-VirtualMemoryMap-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0",
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0",
+      "NDH-Bundle-v1.0.json",
+      "NDH-BundleAudit-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-BundleInterface-v1.0"
+  },
+  "provenance": {
+    "anchors": [
+      "NDH-Bundle-v1.0.json",
+      "NDH-BundleAudit-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-VirtualMemoryMap-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0",
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 14:45 IST"
+  }
+}
