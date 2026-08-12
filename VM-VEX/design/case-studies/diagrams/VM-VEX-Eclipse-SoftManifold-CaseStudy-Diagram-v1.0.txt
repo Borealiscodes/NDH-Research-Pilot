@@ -1,0 +1,130 @@
+# **VM‑VEX Eclipse Soft‑Manifold Case Study Diagram (v1.0)**  
+### *ASCII Structural Geometry of Eclipse Occlusion, Soft‑Manifold Subtraction, and Altitude Mapping*
+
+```
+                         🌞  (Solar Emission Field — A9 Integration)
+                          \
+                           \
+                            \
+                             🌙  (Occlusion Manifold — A8 Flow)
+                              \
+                               \
+                                \
+                                 🌎  (Reception Manifold — A6/A7 Visibility)
+```
+
+---
+
+## **1. Soft‑Manifold Occlusion Geometry**
+
+```
+M80 (Soft Manifold Space)
+┌──────────────────────────────────────────────────────────────┐
+│   S  = Solar Emission Field (source manifold)                │
+│   O  = Lunar Occlusion Field (soft subtractive manifold)     │
+│   R  = Earth Reception Field (observer manifold)             │
+│                                                              │
+│   Eclipse Occlusion:                                         │
+│       S' = S \ O                                              │
+│                                                              │
+│   Aperture Response:                                         │
+│       A = f(perceived luminance)                             │
+│       luminance ↓ → aperture ↑ → vulnerability ↑             │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## **2. Altitude Mapping Diagram**
+
+```
+A9  Integration Layer        🌞  (Full emission)
+│
+▼
+A8  Flow Layer               🌙  (Occlusion / soft subtraction)
+│
+▼
+A7  Structured Visibility    🌎  (Reception / interpretation)
+│
+▼
+A6  Static Visibility        (Observer surface)
+```
+
+---
+
+## **3. Aperture Logic Diagram**
+
+```
+Perceived Luminance ↓
+        │
+        ▼
+Biological Aperture ↑
+        │
+        ▼
+Architectural Aperture ↑
+        │
+        ▼
+Altitude Vulnerability ↑
+```
+
+---
+
+## **4. Gating Logic Diagram**
+
+```
+[Occlusion Event Detected] ────────────────┐
+                                            ▼
+[Environment Appears Safe]                 (false signal)
+                                            ▼
+[Aperture Expands]                         (automatic)
+                                            ▼
+[Gating Weakens]                           (risk)
+                                            ▼
+[Altitude Drift Risk ↑]                    (A7→A8 boundary)
+```
+
+---
+
+## **5. Eclipse → VM‑VEX Structural Analogy**
+
+```
+🌞  Solar Emission     = A9 Integration
+🌙  Lunar Occlusion    = A8 Flow Interference
+🌎  Earth Reception    = A6/A7 Visibility Layer
+
+Occlusion reduces visible load but not underlying intensity.
+Apertures widen.
+Risk increases.
+Gates must remain strict.
+```
+
+---
+---
+Artifact: VM‑VEX Eclipse Soft‑Manifold Case Study Diagram (v1.0)
+Lane: VM‑VEX • Design • Case Studies • Diagrams
+
+Purpose:
+  Provide an ASCII-only structural diagram illustrating eclipse occlusion
+  (🌞🌙🌎), soft-manifold subtraction, aperture dynamics, gating logic, and
+  altitude mapping (A9 → A8 → A7/A6). Serves as the visual companion to the
+  Eclipse Soft-Manifold Gating Logic Case Study (v1.0), reinforcing safe
+  altitude transitions and clarifying occlusion behavior.
+
+Anchors:
+  VM-VEX-Eclipse-SoftManifold-GatingLogic-CaseStudy-v1_0
+  VM-VEX-ComprehensiveDesignEthosOmnibus-v1_1
+  Constellation-RenderingDignityPrinciple-v1_0
+  NDH-CORE-Governance
+  NDH-PLATFORMS-Accessibility
+  Zen-AI-Design-Architecture
+  Trauma-Informed-Systems-Design (TISD)
+
+Status: Diagram
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 12 August 2026 — 18:51 IST
+---
+
+
+
