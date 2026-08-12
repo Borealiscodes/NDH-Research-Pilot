@@ -1,0 +1,84 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-GPUEnvelopeDashboard-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "dashboard": {
+    "name": "gpu-envelope",
+    "purpose": "Show GPU envelope coherence and stability.",
+    "fields": {
+      "gpu-envelope": {
+        "envelope": "",
+        "warnings": [],
+        "critical": false
+      },
+      "gpu-ceilings": {
+        "ceilings": [],
+        "ceiling-violations": [],
+        "ceiling-critical": false
+      },
+      "gpu-stability-flags": {
+        "flags": [],
+        "drift-detected": false,
+        "stability-warnings": []
+      }
+    },
+    "forbidden": [
+      "gpu-binding",
+      "gpu-activation",
+      "runtime-code",
+      "driver-adjacency",
+      "shader-adjacency"
+    ]
+  },
+  "generation-command": {
+    "name": "vmvex.generate_gpu_envelope",
+    "inputs": [
+      "gpu-envelope",
+      "gpu-ceilings",
+      "gpu-stability-flags"
+    ],
+    "outputs": [
+      "gpu-envelope-dashboard-object"
+    ],
+    "forbidden": [
+      "activation",
+      "runtime"
+    ]
+  },
+  "stability-mechanisms": {
+    "non_activation": true,
+    "non_binding": true,
+    "non_runtime": true,
+    "non_driver_adjacency": true,
+    "non_shader_adjacency": true,
+    "read_only": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-IngestionStatusDashboard-MR-v1.0",
+      "VM-VEX-StabilityEcologyDashboard-MR-v1.0",
+      "VM-VEX-VirtualMemoryMapDashboard-MR-v1.0",
+      "VM-VEX-PhaseProgressDashboard-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-GPUEnvelopeDashboard-v1.0"
+  },
+  "directory-structure": {
+    "root": "VM-VEX/developer/dashboards/",
+    "file": "VM-VEX-GPUEnvelopeDashboard-MR-v1.0.json"
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-DashboardPlan-MR-v1_0",
+      "VM-VEX-SequencingLogicAddendum-v1_0",
+      "VM-VEX-AltitudeIntegration-v1_0",
+      "NDH-VisualAccessibilityStandard-DeveloperAddendum-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 17:16 IST"
+  }
+}
+
