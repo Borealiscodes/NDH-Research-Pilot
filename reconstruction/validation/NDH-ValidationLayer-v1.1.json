@@ -1,0 +1,20 @@
+{
+  "id": "NDH-ValidationLayer-v1.1",
+  "altitude": "validation",
+  "version": "1.1",
+  "apertures": {
+    "VO1_aperture_validity": true
+  },
+  "prohibitions": {
+    "VO2_prohibition_clearance": true
+  },
+  "stability_conditions": {
+    "VO3_stability_thresholds": true
+  },
+  "activation_conditions": {
+    "VO4_activation_conditions": true
+  },
+  "output_contract": {
+    "VO5_output_contract": true
+  }
+}
