@@ -1,0 +1,107 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-PreRuntimeSequencer-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "permissions": {
+    "lanes": [
+      "analysis",
+      "governance-adjacent"
+    ],
+    "forbidden": [
+      "runtime",
+      "gpu-planning",
+      "constellation-binding"
+    ]
+  },
+  "pre-runtime-sequencer": {
+    "steps": [
+      {
+        "id": 1,
+        "load": "VM-VEX-ReferencePoint-v1.0"
+      },
+      {
+        "id": 2,
+        "load": "VM-VEX-Stabilization-v1.0"
+      },
+      {
+        "id": 3,
+        "load": [
+          "VM-VEX-RuntimeEnvelope-v1.0",
+          "VM-VEX-RuntimeEnvelope-MR-v1.0"
+        ]
+      },
+      {
+        "id": 4,
+        "load": [
+          "VM-VEX-IngestionGrammar-v1.0",
+          "VM-VEX-IngestionGrammar-MR-v1.0"
+        ]
+      },
+      {
+        "id": 5,
+        "load": [
+          "VM-VEX-VirtualMemoryMap-v1.0",
+          "VM-VEX-VirtualMemoryMap-MR-v1.0"
+        ]
+      },
+      {
+        "id": 6,
+        "load": [
+          "VM-VEX-StabilityEcologyHooks-v1.0",
+          "VM-VEX-StabilityEcologyHooks-MR-v1.0"
+        ]
+      },
+      {
+        "id": 7,
+        "load": [
+          "VM-VEX-BundleInterface-v1.0",
+          "VM-VEX-BundleInterface-MR-v1.0"
+        ]
+      }
+    ],
+    "constraints": {
+      "ordered": true,
+      "strict-altitude": true,
+      "strict-lane": true,
+      "strict-stability": true
+    }
+  },
+  "safety-flags": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_constellation_binding": true,
+    "stability_ecology_required": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0",
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-VirtualMemoryMap-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0",
+      "VM-VEX-BundleInterface-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-PreRuntimeSequencer-v1.0"
+  },
+  "provenance": {
+    "anchors": [
+      "NDH-Bundle-v1.0.json",
+      "NDH-BundleAudit-v1.0",
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0",
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-VirtualMemoryMap-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0",
+      "VM-VEX-BundleInterface-MR-v1.0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 14:49 IST"
+  }
+}
