@@ -1,0 +1,142 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-DeveloperRoadmap-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "layers": {
+    "altitude-layer": {
+      "name": "NDH-RESEARCH-PILOT",
+      "role": "conceptual-sequencing",
+      "forbidden": [
+        "execution-planning",
+        "runtime",
+        "gpu-binding",
+        "driver-adjacency"
+      ]
+    },
+    "execution-planning-layer": {
+      "name": "VM-VEX",
+      "role": "pre-runtime-ingestion",
+      "phases": [
+        "Phase-🜄-InternalComponents",
+        "Phase-🜄.1-ConsolidatedInternalMap",
+        "Phase-4-GPUIntegrationPlanning",
+        "Phase-5-Reserved"
+      ],
+      "forbidden": [
+        "runtime",
+        "execution",
+        "shader-bytecode",
+        "driver-calls"
+      ]
+    },
+    "developer-layer": {
+      "role": "workflow-definition",
+      "components": [
+        "developer-roadmap",
+        "command-sheets",
+        "contribution-rules",
+        "directory-structure"
+      ]
+    },
+    "visibility-layer": {
+      "role": "status-awareness",
+      "components": [
+        "dashboards",
+        "stability-flags",
+        "ingestion-status",
+        "gpu-envelope-status"
+      ]
+    }
+  },
+  "developer-lifecycle": {
+    "steps": [
+      "load-altitude-roadmap",
+      "load-vm-vex-roadmap",
+      "read-machine-readable-schemas",
+      "follow-command-sheets",
+      "consult-dashboards",
+      "contribute-internals-safely",
+      "commit-with-provenance"
+    ],
+    "constraints": {
+      "forbid-runtime": true,
+      "forbid-altitude-crossing": true,
+      "forbid-gpu-binding": true,
+      "require-stability-ecology": true
+    }
+  },
+  "stability-mechanisms": {
+    "altitude-boundaries": {
+      "ndh-altitude": "A8-A10",
+      "vm-vex-altitude": "A6-A7",
+      "rules": [
+        "ndh-cannot-reference-execution-planning",
+        "vm-vex-cannot-reference-ndh-dynamic-math",
+        "gpu-planning-isolated-from-ndh-gates"
+      ]
+    },
+    "lane-separation": {
+      "lanes": [
+        "analysis",
+        "execution-planning",
+        "developer",
+        "visibility"
+      ],
+      "rules": [
+        "no-governance-adjacency",
+        "no-routing-geometry",
+        "no-runtime-drift"
+      ]
+    },
+    "stability-ecology": {
+      "rules": [
+        "non-activation",
+        "non-binding",
+        "non-runtime",
+        "non-driver-adjacency",
+        "non-shader-adjacency"
+      ]
+    }
+  },
+  "directory-structure": {
+    "root": "developer/",
+    "paths": [
+      "developer/roadmap/",
+      "developer/architecture/",
+      "VM-VEX/phase4-gpu-integration/"
+    ]
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-ConsolidatedInternalMap-MR-v1.0",
+      "VM-VEX-GPUIntegrationPlan-MR-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0",
+      "StablePlatformCreationModel-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-DeveloperRoadmap-v1.0"
+  },
+  "safety-flags": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_driver_adjacency": true,
+    "no_constellation_binding": true,
+    "stability_ecology_required": true
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-DeveloperRoadmap-v1_0",
+      "VM-VEX-GPUIntegrationPlan-v1_0",
+      "StablePlatformCreationModel-v1_0",
+      "NDH-GPUIntegration-DebriefAudit-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 15:31 IST"
+  }
+}
+
