@@ -1,0 +1,143 @@
+# 📘 **NDH Comparative Scaffolding Schema (v1.1)**  
+### *Machine‑Readable • Deterministic • Non‑Recursive*
+
+```
+{
+  "id": "NDH-ComparativeScaffold-v1.1",
+  "type": "ComparativeSchema",
+  "version": "1.1",
+
+  "inputs": {
+    "artifact_A": {
+      "name": "",
+      "version": "",
+      "lane": "",
+      "altitude": "",
+      "binding": "",
+      "machine_readable": ""
+    },
+    "artifact_B": {
+      "name": "",
+      "version": "",
+      "lane": "",
+      "altitude": "",
+      "binding": "",
+      "machine_readable": ""
+    },
+    "reference_point": {
+      "name": "NDH-StableReferencePoint",
+      "version": "1.1",
+      "binding": "true",
+      "machine_readable": "false"
+    }
+  },
+
+  "alignment_checks": {
+    "apertures": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "prohibitions": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "stability_conditions": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "activation_conditions": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "output_contract": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "altitude_correctness": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "recursion_signatures": {
+      "artifact_A": "",
+      "artifact_B": ""
+    },
+    "holonomy_alignment": {
+      "artifact_A": "",
+      "artifact_B": ""
+    }
+  },
+
+  "deviation_map": {
+    "artifact_A": {
+      "structural": "",
+      "schema": "",
+      "altitude": "",
+      "contract": "",
+      "recursion": "",
+      "holonomy": ""
+    },
+    "artifact_B": {
+      "structural": "",
+      "schema": "",
+      "altitude": "",
+      "contract": "",
+      "recursion": "",
+      "holonomy": ""
+    }
+  },
+
+  "synthesis": {
+    "artifact_A_alignment": "",
+    "artifact_B_alignment": "",
+    "relationship": ""
+  },
+
+  "outcome": {
+    "artifact_A": "",
+    "artifact_B": "",
+    "options": [
+      "bind",
+      "reject",
+      "regenerate",
+      "escalate_to_meta_systems"
+    ]
+  }
+}
+```
+
+---
+
+# 📘 **Provenance Footer — NDH Comparative Scaffolding (v1.1)**
+
+```
+---
+Artifact: NDH Comparative Scaffolding (v1.1)
+Lane: NDH-Reconstruction • NDH-Analysis • NDH-Constellation Interface
+
+Purpose:
+Provide a deterministic, non-recursive machine-readable schema for comparing two
+artifacts against the NDH Stable Reference Point v1.1. Defines identity fields,
+alignment checks, deviation mapping, synthesis logic, and outcome categories for
+altitude-safe comparative analysis across membranes, validators, audit layers,
+and stability-ecology subsystems.
+
+Provenance Anchors:
+  NDH-StableReferencePoint-v1.1
+  NDH-GateA-v1.1
+  NDH-GateB-v1.1
+  NDH-GateC-v1.1
+  NDH-ValidationLayer-v1.1
+  NDH-Audit-v1.1
+  NDH-Constellation
+  Goat Stability Layer v1.0
+  Goat Constitution v1.0
+
+Version: 1.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 12 August 2026 — 12:05 IST
+---
+```
+
+---
+
