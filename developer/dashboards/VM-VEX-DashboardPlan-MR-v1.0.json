@@ -1,0 +1,143 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-DashboardPlan-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "dashboards": [
+    {
+      "name": "ingestion-status",
+      "purpose": "Show completeness of ingestion grammar and internal map.",
+      "fields": [
+        "grammar-validation-state",
+        "internal-map-loaded",
+        "missing-components",
+        "stability-flags"
+      ],
+      "forbidden": [
+        "grammar-modification",
+        "runtime-code"
+      ]
+    },
+    {
+      "name": "stability-ecology",
+      "purpose": "Display ecology flags and violations.",
+      "fields": [
+        "ecology-flags",
+        "forbidden-adjacency-detections",
+        "altitude-boundary-checks"
+      ],
+      "forbidden": [
+        "ecology-modification",
+        "activation"
+      ]
+    },
+    {
+      "name": "virtual-memory-map",
+      "purpose": "Show virtual memory envelope coherence.",
+      "fields": [
+        "region-types",
+        "envelope-span",
+        "stability-ceilings"
+      ],
+      "forbidden": [
+        "memory-binding",
+        "allocation"
+      ]
+    },
+    {
+      "name": "gpu-envelope",
+      "purpose": "Display GPU planning envelope status.",
+      "fields": [
+        "gpu-envelope",
+        "gpu-ceilings",
+        "gpu-stability-flags"
+      ],
+      "forbidden": [
+        "gpu-binding",
+        "gpu-execution",
+        "driver-calls"
+      ]
+    },
+    {
+      "name": "phase-progress",
+      "purpose": "Show VM-VEX phase completion status.",
+      "fields": [
+        "phase-🜄-status",
+        "phase-🜄.1-status",
+        "phase-4-status",
+        "phase-5-reserved"
+      ],
+      "forbidden": [
+        "phase-modification",
+        "activation"
+      ]
+    },
+    {
+      "name": "consolidated-snapshot",
+      "purpose": "Unify all dashboard fields into a single static snapshot.",
+      "fields": [
+        "ingestion-status",
+        "stability-ecology",
+        "virtual-memory-map",
+        "gpu-envelope",
+        "phase-progress"
+      ],
+      "forbidden": [
+        "any-modification",
+        "runtime-adjacency"
+      ]
+    }
+  ],
+  "generation-command": {
+    "name": "vmvex.generate_dashboard_snapshot",
+    "inputs": [
+      "internal-map",
+      "stability-flags",
+      "gpu-envelope-status"
+    ],
+    "outputs": [
+      "dashboard-object"
+    ],
+    "forbidden": [
+      "activation",
+      "runtime"
+    ]
+  },
+  "stability-mechanisms": {
+    "non_activation": true,
+    "non_binding": true,
+    "non_runtime": true,
+    "non_driver_adjacency": true,
+    "non_shader_adjacency": true,
+    "read_only": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-CommandSheets-MR-v1.0",
+      "VM-VEX-DeveloperRoadmap-MR-v1.0",
+      "VM-VEX-GPUIntegrationPlan-MR-v1.0",
+      "VM-VEX-ConsolidatedInternalMap-MR-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-DashboardPlan-v1.0"
+  },
+  "directory-structure": {
+    "root": "developer/dashboards/",
+    "file": "VM-VEX-DashboardPlan-MR-v1.0.json"
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-DashboardPlan-v1_0",
+      "VM-VEX-CommandSheets-v1_0",
+      "VM-VEX-DeveloperRoadmap-v1_0",
+      "StablePlatformCreationModel-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 15:43 IST"
+  }
+}
+
