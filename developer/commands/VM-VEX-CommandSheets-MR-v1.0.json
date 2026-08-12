@@ -1,0 +1,144 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-CommandSheets-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "commands": [
+    {
+      "name": "vmvex.load_internal_map",
+      "lane": "execution-planning",
+      "purpose": "Load the Consolidated Internal Map for VM-VEX ingestion.",
+      "inputs": ["map-version", "stability-flags"],
+      "outputs": ["internal-map-object"],
+      "stability-ecology": {
+        "require-stability-flags": true,
+        "forbid-recursion": true
+      },
+      "forbidden": [
+        "runtime",
+        "gpu-binding",
+        "driver-adjacency"
+      ]
+    },
+    {
+      "name": "vmvex.validate_ingestion_grammar",
+      "lane": "execution-planning",
+      "purpose": "Validate ingestion grammar fields for correctness and safety.",
+      "inputs": ["grammar-object", "grammar-version"],
+      "outputs": ["validation-report"],
+      "stability-ecology": {
+        "forbid-dynamic-math-adjacency": true
+      },
+      "forbidden": [
+        "shader-bytecode",
+        "runtime-code"
+      ]
+    },
+    {
+      "name": "vmvex.map_virtual_memory",
+      "lane": "execution-planning",
+      "purpose": "Map virtual memory envelopes for pre-runtime planning.",
+      "inputs": ["memory-envelope", "region-types"],
+      "outputs": ["virtual-memory-map"],
+      "stability-ecology": {
+        "forbid-binding": true,
+        "forbid-allocation": true
+      },
+      "forbidden": [
+        "gpu-binding",
+        "driver-calls"
+      ]
+    },
+    {
+      "name": "vmvex.apply_stability_ecology",
+      "lane": "execution-planning",
+      "purpose": "Apply stability ecology rules to VM-VEX components.",
+      "inputs": ["ecology-flags", "component-list"],
+      "outputs": ["ecology-report"],
+      "stability-ecology": {
+        "require-stability-flags": true
+      },
+      "forbidden": [
+        "runtime",
+        "activation"
+      ]
+    },
+    {
+      "name": "vmvex.plan_gpu_integration",
+      "lane": "execution-planning",
+      "purpose": "Define GPU envelopes, ceilings, and grammar for Phase 4.",
+      "inputs": ["gpu-envelope", "gpu-ceilings", "gpu-stability-flags"],
+      "outputs": ["gpu-planning-object"],
+      "stability-ecology": {
+        "forbid-driver-adjacency": true,
+        "forbid-shader-adjacency": true
+      },
+      "forbidden": [
+        "gpu-binding",
+        "gpu-execution",
+        "runtime"
+      ]
+    },
+    {
+      "name": "vmvex.generate_dashboard_snapshot",
+      "lane": "visibility",
+      "purpose": "Produce a static dashboard snapshot of VM-VEX status.",
+      "inputs": ["internal-map", "stability-flags", "gpu-envelope-status"],
+      "outputs": ["dashboard-object"],
+      "stability-ecology": {
+        "forbid-control": true
+      },
+      "forbidden": [
+        "activation",
+        "runtime"
+      ]
+    }
+  ],
+  "contribution-rules": {
+    "allowed": [
+      "grammar-extensions",
+      "envelope-definitions",
+      "stability-ecology-updates",
+      "dashboard-metadata",
+      "command-sheet-updates"
+    ],
+    "forbidden": [
+      "runtime-code",
+      "gpu-driver-calls",
+      "shader-adjacency",
+      "ndh-altitude-math",
+      "routing-geometry"
+    ]
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-DeveloperRoadmap-MR-v1.0",
+      "VM-VEX-GPUIntegrationPlan-MR-v1.0",
+      "VM-VEX-ConsolidatedInternalMap-MR-v1.0",
+      "VM-VEX-IngestionGrammar-MR-v1.0",
+      "VM-VEX-StabilityEcologyHooks-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-CommandSheets-v1.0"
+  },
+  "safety-flags": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_driver_adjacency": true,
+    "no_shader_adjacency": true,
+    "stability_ecology_required": true
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-CommandSheets-v1_0",
+      "VM-VEX-DeveloperRoadmap-v1_0",
+      "VM-VEX-GPUIntegrationPlan-v1_0",
+      "StablePlatformCreationModel-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 15:38 IST"
+  }
+}
