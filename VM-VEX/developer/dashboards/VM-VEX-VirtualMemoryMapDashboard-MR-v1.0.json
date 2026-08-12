@@ -1,0 +1,85 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-VirtualMemoryMapDashboard-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "dashboard": {
+    "name": "virtual-memory-map",
+    "purpose": "Show virtual memory envelope coherence.",
+    "fields": {
+      "region-types": {
+        "types": [],
+        "warnings": [],
+        "critical": false
+      },
+      "envelope-span": {
+        "span": "",
+        "span-warnings": [],
+        "span-stability": []
+      },
+      "stability-ceilings": {
+        "ceilings": [],
+        "ceiling-violations": [],
+        "ceiling-critical": false
+      }
+    },
+    "forbidden": [
+      "memory-binding",
+      "allocation",
+      "activation",
+      "runtime-code",
+      "driver-adjacency",
+      "shader-adjacency"
+    ]
+  },
+  "generation-command": {
+    "name": "vmvex.generate_virtual_memory_map",
+    "inputs": [
+      "region-types",
+      "envelope-span",
+      "stability-ceilings"
+    ],
+    "outputs": [
+      "virtual-memory-map-dashboard-object"
+    ],
+    "forbidden": [
+      "activation",
+      "runtime"
+    ]
+  },
+  "stability-mechanisms": {
+    "non_activation": true,
+    "non_binding": true,
+    "non_runtime": true,
+    "non_driver_adjacency": true,
+    "non_shader_adjacency": true,
+    "read_only": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-IngestionStatusDashboard-MR-v1.0",
+      "VM-VEX-StabilityEcologyDashboard-MR-v1.0",
+      "VM-VEX-GPUEnvelopeDashboard-MR-v1.0",
+      "VM-VEX-PhaseProgressDashboard-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-VirtualMemoryMapDashboard-v1.0"
+  },
+  "directory-structure": {
+    "root": "VM-VEX/developer/dashboards/",
+    "file": "VM-VEX-VirtualMemoryMapDashboard-MR-v1.0.json"
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-DashboardPlan-MR-v1_0",
+      "VM-VEX-SequencingLogicAddendum-v1_0",
+      "VM-VEX-AltitudeIntegration-v1_0",
+      "NDH-VisualAccessibilityStandard-DeveloperAddendum-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 17:12 IST"
+  }
+}
+
