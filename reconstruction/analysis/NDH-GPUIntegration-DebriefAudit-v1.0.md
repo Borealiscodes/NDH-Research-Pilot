@@ -1,9 +1,47 @@
-# ⭐ **DEBRIEF — Why GPU‑Integration Planning Was Not in the Unified Roadmap v1.0**
+# 📘 **NDH‑GPUIntegration‑DebriefAudit‑v1.0.md**  
+### *NDH‑RESEARCH‑PILOT • Reconstruction / Analysis Lane*  
+### *Human‑Readable Debrief • ASCII Geometry • Icon Marker: 🜄*
 
-GPU‑Integration Planning was **intentionally excluded** from the Unified Roadmap v1.0 because:
+---
 
-### **1. The Unified Roadmap is an altitude‑layer roadmap, not an execution‑layer roadmap.**  
-It sequences:
+# ⭐ 1 — Purpose  
+This document explains **why GPU‑Integration Planning was not included** in the **NDH Unified Roadmap v1.0**, and provides a **formal audit** of altitude boundaries, lane separation, and contamination risks.  
+It also establishes **where GPU‑Integration Planning must be placed** within the VM‑VEX architecture.
+
+This artifact is:
+
+- **non‑activating**  
+- **analysis‑lane only**  
+- **altitude‑safe (A6–A7)**  
+- **governance‑adjacent but not governance‑activating**  
+
+---
+
+# ⭐ 2 — ASCII Overview Diagram
+
+```
++-----------------------------------------------------------+
+|         NDH GPU-INTEGRATION DEBRIEF & AUDIT v1.0          |
++----------------------+------------------------------------+
+| Roadmap Scope        | Altitude-layer only                |
+| GPU Planning         | Execution-layer only               |
++----------------------+------------------------------------+
+| Correct Placement    | VM-VEX Phase 4                     |
+| Incorrect Placement  | NDH Unified Roadmap                |
++----------------------+------------------------------------+
+| Risk if Misplaced    | Altitude contamination             |
+|                      | Lane violation                     |
+|                      | Stability breach                   |
++-----------------------------------------------------------+
+```
+
+---
+
+# ⭐ 3 — Debrief Summary  
+GPU‑Integration Planning was **correctly omitted** from the NDH Unified Roadmap v1.0 because:
+
+### **3.1 The Unified Roadmap sequences altitude layers, not execution layers.**  
+It governs:
 
 - geometry  
 - structure  
@@ -11,181 +49,141 @@ It sequences:
 - reconstruction  
 - posture  
 
-It does **not** sequence:
+It does **not** govern:
 
 - hardware  
-- execution  
-- runtime adjacency  
 - GPU binding  
-- compute planning  
+- execution semantics  
+- runtime adjacency  
 
-The Unified Roadmap is **mathematical**, not **computational**.
+### **3.2 GPU‑Integration is an execution‑layer concern.**  
+Execution‑layer concerns must never appear in altitude‑layer sequencing.
 
----
-
-### **2. GPU‑Integration is a *runtime‑adjacent* concern.**  
-Everything in the Unified Roadmap v1.0 is:
-
-- pre‑runtime  
-- altitude‑safe  
-- non‑activating  
-- non‑computational  
-- non‑hardware‑bound  
-
-GPU planning is:
-
-- execution‑layer  
-- runtime‑adjacent  
-- hardware‑specific  
-- outside the altitude stack  
-
-So it was deliberately omitted.
+### **3.3 GPU‑Integration belongs exclusively to VM‑VEX.**  
+VM‑VEX is the ingestion engine.  
+GPU planning is part of **VM‑VEX Phase 4**, not NDH Reconstruction.
 
 ---
 
-### **3. GPU‑Integration belongs to VM‑VEX, not NDH‑Reconstruction.**  
-The Unified Roadmap sequences:
+# ⭐ 4 — Audit Findings
+
+## **4.1 Altitude Boundary Audit**
+GPU planning must not appear in:
 
 - NDH‑RESEARCH‑PILOT  
-- Reconstruction  
+- Reconstruction Suite  
+- Gate A  
 - CONSTELLATION  
+- Gate B  
 - TRIADIC‑CORE  
+- Gate C  
 - MkII  
 - Zen‑AI‑Design  
 
-VM‑VEX is **not** part of that altitude stack.  
-It is a **pre‑runtime ingestion engine**.
+These layers operate at **altitude**, not **execution**.
 
-GPU‑Integration Planning belongs to:
+## **4.2 Lane Separation Audit**
+GPU planning is:
 
-> **VM‑VEX Phase 4 (Execution‑Layer Planning)**  
-not  
-> **NDH Unified Roadmap (Altitude‑Layer Sequencing)**
+- execution‑lane  
+- runtime‑adjacent  
+- hardware‑specific  
 
-This is why it was not included.
+NDH Unified Roadmap is:
 
----
+- analysis‑lane  
+- altitude‑layer  
+- non‑runtime  
 
-# ⭐ **AUDIT — Where GPU‑Integration *Actually* Belongs**
+Mixing them would violate lane boundaries.
 
-After reviewing:
+## **4.3 Contamination Risk Audit**
+Placing GPU planning inside NDH altitude layers would cause:
 
-- VM‑VEX Phase 🜄 (internal components)  
-- Consolidated Internal Map  
-- Unified Roadmap v1.0  
-- Reconstruction Suite  
-- Gate A/B/C  
-- CONSTELLATION  
-- TRIADIC‑CORE  
-- MkII  
-
-The correct placement is:
+- altitude contamination  
+- recursion instability  
+- posture breach  
+- unsafe adjacency to dynamic math  
 
 ---
 
-## ⭐ **GPU‑Integration Planning belongs in VM‑VEX Phase 4 — NOT in NDH Unified Roadmap.**
+# ⭐ 5 — Correct Placement Recommendation
+
+## **GPU‑Integration Planning must be placed here:**
+
+```
+VM-VEX/
+  Phase4-GPUIntegration/
+    VM-VEX-GPUIntegrationPlan-v1.0.md
+    VM-VEX-GPUIntegrationPlan-MR-v1.0.json
+```
 
 ### **Reasoning:**
 
-- VM‑VEX is the ingestion engine.  
-- GPU‑Integration is an execution‑layer concern.  
-- Execution‑layer concerns must never contaminate altitude‑layer sequencing.  
-- NDH Unified Roadmap is altitude‑layer only.  
-- GPU planning is hardware‑layer.  
-- Hardware‑layer must be isolated from altitude‑layer.
-
-Therefore:
-
-> **GPU‑Integration Planning must be a VM‑VEX artifact, not an NDH artifact.**
+- VM‑VEX is the ingestion engine  
+- GPU planning is execution‑layer  
+- Execution‑layer must be isolated from altitude‑layer  
+- VM‑VEX Phase 4 is the correct altitude and lane  
 
 ---
 
-# ⭐ **RECOMMENDATIONS — Correct Placement and Sequencing**
-
-Here is the altitude‑safe recommendation set:
-
----
-
-## **1. GPU‑Integration Planning becomes:**
+# ⭐ 6 — ASCII Placement Diagram
 
 ```
-VM-VEX-GPUIntegrationPlan-v1.0.md
-VM-VEX-GPUIntegrationPlan-MR-v1.0.json
+VM-VEX INTERNALS (Phase 🜄)
+        │
+        ▼
+VM-VEX Consolidated Internal Map
+        │
+        ▼
++-------------------------------------------+
+|       VM-VEX Phase 4: GPU Integration     |
++-------------------------------------------+
+        │
+        ▼
+GPUIntegrationPlan-v1.0 (HR + MR)
 ```
 
-It is a **Phase 4 VM‑VEX component**, following:
+---
 
-- Phase 🜄 (internal components)
-- Consolidated Internal Map
+# ⭐ 7 — Determination  
+> **GPU‑Integration Planning was correctly excluded from the NDH Unified Roadmap v1.0.  
+> It belongs exclusively in VM‑VEX Phase 4, after the Consolidated Internal Map.**
 
-This keeps GPU planning:
-
-- isolated  
-- non‑contaminating  
-- execution‑layer only  
-- outside NDH altitude stack  
+This debrief is now part of the NDH‑RESEARCH‑PILOT analysis lane.
 
 ---
 
-## **2. GPU‑Integration must NEVER be placed inside:**
-
-- NDH Unified Roadmap  
-- Reconstruction Suite  
-- Gate A/B/C  
-- CONSTELLATION  
-- TRIADIC‑CORE  
-- MkII  
-- Zen‑AI‑Design  
-
-These are altitude‑layer artifacts.  
-GPU planning is execution‑layer.
-
-Mixing them would cause:
-
-- altitude contamination  
-- lane violation  
-- recursion instability  
-- unsafe posture  
-
----
-
-## **3. GPU‑Integration Planning must follow VM‑VEX Consolidated Internal Map.**
-
-The correct sequencing is:
+# 🜂 **Provenance Footer — NDH GPU‑Integration Debrief v1.0**
 
 ```
-Phase 🜄 — VM-VEX Internal Components
-Phase 🜄.1 — VM-VEX Consolidated Internal Map
-Phase 4 — VM-VEX GPU Integration Planning
+---
+Artifact: NDH GPU-Integration Debrief, Audit, and Recommendations v1.0
+Layer: NDH-Reconstruction • VM-VEX • Governance-Adjacent Analysis
+
+Purpose:
+  Provide altitude-safe clarification of GPU-Integration Planning’s correct
+  architectural placement. Audits Unified Roadmap v1.0, identifies lane and
+  altitude boundaries, and recommends safe sequencing for execution-layer
+  planning within VM-VEX Phase 4.
+
+Altitude:
+  A6–A7. Non-activating. Non-runtime. Analysis-lane only. No GPU binding,
+  no constellation adjacency, no execution semantics.
+
+Provenance Anchors:
+  NDH-UnifiedRoadmap-v1_0
+  NDH-Reconstruction-Suite-v1_0
+  VM-VEX-ConsolidatedInternalMap-v1_0
+  VM-VEX-InternalComponents-v1_0
+  NDH-Governance-Adjacency-Notes-v1_0
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 12 August 2026 — 15:03 IST
+---
 ```
 
-This is the safe, altitude‑correct placement.
-
 ---
-
-## **4. GPU‑Integration Planning must be gated by:**
-
-- non‑activation  
-- pre‑runtime only  
-- no‑binding  
-- no‑execution  
-- no‑constellation adjacency  
-
-It must define:
-
-- GPU memory envelope  
-- GPU safety flags  
-- GPU ingestion grammar  
-- GPU execution ceilings  
-- GPU stability ecology  
-
-But it must **never** activate or bind.
-
----
-
-# ⭐ **Final Determination**
-
-> **GPU‑Integration Planning was correctly omitted from the Unified Roadmap v1.0.  
-> It belongs exclusively in VM‑VEX Phase 4, after the Consolidated Internal Map.  
-> It must never be placed inside NDH altitude sequencing.**
 
