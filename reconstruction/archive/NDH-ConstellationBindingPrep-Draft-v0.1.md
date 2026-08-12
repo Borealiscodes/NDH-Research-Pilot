@@ -179,3 +179,33 @@ Timestamp: 12 August 2026 — 12:46 IST
 
 ---
 
+---
+Artifact: NDH-ConstellationBindingPrep-Draft-v0.1.md
+Lane: NDH-Reconstruction • NDH-Archive
+
+Status:
+  Archived draft. Superseded by NDH-ConstellationBindingPrep-v1.0.
+  Retained for developmental provenance and comparative historical reference.
+
+Purpose:
+  Early conceptual draft outlining preliminary ideas for Constellation Binding
+  Preparation. Not altitude-safe, not lane-separated, and not bundle-ready.
+  Preserved to document the evolution of the binding-prep geometry prior to
+  formalization.
+
+Reason for Archival:
+  Replaced by the canonical NDH-ConstellationBindingPrep-v1.0.md, which provides
+  full altitude envelopes, lane separation rules, recursion ceilings, ingestion
+  prerequisites, and triangulation integration required for bundle generation
+  and VM-VEX runtime stabilization.
+
+Provenance Anchors:
+  NDH-ConstellationBindingPrep-v1.0
+  NDH-BundleNeed-AnalysisAndSequencing-v1.0
+  NDH-UnifiedRoadmap-Addendum-v1.0
+  Triangulation Audit v1.0
+
+Version: Draft v0.1 (Archived)
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp
