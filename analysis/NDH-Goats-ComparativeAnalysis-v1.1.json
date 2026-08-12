@@ -1,0 +1,123 @@
+# 📘 **NDH Goats Comparative Analysis (v1.1)**  
+### *Generated via Comparative Scaffolding v1.1 — Extended Multi‑Artifact Edition*
+
+```
+{
+  "id": "NDH-Goats-ComparativeAnalysis-v1.1",
+  "type": "ComparativeAnalysis",
+  "version": "1.1",
+
+  "artifacts": [
+    {
+      "name": "Goat Stability Layer",
+      "version": "1.0",
+      "lane": "NDH-Constellation",
+      "altitude": "non-activating",
+      "binding": "false",
+      "machine_readable": "false"
+    },
+    {
+      "name": "Goat Constitution",
+      "version": "1.0",
+      "lane": "NDH-Constellation",
+      "altitude": "non-activating",
+      "binding": "false",
+      "machine_readable": "false"
+    }
+  ],
+
+  "reference_point": {
+    "name": "NDH-StableReferencePoint",
+    "version": "1.1",
+    "binding": "true",
+    "machine_readable": "false"
+  },
+
+  "alignment_checks": {
+    "Goat Stability Layer": {
+      "apertures": "not_applicable",
+      "prohibitions": "not_applicable",
+      "stability_conditions": "conceptual_ecology",
+      "activation_conditions": "none",
+      "output_contract": "none",
+      "altitude_correctness": "valid_non_activating",
+      "recursion_signatures": "bounded",
+      "holonomy_alignment": "conceptual_alignment"
+    },
+    "Goat Constitution": {
+      "apertures": "not_applicable",
+      "prohibitions": "not_applicable",
+      "stability_conditions": "mathematical_constraints",
+      "activation_conditions": "none",
+      "output_contract": "none",
+      "altitude_correctness": "valid_non_activating",
+      "recursion_signatures": "explicit_ceiling",
+      "holonomy_alignment": "explicit_constraints"
+    }
+  },
+
+  "deviation_map": {
+    "Goat Stability Layer": {
+      "structural": "non_membrane",
+      "schema": "non_machine_readable",
+      "altitude": "non_activating",
+      "contract": "none",
+      "recursion": "bounded",
+      "holonomy": "conceptual"
+    },
+    "Goat Constitution": {
+      "structural": "non_membrane",
+      "schema": "non_machine_readable",
+      "altitude": "non_activating",
+      "contract": "none",
+      "recursion": "ceiling_defined",
+      "holonomy": "mathematical"
+    }
+  },
+
+  "synthesis": {
+    "artifact_A_alignment": "compatible_non_binding",
+    "artifact_B_alignment": "compatible_non_binding",
+    "relationship": "both_artifacts_align_with_reference_point_but_remain_non_binding_stability_ecology_subsystems"
+  },
+
+  "outcome": {
+    "Goat Stability Layer": "regenerate",
+    "Goat Constitution": "regenerate",
+    "collective": "regenerate"
+  }
+}
+```
+
+---
+
+# 📘 **Provenance Footer — NDH Goats Comparative Analysis (v1.1)**
+
+```
+---
+Artifact: NDH-Goats-ComparativeAnalysis-v1.1
+Lane: NDH-Reconstruction • NDH-Analysis • Comparative
+
+Purpose:
+Provide a deterministic, non-recursive comparative analysis of the Goat Stability
+Layer (v1.0) and Goat Constitution (v1.0) against the NDH Stable Reference Point
+v1.1 using the NDH Comparative Scaffolding v1.1 (Extended Multi-Artifact Edition).
+
+Provenance Anchors:
+  NDH-StableReferencePoint-v1.1
+  NDH-ComparativeScaffold-v1.1.json
+  NDH-ComparativeScaffolding-Standards-v1.1-Extended.md
+  Goat Stability Layer v1.0
+  Goat Constitution v1.0
+  NDH-Constellation
+
+Version: 1.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 12 August 2026 — 12:14 IST
+---
+```
+
+---
+
+
