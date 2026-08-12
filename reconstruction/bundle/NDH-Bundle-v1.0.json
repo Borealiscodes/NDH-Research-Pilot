@@ -1,0 +1,106 @@
+# 📦 **NDH‑Bundle‑v1.0.json**  
+### *Machine‑Readable Consolidation • Pre‑Runtime • Non‑Activating*
+
+```
+{
+  "bundle_version": "1.0",
+  "bundle_type": "NDH-PreRuntime-Bundle",
+  "altitude_envelope": {
+    "min": "A5",
+    "max": "A7",
+    "recursion_ceiling": 0
+  },
+  "lanes": {
+    "operational": ["UnifiedRoadmap-v1.0"],
+    "governance_adjacent": ["UnifiedRoadmapAddendum-v1.0"],
+    "analysis": [
+      "ConstellationBindingPrep-v1.0",
+      "TriangulationAudit-v1.0",
+      "EmergentCaseStudy-v1.0",
+      "BundleNeedAnalysisAndSequencing-v1.0"
+    ]
+  },
+  "artifacts": {
+    "UnifiedRoadmap-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/roadmap/NDH-UnifiedRoadmap-v1.0.md",
+      "lane": "operational",
+      "altitude": "A5-A6",
+      "anchors": "[Roadmap"]
+    },
+    "UnifiedRoadmapAddendum-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/analysis/NDH-UnifiedRoadmap-Addendum-v1.0.md",
+      "lane": "governance_adjacent",
+      "altitude": "A6-A7",
+      "anchors": "[Addendum"]
+    },
+    "ConstellationBindingPrep-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/analysis/NDH-ConstellationBindingPrep-v1.0.md",
+      "lane": "analysis",
+      "altitude": "A6-A7",
+      "anchors": "[BindingPrep"]
+    },
+    "TriangulationAudit-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/analysis/TriangulationAudit-v1.0.md",
+      "lane": "analysis",
+      "altitude": "A6",
+      "anchors": "[Triangulation"]
+    },
+    "EmergentCaseStudy-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/analysis/NDH-EmergentCaseStudy-RoadmapAndAddendum-SeparationLogic-v1.0.md",
+      "lane": "analysis",
+      "altitude": "A6-A7",
+      "anchors": "[CaseStudy"]
+    },
+    "BundleNeedAnalysisAndSequencing-v1.0": {
+      "path": "NDH-RESEARCH-PILOT/reconstruction/analysis/NDH-BundleNeed-AnalysisAndSequencing-v1.0.md",
+      "lane": "analysis",
+      "altitude": "A6",
+      "anchors": "[BundleAnalysis"]
+    }
+  },
+  "ingestion_prerequisites": {
+    "triangulation_safe": true,
+    "lane_separation_verified": true,
+    "altitude_bounds_verified": true,
+    "recursion_ceiling_verified": true,
+    "stability_ecology_ready": true,
+    "comparative_geometry_ready": true
+  },
+  "vm_vex_ingestion": {
+    "ready_for_ingestion": true,
+    "runtime_activation": false,
+    "next_steps": [
+      "BundleAudit-v1.0",
+      "VM-VEX-Stabilization-v1.0"
+    ],
+    "anchors": 
+      "[BundleAudit",
+      "VMVEXStabilization"
+    ]
+  },
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 13:14 IST"
+  }
+}
+```
+
+---
+
+# 🧩 **Bundle Metadata Block (Human‑Readable)**
+
+```
+NDH Bundle v1.0
+Type: Pre‑Runtime Machine‑Readable Consolidation
+Altitude Envelope: A5–A7
+Recursion Ceiling: 0
+Lanes: Operational • Governance‑Adjacent • Analysis
+Artifacts: 6
+Status: Ready for Bundle Audit v1.0
+Runtime Activation: Disabled
+VM‑VEX: Pre‑Runtime Ingestion Ready
+```
+
+---
+
