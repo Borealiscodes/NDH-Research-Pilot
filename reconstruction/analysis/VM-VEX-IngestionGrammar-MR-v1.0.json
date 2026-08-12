@@ -1,0 +1,110 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-IngestionGrammar-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "permissions": {
+    "lanes": [
+      "analysis",
+      "governance-adjacent"
+    ],
+    "forbidden": [
+      "runtime",
+      "gpu-planning",
+      "constellation-binding"
+    ]
+  },
+  "grammar": {
+    "required-keys": [
+      "version",
+      "artifact",
+      "altitude",
+      "permissions",
+      "runtime-envelope",
+      "safety-flags",
+      "dependencies",
+      "provenance"
+    ],
+    "structure": {
+      "artifact": "string",
+      "version": "string",
+      "altitude": {
+        "min": ["A5", "A6", "A7"],
+        "max": ["A5", "A6", "A7"]
+      },
+      "permissions": {
+        "lanes": "array",
+        "forbidden": "array"
+      },
+      "runtime-envelope": {
+        "bounds": {
+          "max-depth": "integer",
+          "max-recursion": "integer",
+          "max-virtual-span": "integer"
+        },
+        "stability": {
+          "require-stabilization-anchor": "boolean",
+          "require-ecology-flags": "boolean",
+          "allow-pre-runtime-only": "boolean"
+        },
+        "ingestion": {
+          "validate-bundle-metadata": "boolean",
+          "validate-altitude": "boolean",
+          "validate-lane": "boolean",
+          "allow-machine-readable-only": "boolean"
+        }
+      },
+      "safety-flags": {
+        "non_activating": "boolean",
+        "pre_runtime_only": "boolean",
+        "no_gpu_binding": "boolean",
+        "no_constellation_binding": "boolean",
+        "stability_ecology_required": "boolean"
+      },
+      "dependencies": {
+        "requires": "array",
+        "paired-human-readable": "string"
+      },
+      "provenance": {
+        "anchors": "array",
+        "maintainer": "string",
+        "location": "string",
+        "timestamp": "string"
+      }
+    },
+    "recursion-limits": {
+      "max-depth": 3,
+      "max-recursion": 1,
+      "max-virtual-span": 12
+    }
+  },
+  "safety-flags": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_constellation_binding": true,
+    "stability_ecology_required": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-IngestionGrammar-v1.0"
+  },
+  "provenance": {
+    "anchors": [
+      "NDH-Bundle-v1.0.json",
+      "NDH-BundleAudit-v1.0",
+      "VM-VEX-RuntimeEnvelope-MR-v1.0",
+      "VM-VEX-ReferencePoint-v1.0",
+      "VM-VEX-Stabilization-v1.0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 14:33 IST"
+  }
+}
