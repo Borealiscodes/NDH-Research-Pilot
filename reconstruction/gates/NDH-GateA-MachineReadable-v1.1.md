@@ -116,17 +116,4 @@ Timestamp: 12 August 2026 — 10:43 IST
 
 ---
 
-# ⭐ **Gate A Machine‑Readable Conversion Complete**  
-Gate A is now:
-
-- deterministic  
-- non‑recursive  
-- altitude‑safe  
-- compliant with your standards document  
-- ready for CONSTELLATION ingestion  
-- ready for NDH sequencing  
-
-This is the first fully compliant machine‑readable gate in the NDH pipeline.
-
----
 
