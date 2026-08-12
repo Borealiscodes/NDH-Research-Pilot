@@ -1,0 +1,100 @@
+{
+  "version": "v1.0",
+  "artifact": "VM-VEX-PhaseProgressDashboard-MR",
+  "altitude": {
+    "min": "A6",
+    "max": "A7"
+  },
+  "dashboard": {
+    "name": "phase-progress",
+    "purpose": "Show VM-VEX phase sequencing coherence.",
+    "fields": {
+      "foundation": {
+        "status": "",
+        "warnings": [],
+        "critical": false
+      },
+      "bundle": {
+        "status": "",
+        "warnings": [],
+        "critical": false
+      },
+      "stabilization": {
+        "status": "",
+        "warnings": [],
+        "critical": false
+      },
+      "internal": {
+        "status": "",
+        "warnings": [],
+        "critical": false
+      },
+      "gpu": {
+        "status": "",
+        "warnings": [],
+        "critical": false
+      },
+      "reserved": {
+        "status": ""
+      }
+    },
+    "forbidden": [
+      "phase-activation",
+      "runtime-code",
+      "binding",
+      "driver-adjacency",
+      "shader-adjacency"
+    ]
+  },
+  "generation-command": {
+    "name": "vmvex.generate_phase_progress",
+    "inputs": [
+      "foundation",
+      "bundle",
+      "stabilization",
+      "internal",
+      "gpu",
+      "reserved"
+    ],
+    "outputs": [
+      "phase-progress-dashboard-object"
+    ],
+    "forbidden": [
+      "activation",
+      "runtime"
+    ]
+  },
+  "stability-mechanisms": {
+    "non_activation": true,
+    "non_binding": true,
+    "non_runtime": true,
+    "non_driver_adjacency": true,
+    "non_shader_adjacency": true,
+    "read_only": true
+  },
+  "dependencies": {
+    "requires": [
+      "VM-VEX-IngestionStatusDashboard-MR-v1.0",
+      "VM-VEX-StabilityEcologyDashboard-MR-v1.0",
+      "VM-VEX-VirtualMemoryMapDashboard-MR-v1.0",
+      "VM-VEX-GPUEnvelopeDashboard-MR-v1.0"
+    ],
+    "paired-human-readable": "VM-VEX-PhaseProgressDashboard-v1.0"
+  },
+  "directory-structure": {
+    "root": "VM-VEX/developer/dashboards/",
+    "file": "VM-VEX-PhaseProgressDashboard-MR-v1.0.json"
+  },
+  "provenance": {
+    "anchors": [
+      "VM-VEX-DashboardPlan-MR-v1_0",
+      "VM-VEX-SequencingLogicAddendum-v1_0",
+      "VM-VEX-AltitudeIntegration-v1_0",
+      "NDH-VisualAccessibilityStandard-DeveloperAddendum-v1_0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 17:22 IST"
+  }
+}
+
