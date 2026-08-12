@@ -1,0 +1,100 @@
+{
+  "version": "v1.1",
+  "artifact": "NDH-SafeAssemblyOrder",
+  "altitude": {
+    "min": "A5",
+    "max": "A7"
+  },
+  "phases": [
+    {
+      "id": 0,
+      "name": "Foundations",
+      "status": "complete",
+      "lane": ["analysis", "governance-adjacent"],
+      "artifacts": [
+        "UnifiedRoadmap-v1.0",
+        "UnifiedRoadmapAddendum-v1.0",
+        "TriangulationAudit-v1.0",
+        "EmergentCaseStudy-v1.0",
+        "BundleNeedAnalysis-v1.0",
+        "ConstellationBindingPrep-v1.0"
+      ],
+      "forbidden": []
+    },
+    {
+      "id": 1,
+      "name": "BundleConstruction",
+      "status": "complete",
+      "lane": ["analysis"],
+      "artifacts": [
+        "NDH-Bundle-v1.0.json",
+        "NDH-BundleAudit-v1.0"
+      ],
+      "forbidden": ["gpu-planning", "runtime-activation"]
+    },
+    {
+      "id": 2,
+      "name": "VM-VEX-Stabilization",
+      "status": "complete",
+      "lane": ["analysis", "governance-adjacent"],
+      "artifacts": [
+        "VM-VEX-ReferencePoint-v1.0",
+        "VM-VEX-Stabilization-v1.0"
+      ],
+      "forbidden": ["runtime-activation", "gpu-planning"]
+    },
+    {
+      "id": 3,
+      "name": "VM-VEX-InternalComponents",
+      "status": "in-progress",
+      "lane": ["analysis"],
+      "artifacts-required": [
+        "VM-VEX-RuntimeEnvelope-v1.0",
+        "VM-VEX-RuntimeEnvelope-MR-v1.0",
+        "VM-VEX-IngestionGrammar-v1.0",
+        "VM-VEX-VirtualMemoryMap-v1.0",
+        "VM-VEX-StabilityEcologyHooks-v1.0",
+        "VM-VEX-BundleInterface-v1.0",
+        "VM-VEX-PreRuntimeSequencer-v1.0"
+      ],
+      "forbidden": ["gpu-planning", "runtime-activation"]
+    },
+    {
+      "id": 4,
+      "name": "GPU-IntegrationPlanning",
+      "status": "forbidden",
+      "lane": ["runtime-adjacent"],
+      "requires-completion-of": [3],
+      "forbidden": ["constellation-adjacency"]
+    },
+    {
+      "id": 5,
+      "name": "Constellation-AdjacentWork",
+      "status": "restricted",
+      "lane": ["governance", "runtime"],
+      "requires-completion-of": [4],
+      "forbidden": ["premature-binding"]
+    }
+  ],
+  "safety": {
+    "non_activating": true,
+    "pre_runtime_only": true,
+    "no_gpu_binding": true,
+    "no_constellation_binding": true,
+    "stability_ecology_required": true
+  },
+  "provenance": {
+    "anchors": [
+      "NDH-SafeAssemblyOrder-v1.1.md",
+      "NDH-SafeAssemblyOrder-v1.1-Orb.md",
+      "NDH-VisualAccessibilityStandard-v1.0",
+      "NDH-Bundle-v1.0.json",
+      "NDH-BundleAudit-v1.0",
+      "VM-VEX-Stabilization-v1.0",
+      "NDH-VM-VEX-ReferencePoint-v1.0"
+    ],
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "12 August 2026 — 14:18 IST"
+  }
+}
