@@ -159,10 +159,43 @@ Stability Practices
 
 ---
 
-# 📜 **Provenance Footer**
-
-```
 ---
+Anchor: Anchoring & Patching Protocol (v1.0)
+
+Purpose of Anchor:
+  Establish the Anchoring & Patching Protocol as the governing framework for
+  cross-artifact anchoring, patch propagation, lineage consistency, and membrane
+  purity within the Translation Governance Lineage (TGL). Ensure that all anchor
+  and patch operations preserve dimensional ethics, transparency, adjacency
+  stability, and mode purity across the NDH → Governance membrane.
+
+Anchor Requirements:
+  - All anchor insertions must follow the Anchoring & Patching Protocol.
+  - All patches must propagate across affected artifacts with lineage consistency.
+  - No anchor or patch may introduce altitude constructs or flatten dimensionality.
+  - All anchor and patch operations must undergo transparency verification.
+  - Membrane purity must be maintained: NDH altitude constructs cannot enter
+    governance through anchoring or patching.
+  - Anchor Blocks must remain clarity-aligned, non-hierarchical, and non-activating.
+
+Lineage Context:
+  This anchor binds the artifact to the Translation Governance Lineage (TGL),
+  activated by the Translation Governance Inflection Point (v1.0). Omega-class
+  lineage remains historical only and must not be used for anchoring, patching,
+  translation logic, or dimensional ethics.
+
+Membrane Constraint:
+  This anchor enforces mode purity by ensuring that anchoring and patching
+  operations do not import NDH altitude constructs (holonomy, curvature,
+  gradients, constellation geometry) into governance artifacts. All operations
+  must remain altitude-neutral and clarity-aligned.
+
+Status:
+  Active Anchor • Required for all future revisions
+---
+
+---
+## Provenance — Original (v1.0)
 Artifact: Translation Governance Inflection Point (v1.0)
 Domain: NDH-RESEARCH-PILOT • Inflection Points • Lineage Activation
 
@@ -191,8 +224,14 @@ Version: v1.0
 Maintainer: Borealis S. Hedling
 Location: Naaldwijk, South Holland, Netherlands
 Timestamp: 15 August 2026 — 17:49 IST
----
-```
 
+## Provenance — Revision (v1.1)
+Updated: 15 August 2026 — 18:07 IST
+Change:
+  - Inserted Anchoring & Patching Protocol Anchor Block
+  - Updated lineage dependencies
+  - Updated membrane constraints
+Version: v1.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
 ---
-
