@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "artifact": "Goat Constitution v2.1",
+  "states": [
+    "INIT",
+    "STRUCTURE_VALIDATION",
+    "SECTION_INTEGRITY",
+    "RULE_CONSISTENCY",
+    "MATH_VALIDATION",
+    "SEMANTIC_COHERENCE",
+    "ALTITUDE_PLACEMENT",
+    "COMPLETE"
+  ],
+  "transitions": {
+    "INIT": "STRUCTURE_VALIDATION",
+    "STRUCTURE_VALIDATION": "SECTION_INTEGRITY",
+    "SECTION_INTEGRITY": "RULE_CONSISTENCY",
+    "RULE_CONSISTENCY": "MATH_VALIDATION",
+    "MATH_VALIDATION": "SEMANTIC_COHERENCE",
+    "SEMANTIC_COHERENCE": "ALTITUDE_PLACEMENT",
+    "ALTITUDE_PLACEMENT": "COMPLETE"
+  },
+  "invariants": {
+    "STRUCTURE_VALIDATION": [
+      "HAS_TITLE",
+      "HAS_SECTIONS",
+      "HAS_RULES"
+    ],
+    "SECTION_INTEGRITY": [
+      "SECTIONS_NONEMPTY",
+      "SECTIONS_ORDERED",
+      "SECTIONS_UNIQUE"
+    ],
+    "RULE_CONSISTENCY": [
+      "RULES_NONEMPTY",
+      "RULES_UNIQUE",
+      "NO_CONTRADICTIONS"
+    ],
+    "MATH_VALIDATION": [
+      "MATH_WELL_FORMED",
+      "NO_ILLEGAL_REFERENCES"
+    ],
+    "SEMANTIC_COHERENCE": [
+      "NO_AMBIGUOUS_LANGUAGE",
+      "NO_CIRCULAR_DEFINITIONS"
+    ],
+    "ALTITUDE_PLACEMENT": [
+      "PLACED_IN_GOVERNANCE_LANE"
+    ]
+  },
+  "failure_modes": {
+    "HAS_TITLE": "Missing or invalid constitution title.",
+    "HAS_SECTIONS": "No sections defined in the constitution.",
+    "HAS_RULES": "No rules defined in the constitution.",
+    "SECTIONS_NONEMPTY": "One or more sections are empty.",
+    "SECTIONS_ORDERED": "Sections are not in a valid or expected order.",
+    "SECTIONS_UNIQUE": "Duplicate section identifiers detected.",
+    "RULES_NONEMPTY": "One or more rules are empty.",
+    "RULES_UNIQUE": "Duplicate rule identifiers detected.",
+    "NO_CONTRADICTIONS": "Logical contradiction detected between rules.",
+    "MATH_WELL_FORMED": "Mathematical expressions are malformed or inconsistent.",
+    "NO_ILLEGAL_REFERENCES": "Rules reference undefined or forbidden constructs.",
+    "NO_AMBIGUOUS_LANGUAGE": "Ambiguous or unclear language detected.",
+    "NO_CIRCULAR_DEFINITIONS": "Circular definition detected between rules or terms.",
+    "PLACED_IN_GOVERNANCE_LANE": "Constitution is not placed in the correct validation lane."
+  }
+}
+```
+
+---
+
+# 📜 **Provenance Footer — Goat Constitution v2.1 Validation Graph v1.0**
+
+```
+---
+Artifact: Goat Constitution v2.1 Validation Graph v1.0
+Lane: Validation • Constitution-Checking
+
+Purpose:
+  Provide the machine-readable validation graph for Goat Constitution v2.1,
+  defining deterministic states, transitions, invariants, and failure modes for
+  structural, semantic, mathematical, and governance-lane validation.
+
+Attribution:
+  This validator uses NDH-style ordered validation patterns but does not activate
+  any NDH subsystem, altitude mechanism, or governance engine.
+
+Anchors:
+  State Machine Validator Template v1.0
+  Goat Constitution v2.1 (artifact under test)
+
+Non-Activation Clause:
+  This validation graph is descriptive-only. It does not activate, execute,
+  simulate, or bind any NDH subsystem, governance engine, expressive geometry,
+  manifold traversal, or altitude-routing mechanism.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 16 August 2026 — 17:09 IST
+---
+```
+
+---
+
