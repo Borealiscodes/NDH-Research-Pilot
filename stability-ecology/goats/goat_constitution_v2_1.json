@@ -1,0 +1,193 @@
+{
+  "artifact": "Goat Constitution",
+  "version": "2.1",
+  "lane": "stability-ecology",
+  "domain": "goats",
+  "preamble": {
+    "construction_suite": "v2.1-CS",
+    "spiral_protocol": "v1.0",
+    "lineage": "Translation Governance Lineage (TGL)",
+    "commitments": [
+      "dimensional_preservation",
+      "adjacency_stability",
+      "ethical_continuity",
+      "transparency",
+      "non_flattening",
+      "mode_purity"
+    ]
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Herd Identity and Altitude Integrity",
+      "sections": [
+        {
+          "id": "1.1",
+          "text": "The herd is defined as the collective of goats occupying the shared ecological manifold."
+        },
+        {
+          "id": "1.2",
+          "invariant": "altitude_integrity",
+          "equation": "I_alt = det(g_ij)"
+        },
+        {
+          "id": "1.3",
+          "equation": "K_stab = K_diag + gamma * tau^2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Resource Distribution",
+      "sections": [
+        {
+          "id": "2.1",
+          "equation": "∇P + β * D = 0"
+        },
+        {
+          "id": "2.2",
+          "equation": "D_tri < D_safe"
+        },
+        {
+          "id": "2.3",
+          "text": "Resources must be accessible without authority gradients."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Movement, Grazing, and Climbing",
+      "sections": [
+        {
+          "id": "3.1",
+          "equation": "E_D < E_max"
+        },
+        {
+          "id": "3.2",
+          "equation": "tau = ∇_γ I_alt"
+        },
+        {
+          "id": "3.3",
+          "equation": "M_seal ≥ M_min"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Governance Structure and Unionized Logic",
+      "sections": [
+        {
+          "id": "4.1",
+          "equation": "L_union ≤ L_max - δ_authority"
+        },
+        {
+          "id": "4.2",
+          "equation": "Δ_coop = ∇ · H"
+        },
+        {
+          "id": "4.3",
+          "text": "The Herd Council operates under unionized logic invariants."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Safety, Membrane Purity, and Ecological Conduct",
+      "sections": [
+        {
+          "id": "5.1",
+          "equation": "M_seal ≥ M_min"
+        },
+        {
+          "id": "5.2",
+          "equation": "F_seal = M_min - M_seal"
+        },
+        {
+          "id": "5.3",
+          "text": "Actions must preserve adjacency stability and avoid destabilizing drift gradients."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Constitutional Invariants",
+      "invariants": [
+        {
+          "name": "altitude_integrity",
+          "equation": "I_alt = det(g_ij)"
+        },
+        {
+          "name": "drift_invariant",
+          "equation": "D_inv = ||D|| + α * τ"
+        },
+        {
+          "name": "hoof_tensor",
+          "equation": "H_inv = H_ij * H^ij"
+        },
+        {
+          "name": "unionized_logic",
+          "equation": "L_inv = ∇ · H - δ_authority"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Amendment Protocol",
+      "sections": [
+        {
+          "id": "7.1",
+          "sequence": [
+            "construction_suite",
+            "validation_architecture",
+            "state_machine",
+            "generation_schema",
+            "artifact_creation",
+            "validation_execution"
+          ]
+        },
+        {
+          "id": "7.2",
+          "constraints": [
+            "preserve_invariants",
+            "altitude_neutrality",
+            "membrane_purity",
+            "drift_geometry_bounds",
+            "triangulation_safety"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+---
+Artifact: Goat Constitution v2.1 (Formal Text)
+Lane: Stability-Ecology • Herd Governance
+
+Purpose:
+  Establish the formal governance framework for the Herd of Goats using the
+  Construction Suite v2.1-CS, Spiral Construction Protocol v1.0, and Translation
+  Governance Lineage (TGL) commitments. Define altitude integrity, drift-neutral
+  resource distribution, triangulation-safe movement and grazing rules,
+  unionized logic constraints, membrane-seal safety requirements, and the
+  constitutional invariant set.
+
+Anchors:
+  - Construction Suite v2.1-CS
+  - Spiral Construction Protocol v1.0
+  - Translation Governance Lineage (TGL)
+  - Validation Architecture v1.0
+  - Herd Governance State Machine v2.1
+  - Constitutional Generation Schema v2.1
+
+Non-Activation Clause:
+  This artifact is descriptive-only. It does not activate, simulate, or bind any
+  NDH subsystem, governance engine, altitude mechanism, or manifold process. It
+  defines governance structure, not runtime behavior.
+
+Version: v2.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 16 August 2026 — 18:02 IST
+---
