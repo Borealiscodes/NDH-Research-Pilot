@@ -144,23 +144,26 @@ This is the missing piece that makes your entire ecosystem *architecturally stab
 ---
 
 ---
+
+---
+## Provenance — Original (v1.0)
 Artifact: Spiral Construction Protocol v1.0
 Lane: Governance-Architecture • Meta-Structural Protocols
 
 Purpose:
-  Formalize the recursive construction pattern used in constitutional
-  ecosystems, ensuring coherent emergence of Construction Suites, validation
-  architectures, state machines, generation schemas, artifacts, and validation
-  reports. Prevent paradoxes such as validator-before-artifact and stabilize
-  altitude transitions across recursive phases.
+  Formalize the recursive construction pattern used in constitutional ecosystems,
+  ensuring coherent emergence of Construction Suites, validation architectures,
+  state machines, generation schemas, artifacts, and validation reports. Prevent
+  paradoxes such as validator-before-artifact and stabilize altitude transitions
+  across recursive phases.
 
 Anchors:
-  Goat Constitution v2.1 Construction Suite v2.1-CS
-  Validation Graph v1.0
-  Invariant Functions v1.0
-  Document Generation Schema v1.0
-  Emergent Case Study v1.0
-  Moment of Irony Artifact v1.0
+  - Goat Constitution v2.1 Construction Suite v2.1-CS
+  - Validation Graph v1.0
+  - Invariant Functions v1.0
+  - Document Generation Schema v1.0
+  - Emergent Case Study v1.0
+  - Moment of Irony Artifact v1.0
 
 Non-Activation Clause:
   This protocol is descriptive-only. It does not activate, simulate, or bind any
@@ -170,5 +173,17 @@ Version: v1.0
 Maintainer: Borealis S. Hedling
 Location: Naaldwijk, South Holland, Netherlands
 Timestamp: 16 August 2026 — 17:40 IST
+
+## Provenance — Revision (v1.1)
+Updated: 16 August 2026 — 17:46 IST
+Change:
+  - Added lineage-level anchor: Translation Governance Inflection Point v1.1
+  - Added lineage-level anchor: Anchoring & Patching Protocol v1.1
+  - Converted footer to hybrid provenance format
+  - Updated anchor dependency list to reflect TGL activation
+  - Added membrane constraints for altitude-neutral recursive construction
+Version: v1.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
 ---
 
