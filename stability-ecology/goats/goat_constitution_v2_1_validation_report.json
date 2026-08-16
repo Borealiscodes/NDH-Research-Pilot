@@ -1,0 +1,111 @@
+{
+  "artifact": "Goat Constitution v2.1",
+  "artifact_type": "governance_constitution",
+  "lane": "stability-ecology/goats",
+  "validator": {
+    "name": "NDH Validation State Machine JSON Graph",
+    "version": "1.0"
+  },
+  "validation_timestamp": "2026-08-16T18:12:00Z",
+  "states": [
+    {
+      "name": "INIT",
+      "next": "SID_VALIDATION",
+      "status": "PASS"
+    },
+    {
+      "name": "SID_VALIDATION",
+      "next": "SEAM_VALIDATION",
+      "status": "PASS",
+      "invariants_checked": ["SID_CEILING"],
+      "failures": []
+    },
+    {
+      "name": "SEAM_VALIDATION",
+      "next": "GOVERNANCE_VALIDATION",
+      "status": "PASS",
+      "invariants_checked": ["SEAM_GEOMETRY"],
+      "failures": []
+    },
+    {
+      "name": "GOVERNANCE_VALIDATION",
+      "next": "CONSTITUTIONAL_MATH",
+      "status": "PASS",
+      "invariants_checked": [
+        "ALTITUDE_INVARIANT",
+        "DRIFT_INVARIANT",
+        "HOOF_TENSOR_INVARIANT"
+      ],
+      "failures": []
+    },
+    {
+      "name": "CONSTITUTIONAL_MATH",
+      "next": "ALTITUDE_CHECK",
+      "status": "PASS",
+      "invariants_checked": [
+        "NO_DRIFT_AMPLIFICATION",
+        "NO_TRIANGULATION_CONFLICT"
+      ],
+      "failures": []
+    },
+    {
+      "name": "ALTITUDE_CHECK",
+      "next": "MEMBRANE_PURITY",
+      "status": "PASS",
+      "invariants_checked": ["ALTITUDE_EQUALS_A4"],
+      "failures": []
+    },
+    {
+      "name": "MEMBRANE_PURITY",
+      "next": "COMPLETE",
+      "status": "PASS",
+      "invariants_checked": ["NO_SIMULATION_LEAKAGE"],
+      "failures": []
+    },
+    {
+      "name": "COMPLETE",
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "overall_status": "VALID",
+    "failed_states": [],
+    "failed_invariants": [],
+    "notes": [
+      "Constitution remains at governance altitude A4.",
+      "No drift amplification or triangulation conflict detected.",
+      "No simulation leakage or membrane contamination detected."
+    ]
+  }
+}
+
+
+---
+Artifact: Goat Constitution v2.1 Validation Report (JSON)
+Lane: Stability-Ecology • Herd Governance
+
+Purpose:
+  Provide the deterministic validation report for Goat Constitution v2.1 using
+  the NDH Validation State Machine JSON Graph v1.0. This artifact documents
+  state transitions, invariant checks, and final validation status for
+  governance-grade auditability.
+
+Anchors:
+  - Goat Constitution v2.1 JSON Artifact
+  - Goat Constitution v2.1 Formal Text (Markdown)
+  - NDH Validation State Machine JSON Graph v1.0
+  - Validation Architecture v1.0
+  - Construction Suite v2.1-CS
+  - Spiral Construction Protocol v1.0
+  - Translation Governance Lineage (TGL)
+
+Non-Activation Clause:
+  This validation report is descriptive-only. It does not activate, simulate, or
+  bind any NDH subsystem, governance engine, altitude mechanism, or manifold
+  process. It records validation outcomes without executing NDH processes.
+
+Version: v2.1
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 16 August 2026 — 18:12 IST
+---
