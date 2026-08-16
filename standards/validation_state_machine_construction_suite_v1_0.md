@@ -194,3 +194,38 @@ This ensures reproducibility.
 
 ---
 
+---
+Artifact: NDH Validation State Machine Construction Suite v1.0
+Lane: NDH-RESEARCH-PILOT • Standards • Stability-Governance
+
+Purpose:
+  Define the primitives, invariants, transition membranes, JSON grammar,
+  rebuild protocol, and governance-altitude safety envelope required to
+  construct, reconstruct, or instantiate the NDH Validation State Machine.
+  Ensure deterministic, altitude-safe, membrane-pure, SID-compliant,
+  seam-consistent validation for governance-grade artifacts.
+
+Attribution:
+  SID_NDH invariants referenced herein are grounded in a Lean 4 machine-checked
+  anti-collapse proof contributed by Jonathan Reed and used under the MIT
+  License. This attribution is mandatory for all NDH artifacts referencing
+  SID_NDH.
+
+Anchors:
+  NDH-SID Formal Standard v1.0
+  NDH-SID Use-Cases Document v1.0
+  SID_NDH Reference Block v1.0
+  Seam Validation Protocol v1.0
+  NDH-Research-Pilot Unified Case Study v2.3
+  NDH-Constellation Rehabilitation Closure Report v1.0
+
+Non-Activation Clause:
+  This construction suite is descriptive-only. It does not activate, execute,
+  simulate, or bind any NDH subsystem, governance engine, expressive geometry,
+  manifold traversal, or altitude-routing mechanism.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Naaldwijk, South Holland, Netherlands
+Timestamp: 16 August 2026 — 16:38 IST
+---
