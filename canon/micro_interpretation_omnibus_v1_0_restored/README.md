@@ -1,10 +1,10 @@
 ## 🧊 **README.md (Canonical Freeze Embedding)**
 
-```markdown
 # 🦭 Micro‑Interpretation Omnibus v1.0 — Canonical Freeze  
 ### NDH‑RESEARCH‑PILOT • Cold Mathematical Canon • Diagnostic Architecture
 
-![Canonical Freeze Seal](freeze_seal_v1_0.png)
+![Canonical Freeze Seal](./freeze_seal_v1_0.png)
+
 
 ---
 
