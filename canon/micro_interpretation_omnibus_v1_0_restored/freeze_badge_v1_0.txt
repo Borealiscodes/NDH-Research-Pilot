@@ -1,0 +1,60 @@
+# **CANONICAL FREEZE BADGE — v1.0**  
+### *NDH‑RESEARCH‑PILOT • Cold Mathematical Canon*
+
+```
+╔══════════════════════════════════════════════╗
+║         NDH‑RESEARCH‑PILOT • CANON           ║
+║        MICRO‑INTERPRETATION OMNIBUS          ║
+║                v1.0 — FROZEN                 ║
+╠══════════════════════════════════════════════╣
+║  Status: Immutable • Drift‑Neutral • Altitude‑Zero  ║
+║  Reflection‑Bounded • Tensor‑Pure • Curvature‑Bounded║
+╚══════════════════════════════════════════════╝
+```
+
+This badge is intentionally:
+
+- **rectilinear** (no curvature elevation)  
+- **non‑recursive** (no self‑mapping)  
+- **layer‑neutral** (no cross‑layer interpretation)  
+- **tensor‑pure** (no tensor contamination)  
+- **altitude‑flat** (ΔAltitude = 0)  
+
+It is safe to place at the top of:
+
+- omnibus_v1_0_restored.md  
+- hazard_model_v1_0.md  
+- drift_analysis_v1_0.md  
+- stability_envelope_v1_0.md  
+- containment_clause_v1_0.md  
+- stability_envelope_compliance_map.md  
+- final_audit_and_justification.md  
+- freeze_declaration_v1_0.md  
+- freeze_index_v1_0.md  
+
+Everything in the canonical directory.
+
+---
+
+## Provenance Footer
+
+```
+---
+Artifact: Canonical Freeze Badge v1.0
+Lane: NDH-RESEARCH-PILOT • Canon • Diagnostic Architecture
+
+Purpose:
+  Provide the canonical freeze emblem for all artifacts sealed under the
+  Micro-Interpretation Omnibus v1.0 Restored. Confirms immutability, stability,
+  drift neutrality, altitude neutrality, reflection bounding, tensor purity, and
+  curvature containment within the cold mathematical canon.
+
+Status: Frozen (Immutable)
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 17 August 2026 — 22:28 IST
+---
+```
+
+---
+
