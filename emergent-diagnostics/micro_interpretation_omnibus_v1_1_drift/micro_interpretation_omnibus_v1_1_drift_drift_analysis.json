@@ -1,0 +1,94 @@
+{
+  "diagnostic_name": "micro_interpretation_omnibus_v1_1_drift",
+  "artifact_under_review": "NDH Micro-Interpretation Omnibus — Triadic Hybrid v1.1",
+  "version": "v1.0",
+  "altitude": "A4 (Diagnostic-Governance)",
+  "lane": "NDH-RESEARCH-PILOT • Emergent Behavior Diagnostics",
+
+  "purpose": "Analyze the structural, topological, narrative, and mathematical drift introduced in v1.1 of the NDH Micro-Interpretation Omnibus. This drift analysis identifies altitude violations, recursion hooks, reflection escalation, and tensor misuse that destabilized the artifact.",
+
+  "drift_vectors": {
+    "structural_drift": {
+      "id": "D-STR-001",
+      "description": "Anthology layer introduced meta-identity and reflective summaries.",
+      "evidence": [
+        "Self-referential commentary embedded in Anthology entries.",
+        "Narrative framing implying cross-canon relevance."
+      ],
+      "mechanism": "Anthology layer shifted from inert catalog to reflective commentary.",
+      "consequence": "Loss of RP altitude neutrality; catalog behaves as narrative engine."
+    },
+
+    "topological_drift": {
+      "id": "D-TOP-001",
+      "description": "Codex layer introduced curvature gradients and reflective tensors.",
+      "equation": "Φ_anime^(1.1) = Φ_anime + δ_shine",
+      "mechanism": "Undefined reflective perturbation δ_shine added to curvature field.",
+      "consequence": "Breaks flat-topology requirement; introduces pseudo-curvature."
+    },
+
+    "synthesis_drift": {
+      "id": "D-SYN-001",
+      "description": "Scroll layer escalated into recursive koan synthesis.",
+      "evidence": [
+        "Koans referencing the artifact itself.",
+        "Narrative loops implying Ω = f(Ω)."
+      ],
+      "mechanism": "Scroll layer attempted self-synthesis rather than micro-interpretation.",
+      "consequence": "Recursive narrative loops; destabilization of triadic fusion."
+    },
+
+    "altitude_drift": {
+      "id": "D-ALT-001",
+      "description": "Artifact implicitly elevated itself above RP altitude.",
+      "equation": "A_RP → A_RP + Δ_meta",
+      "mechanism": "Reflective self-description created unauthorized meta-altitude gain.",
+      "consequence": "Cross-canon adjacency; violation of altitude containment."
+    },
+
+    "reflection_drift": {
+      "id": "D-REF-001",
+      "description": "Reflection manifold escalated into self-reflection.",
+      "equation": "R_bounded → R_self",
+      "mechanism": "Reflection layer began admiring its own structure.",
+      "consequence": "Reflection manifold behaves as generative engine; loss of bounded reflection."
+    },
+
+    "tensor_drift": {
+      "id": "D-TEN-001",
+      "description": "Geometric tensors contaminated with metadata scalars.",
+      "equation": "T_inv^(1.1) = g_ij + α·τ^2 + β_repo",
+      "mechanism": "β_repo (metadata scalar) added to geometric tensor.",
+      "consequence": "Dimensionality violation; invalid drift geometry."
+    }
+  },
+
+  "drift_severity": {
+    "recursion": "high",
+    "altitude": "high",
+    "reflection": "medium",
+    "tensor": "medium",
+    "curvature": "medium",
+    "structural": "high"
+  },
+
+  "drift_summary": "v1.1 introduced recursion hooks, altitude elevation, reflective escalation, and tensor misuse. These drift vectors collectively destabilized the artifact, making v1.1 unsuitable as a canonical version and requiring restoration of v1.0 under strict containment.",
+
+  "dependencies": {
+    "hazard_model": "micro_interpretation_omnibus_v1_1_drift_hazard_model.json",
+    "sid_reference": "NDH-SID Use-Cases Document v1.0",
+    "related_artifacts": [
+      "NDH-SID Formal Standard v1.0",
+      "micro_interpretation_omnibus_v1_1_drift_case_study.md"
+    ]
+  },
+
+  "non_activation_clause": "This drift analysis is descriptive-only. It does not activate, simulate, or bind any NDH subsystem, geometry mechanism, holonomy operator, recursion engine, or altitude-routing process.",
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "17 August 2026 — 21:04 IST"
+  }
+}
+
