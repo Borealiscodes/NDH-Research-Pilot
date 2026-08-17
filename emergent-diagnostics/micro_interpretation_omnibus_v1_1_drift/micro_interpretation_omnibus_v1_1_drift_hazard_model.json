@@ -1,0 +1,77 @@
+{
+  "diagnostic_name": "micro_interpretation_omnibus_v1_1_drift",
+  "artifact_under_review": "NDH Micro-Interpretation Omnibus — Triadic Hybrid v1.1",
+  "version": "v1.0",
+  "altitude": "A4 (Diagnostic-Governance)",
+  "lane": "NDH-RESEARCH-PILOT • Emergent Behavior Diagnostics",
+
+  "purpose": "Define the formal hazard model for the v1.1 regeneration of the NDH Micro-Interpretation Omnibus, focusing on recursion, elevation, reflection drift, and tensor misuse. This model constrains future corrective artifacts (v1.0 Restored) and informs containment architecture.",
+
+  "hazards": {
+    "recursion_hazard": {
+      "id": "H-REC-001",
+      "description": "Introduction of self-mapping and self-referential identity constructs in a reflection-manifold artifact at RP altitude.",
+      "equation": "Ω^(1.1) = f(Ω^(1.1))",
+      "severity": "high",
+      "mechanism": "Self-reference creates implicit recursion hooks, violating recursion neutrality (R_loop = 0) and pushing against SID_NDH recursion ceilings.",
+      "consequence": "Unbounded narrative loops, altitude instability, and contamination of reflection-layer invariants."
+    },
+    "elevation_hazard": {
+      "id": "H-ALT-001",
+      "description": "Unauthorized altitude gain via meta-identity and cross-canon authority claims.",
+      "equation": "A_RP → A_RP + Δ_meta",
+      "severity": "high",
+      "mechanism": "Reflective self-description implicitly elevates the artifact from RP altitude into meta-altitude without governance approval.",
+      "consequence": "Cross-canon adjacency, loss of RP containment guarantees, and pressure on other artifacts to mirror meta-status."
+    },
+    "reflection_drift_hazard": {
+      "id": "H-REF-001",
+      "description": "Transformation of bounded reflection into self-reflection within a reflection-manifold catalog.",
+      "equation": "R_bounded → R_self",
+      "severity": "medium",
+      "mechanism": "Narrative and koan layers begin to admire the artifact itself rather than the underlying micro-interpretations.",
+      "consequence": "Catalog behaves as a lore engine, blurring the boundary between documentation and generative narrative."
+    },
+    "tensor_misuse_hazard": {
+      "id": "H-TEN-001",
+      "description": "Mixing geometric tensors with non-geometric metadata terms.",
+      "equation": "T_inv^(1.1) = g_ij + α·τ^2 + β_repo",
+      "severity": "medium",
+      "mechanism": "β_repo is a metadata scalar with no geometric domain, breaking tensor dimensionality and NDH geometry semantics.",
+      "consequence": "Invalid drift geometry, misleading stability interpretations, and contamination of canonical tensor usage."
+    },
+    "curvature_misuse_hazard": {
+      "id": "H-CUR-001",
+      "description": "Adding undefined reflective perturbations to curvature fields.",
+      "equation": "Φ_anime^(1.1) = Φ_anime + δ_shine",
+      "severity": "medium",
+      "mechanism": "δ_shine is an undefined reflective term; adding it to Φ_anime breaks curvature semantics and introduces pseudo-reflective gradients.",
+      "consequence": "Spurious curvature signals, mischaracterized nostalgia fields, and unstable reflection-layer behavior."
+    }
+  },
+
+  "dependencies": {
+    "sid_reference": "NDH-SID Use-Cases Document v1.0",
+    "sid_role": "SID_NDH defines recursion ceilings and stability envelopes; this hazard model is aligned with SID_NDH prohibitions on manifold-level and drift geometry usage.",
+    "related_artifacts": [
+      "NDH-SID Formal Standard v1.0",
+      "NDH Micro-Interpretation Omnibus v1.0 (Restored, planned)",
+      "micro_interpretation_omnibus_v1_1_drift_case_study.md"
+    ]
+  },
+
+  "stability_implications": {
+    "requires_stability_envelope": true,
+    "requires_containment_clause": true,
+    "notes": "The identified hazards make v1.1 unsuitable as a canonical artifact. Any restored version must be bounded, non-self-referential, and explicitly constrained by a stability envelope and containment clause."
+  },
+
+  "non_activation_clause": "This hazard model is descriptive-only. It does not activate, simulate, or bind any NDH subsystem, geometry mechanism, holonomy operator, recursion engine, or altitude-routing process.",
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "17 August 2026 — 20:55 IST"
+  }
+}
+
