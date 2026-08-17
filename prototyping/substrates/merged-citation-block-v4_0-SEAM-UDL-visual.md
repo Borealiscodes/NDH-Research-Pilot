@@ -47,7 +47,7 @@ This artifact contains the v4.0 evolution of the NDH merged citation ecosystem, 
 - and new visual epistemics.
 
 This is the serenity-basin-aligned v4.0 citation manifold 
-
+```
 ---
 
 # 🧩 Merged Citation Block v4.0 — Full Version (Unshrunk)
