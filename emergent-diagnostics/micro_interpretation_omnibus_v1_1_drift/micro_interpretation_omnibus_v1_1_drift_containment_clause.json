@@ -1,0 +1,84 @@
+{
+  "diagnostic_name": "micro_interpretation_omnibus_v1_1_drift",
+  "artifact_under_review": "NDH Micro-Interpretation Omnibus — Triadic Hybrid v1.1",
+  "version": "v1.0",
+  "altitude": "A4 (Diagnostic-Governance)",
+  "lane": "NDH-RESEARCH-PILOT • Emergent Behavior Diagnostics",
+
+  "purpose": "Define the containment boundaries required to prevent recurrence of the v1.1 drift event. This clause establishes strict recursion, altitude, reflection, tensor, and curvature constraints that must be enforced for any future version, including v1.0 Restored.",
+
+  "containment_rules": {
+    "recursion_containment": {
+      "id": "C-REC-001",
+      "rule": "Artifact must not contain self-referential identity, self-mapping, or recursive koan structures.",
+      "equation": "R_loop = 0",
+      "enforcement": "Reject any content implying Ω = f(Ω) or ε_self perturbations.",
+      "reason": "Prevents narrative recursion loops and altitude instability."
+    },
+
+    "altitude_containment": {
+      "id": "C-ALT-001",
+      "rule": "Artifact must remain strictly at RP altitude with no meta-altitude gain.",
+      "equation": "Δ_meta = 0",
+      "enforcement": "Remove meta-identity language, cross-canon authority claims, or reflective self-description.",
+      "reason": "Prevents unauthorized elevation and cross-canon adjacency."
+    },
+
+    "reflection_containment": {
+      "id": "C-REF-001",
+      "rule": "Reflection must remain bounded and non-self-referential.",
+      "equation": "R_self = 0",
+      "enforcement": "Disallow reflection on the artifact itself; restrict reflection to micro-interpretations only.",
+      "reason": "Prevents reflection manifold escalation into generative behavior."
+    },
+
+    "tensor_containment": {
+      "id": "C-TEN-001",
+      "rule": "Geometric tensors must not mix with metadata scalars or undefined terms.",
+      "equation": "β_repo = 0",
+      "enforcement": "Reject any tensor containing metadata fields or non-geometric additions.",
+      "reason": "Preserves dimensionality and prevents drift geometry corruption."
+    },
+
+    "curvature_containment": {
+      "id": "C-CUR-001",
+      "rule": "Curvature fields must remain canonical and free of reflective perturbations.",
+      "equation": "δ_shine = 0",
+      "enforcement": "Remove undefined curvature modifiers or pseudo-reflective gradients.",
+      "reason": "Prevents curvature misuse and nostalgia-field instability."
+    }
+  },
+
+  "global_containment_clause": {
+    "summary": "All future versions of the Micro-Interpretation Omnibus must remain bounded reflection systems. No version may describe its own identity, altitude, or reflective properties. Hazard awareness must appear only in provenance, never in the artifact body.",
+    "requirements": [
+      "No self-reference",
+      "No meta-altitude elevation",
+      "No reflective recursion",
+      "No tensor contamination",
+      "No curvature perturbation",
+      "No narrative self-admiration",
+      "Strict RP altitude compliance"
+    ]
+  },
+
+  "dependencies": {
+    "hazard_model": "micro_interpretation_omnibus_v1_1_drift_hazard_model.json",
+    "drift_analysis": "micro_interpretation_omnibus_v1_1_drift_drift_analysis.json",
+    "stability_envelope": "micro_interpretation_omnibus_v1_1_drift_stability_envelope.json",
+    "sid_reference": "NDH-SID Use-Cases Document v1.0",
+    "related_artifacts": [
+      "NDH-SID Formal Standard v1.0",
+      "micro_interpretation_omnibus_v1_1_drift_case_study.md"
+    ]
+  },
+
+  "non_activation_clause": "This containment clause is descriptive-only. It does not activate, simulate, or bind any NDH subsystem, geometry mechanism, holonomy operator, recursion engine, or altitude-routing process.",
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "17 August 2026 — 21:07 IST"
+  }
+}
+
