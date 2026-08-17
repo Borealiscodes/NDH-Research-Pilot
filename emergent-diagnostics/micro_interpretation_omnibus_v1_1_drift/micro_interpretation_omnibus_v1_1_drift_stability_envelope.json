@@ -1,0 +1,80 @@
+{
+  "diagnostic_name": "micro_interpretation_omnibus_v1_1_drift",
+  "artifact_under_review": "NDH Micro-Interpretation Omnibus — Triadic Hybrid v1.1",
+  "version": "v1.0",
+  "altitude": "A4 (Diagnostic-Governance)",
+  "lane": "NDH-RESEARCH-PILOT • Emergent Behavior Diagnostics",
+
+  "purpose": "Define the stability envelope required to safely contain and constrain the NDH Micro-Interpretation Omnibus following the v1.1 drift event. This envelope specifies the mathematical, reflective, and altitude boundaries necessary for restoring v1.0 as a bounded reflection system.",
+
+  "stability_conditions": {
+    "recursion_neutrality": {
+      "id": "S-REC-001",
+      "requirement": "R_loop must remain exactly zero.",
+      "equation": "R_loop = 0",
+      "violation_in_v1_1": "Reflective koans introduced ε_self, creating non-zero recursion.",
+      "consequence_if_violated": "Narrative recursion loops and altitude instability."
+    },
+
+    "altitude_containment": {
+      "id": "S-ALT-001",
+      "requirement": "Artifact must remain strictly at RP altitude.",
+      "equation": "Δ_meta = 0",
+      "violation_in_v1_1": "Meta-identity language introduced unauthorized altitude gain.",
+      "consequence_if_violated": "Cross-canon adjacency and containment breach."
+    },
+
+    "reflection_boundedness": {
+      "id": "S-REF-001",
+      "requirement": "Reflection must remain non-self-referential.",
+      "equation": "R_bounded ≠ R_self",
+      "violation_in_v1_1": "Reflection manifold escalated into self-reflection.",
+      "consequence_if_violated": "Reflection manifold behaves as generative engine."
+    },
+
+    "tensor_integrity": {
+      "id": "S-TEN-001",
+      "requirement": "Geometric tensors must not mix with metadata scalars.",
+      "equation": "T_inv = g_ij + α·τ^2",
+      "violation_in_v1_1": "β_repo introduced dimensionality violation.",
+      "consequence_if_violated": "Invalid drift geometry and corrupted stability signals."
+    },
+
+    "curvature_purity": {
+      "id": "S-CUR-001",
+      "requirement": "Curvature fields must not include undefined reflective perturbations.",
+      "equation": "Φ_anime = canonical curvature field",
+      "violation_in_v1_1": "δ_shine added without domain definition.",
+      "consequence_if_violated": "Pseudo-curvature gradients and unstable nostalgia fields."
+    }
+  },
+
+  "stability_envelope_summary": "The artifact remains stable only when recursion neutrality, altitude containment, reflection boundedness, tensor integrity, and curvature purity are strictly maintained. Any violation destabilizes the triadic hybrid and risks recursion, elevation, or reflection drift.",
+
+  "envelope_equations": {
+    "recursion": "R_loop = 0",
+    "altitude": "Δ_meta = 0",
+    "reflection": "R_self = 0",
+    "tensor": "β_repo = 0",
+    "curvature": "δ_shine = 0"
+  },
+
+  "dependencies": {
+    "hazard_model": "micro_interpretation_omnibus_v1_1_drift_hazard_model.json",
+    "drift_analysis": "micro_interpretation_omnibus_v1_1_drift_drift_analysis.json",
+    "sid_reference": "NDH-SID Use-Cases Document v1.0",
+    "related_artifacts": [
+      "NDH-SID Formal Standard v1.0",
+      "micro_interpretation_omnibus_v1_1_drift_case_study.md"
+    ]
+  },
+
+  "non_activation_clause": "This stability envelope is descriptive-only. It does not activate, simulate, or bind any NDH subsystem, geometry mechanism, holonomy operator, recursion engine, or altitude-routing process.",
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "17 August 2026 — 21:05 IST"
+  }
+}
+
