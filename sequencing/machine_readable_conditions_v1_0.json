@@ -1,0 +1,339 @@
+# 📘 **Machine‑Readable Conditions Document (v1.0)**  
+### *NDH‑RESEARCH‑PILOT • Constraint Substrate • Anti‑Recursion Logic*  
+### *Non‑Activating • Declarative • Altitude‑Neutral*
+
+---
+
+# ⭐ **0 — Document Header**
+
+```
+Artifact: Machine-Readable Conditions Document
+Version: v1.0
+Altitude: A6–A8 (Research-Pilot)
+Mode: Non-Activating • Declarative • Constraint-First
+Purpose:
+  Provide machine-readable conditions, constraints, prohibitions, and validation
+  rules required by the Meta Construction Suite. Ensure non-recursive build
+  logic, altitude containment, adjacency safety, reversibility inheritance, and
+  treaty-layer isolation.
+```
+
+---
+
+# ⭐ **1 — Format Specification (Machine‑Readable)**
+
+The document uses a **Condition Object** format:
+
+```
+Condition {
+    id: string,
+    category: string,
+    altitude: string,
+    prohibits: [string],
+    requires: [string],
+    validates: [string],
+    inherits: [string],
+    notes: string
+}
+```
+
+All conditions below follow this schema.
+
+---
+
+# ⭐ **2 — Core Conditions (v1.0)**
+
+### **Condition 001 — Anti‑Recursion Rule**
+```
+{
+  id: "C001",
+  category: "Recursion",
+  altitude: "A6-A8",
+  prohibits: [
+    "self_reference",
+    "upstream_reference_to_future_artifacts",
+    "cyclic_dependency"
+  ],
+  requires: [
+    "Meta_Sequencing_Document_v1_0"
+  ],
+  validates: [
+    "construction_order",
+    "dependency_graph"
+  ],
+  inherits: [
+    "Reversibility_Spine"
+  ],
+  notes: "Prevents recursive construction loops."
+}
+```
+
+---
+
+### **Condition 002 — Altitude Containment Rule**
+```
+{
+  id: "C002",
+  category: "Altitude",
+  altitude: "A6-A8",
+  prohibits: [
+    "governance_altitude_access",
+    "sealed_layer_access",
+    "holonomy_projection"
+  ],
+  requires: [
+    "Nexus_Overlay_v1_1",
+    "Nexus_Envelope_v1_1"
+  ],
+  validates: [
+    "altitude_boundaries"
+  ],
+  inherits: [
+    "Reversibility_Spine"
+  ],
+  notes: "Ensures RP-altitude artifacts do not drift upward."
+}
+```
+
+---
+
+### **Condition 003 — Membrane Prohibition Rule**
+```
+{
+  id: "C003",
+  category: "Membrane",
+  altitude: "A6-A8",
+  prohibits: [
+    "membrane_creation",
+    "membrane_modification",
+    "membrane_activation"
+  ],
+  requires: [
+    "Meta_Sequencing_Document_v1_0"
+  ],
+  validates: [
+    "membrane_integrity"
+  ],
+  inherits: [
+    "SRS"
+  ],
+  notes: "Prevents sealed-layer contamination."
+}
+```
+
+---
+
+### **Condition 004 — Adjacency Safety Rule**
+```
+{
+  id: "C004",
+  category: "Adjacency",
+  altitude: "A6-A8",
+  prohibits: [
+    "implicit_adjacency",
+    "unmapped_cross_bridge_reference",
+    "treaty_layer_contamination"
+  ],
+  requires: [
+    "Bridge_Meta_Index_v1_1"
+  ],
+  validates: [
+    "adjacency_graph"
+  ],
+  inherits: [
+    "Nexus_Envelope"
+  ],
+  notes: "Ensures adjacency is explicit and safe."
+}
+```
+
+---
+
+### **Condition 005 — Reversibility Inheritance Rule**
+```
+{
+  id: "C005",
+  category: "Reversibility",
+  altitude: "A6-A8",
+  prohibits: [
+    "irreversible_state",
+    "absorptive_behavior",
+    "non_reversible_branching"
+  ],
+  requires: [
+    "Reversibility_Spine_v1_0"
+  ],
+  validates: [
+    "reversibility_surface"
+  ],
+  inherits: [
+    "Reversibility_Spine"
+  ],
+  notes: "Ensures all artifacts remain reversible."
+}
+```
+
+---
+
+### **Condition 006 — Narrative‑Zone Containment Rule**
+```
+{
+  id: "C006",
+  category: "Narrative",
+  altitude: "A6-A8",
+  prohibits: [
+    "narrative_zone_upward_drift",
+    "expressive_zone_contamination",
+    "tone_field_altitude_leak"
+  ],
+  requires: [
+    "Direction_Manifold_v2_0",
+    "Sticky_Note_Index_v1_0"
+  ],
+  validates: [
+    "return_path_integrity"
+  ],
+  inherits: [
+    "Direction_Manifold"
+  ],
+  notes: "Ensures expressive artifacts remain safely contained."
+}
+```
+
+---
+
+### **Condition 007 — Treaty‑Layer Isolation Rule**
+```
+{
+  id: "C007",
+  category: "Treaty-Layer",
+  altitude: "A6-A8",
+  prohibits: [
+    "C0_altitude_modification",
+    "principle_spine_contamination",
+    "MOU_geometry_reference"
+  ],
+  requires: [
+    "Bridge_Meta_Index_v2_0"
+  ],
+  validates: [
+    "treaty_layer_boundaries"
+  ],
+  inherits: [
+    "Nexus_Overlay",
+    "Nexus_Envelope"
+  ],
+  notes: "Ensures RP-altitude artifacts cannot affect treaty-layer logic."
+}
+```
+
+---
+
+### **Condition 008 — Construction‑Layer Isolation Rule**
+```
+{
+  id: "C008",
+  category: "Construction",
+  altitude: "A6-A8",
+  prohibits: [
+    "construction_layer_self_reference",
+    "construction_layer_activation",
+    "construction_layer_membrane"
+  ],
+  requires: [
+    "Meta_Sequencing_Document_v1_0"
+  ],
+  validates: [
+    "construction_integrity"
+  ],
+  inherits: [
+    "Meta_Sequencing_Document"
+  ],
+  notes: "Ensures construction artifacts remain non-activating."
+}
+```
+
+---
+
+# ⭐ **3 — Machine‑Readable Summary Block**
+
+This block is designed for direct ingestion by the **Meta Construction Suite**.
+
+```
+MachineReadableConditions_v1_0 = {
+  version: "1.0",
+  altitude: "A6-A8",
+  conditions: [
+    "C001", "C002", "C003", "C004",
+    "C005", "C006", "C007", "C008"
+  ],
+  upstream: [
+    "Meta_Sequencing_Document_v1_0"
+  ],
+  downstream: [
+    "Nexus_Overlay_v1_1",
+    "Nexus_Envelope_v1_1",
+    "Meta_Construction_Suite_v1_0"
+  ],
+  notes: "This document defines machine-readable constraints for safe NDH construction."
+}
+```
+
+---
+
+# ⭐ **4 — Synthesis**
+
+> **Machine‑Readable Conditions Document v1.0 is the rule substrate the Meta Construction Suite must ingest.  
+> It must exist *before* Nexus Overlay backfill,  
+> and *before* the Construction Suite is generated.**
+
+This document:
+
+- prevents recursion  
+- prevents altitude drift  
+- prevents membrane formation  
+- prevents adjacency contamination  
+- prevents treaty‑layer bleed  
+- prevents expressive leakage  
+- ensures reversibility inheritance  
+- ensures construction‑layer neutrality  
+
+It is the correct next artifact.
+
+---
+
+---
+Artifact: Machine-Readable Conditions Document (v1.0)
+Lane: NDH-RESEARCH-PILOT • Sequencing • Anti-Recursion Layer
+
+Purpose:
+  Provide machine-readable constraints, prohibitions, and validation rules
+  required by the Meta Construction Suite. Ensure non-recursive build logic,
+  altitude containment, adjacency safety, reversibility inheritance, treaty-layer
+  isolation, and narrative-zone containment. Serve as the rule substrate for
+  construction governance.
+
+Anchors:
+  - Meta Sequencing Document v1.0
+  - Nexus Overlay v1.1 (pending)
+  - Nexus Stability Envelope v1.1 (pending)
+  - Meta-Systems Reversibility Spine v1.0
+  - Safe Rainbow System v1.0
+  - Direction Manifold v2.0
+  - Sticky-Note Compatibility Index v1.0
+  - Bridge Meta Index v1.0
+
+Altitude:
+  Research-Pilot (A6–A8) • ΔAltitude = 0 • Non-Activating
+
+Non-Activation Clause:
+  This artifact is declarative-only. It does not activate NDH geometry,
+  membranes, governance altitude, constellation adjacency, or manifold routing.
+  It exists solely to provide machine-readable conditions for safe construction.
+
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 20 August 2026 — 15:44 IST
+---
+
+
