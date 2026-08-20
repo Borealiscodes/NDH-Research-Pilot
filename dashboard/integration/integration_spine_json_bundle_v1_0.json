@@ -1,0 +1,128 @@
+{
+  "integration_spine_bundle": {
+    "version": "1.0",
+    "altitude": "A6-A8",
+    "delta_altitude": 0,
+
+    "modules": {
+      "narrative_zone_module": {
+        "id": "module_narrative_zone_v1_0",
+        "panels": [
+          "forest_bulletin_board_access_panel_v1_0",
+          "holonomy_curriculum_access_panel_v1_0"
+        ],
+        "tokens": [
+          "narrative_zone_preview_token",
+          "sticky_note_preview_token",
+          "holonomy_orientation_token"
+        ]
+      },
+
+      "governance_lineage_module": {
+        "id": "module_governance_lineage_v1_0",
+        "blocks": [
+          "governance_altitude_block",
+          "closure_lineage_block",
+          "lineage_graph_block"
+        ],
+        "tokens": [
+          "governance_map_token",
+          "closure_token",
+          "ledger_token"
+        ]
+      },
+
+      "expressive_layer_module": {
+        "id": "module_expressive_layer_v1_0",
+        "skins": [
+          "neon_kawaii_v1_0",
+          "cold_cosmic_v1_0",
+          "pip_skin_v1_1"
+        ],
+        "tokens": [
+          "expressive_glow_token",
+          "aurora_gradient_token",
+          "pip_lantern_token"
+        ]
+      },
+
+      "machine_layer_module": {
+        "id": "module_machine_layer_v1_0",
+        "blocks": [
+          "json_envelope_viewer",
+          "token_registry",
+          "metadata_inspector"
+        ],
+        "tokens": [
+          "json_envelope_token",
+          "metadata_token",
+          "machine_layer_preview_token"
+        ]
+      }
+    },
+
+    "token_registry": {
+      "expressive_tokens": [
+        "expressive_glow_token",
+        "aurora_gradient_token",
+        "pip_lantern_token"
+      ],
+      "governance_tokens": [
+        "governance_map_token",
+        "closure_token",
+        "ledger_token"
+      ],
+      "machine_tokens": [
+        "json_envelope_token",
+        "metadata_token",
+        "machine_layer_preview_token"
+      ],
+      "narrative_tokens": [
+        "narrative_zone_preview_token",
+        "sticky_note_preview_token",
+        "holonomy_orientation_token"
+      ]
+    },
+
+    "lineage_metadata": {
+      "governance_lineage": [
+        "map",
+        "atlas",
+        "codex",
+        "registry",
+        "summary"
+      ],
+      "closure_lineage": [
+        "closure_v1_0",
+        "silence_directive_v1_0",
+        "ledger_v1_0",
+        "ledger_index_v1_0",
+        "ledger_compendium_v1_0"
+      ]
+    },
+
+    "expressive_skin_descriptors": {
+      "neon_kawaii_v1_0": {
+        "style": "soft_glow_pastel",
+        "accents": ["micro_sparkle", "neon_header"]
+      },
+      "cold_cosmic_v1_0": {
+        "style": "aurora_gradient",
+        "accents": ["freeze_geometry", "silver_palette"]
+      },
+      "pip_skin_v1_1": {
+        "style": "lantern_glow",
+        "accents": ["soft_rounding", "constellation_sparkle"]
+      }
+    },
+
+    "safety": {
+      "activation": "none",
+      "ingestion": "none",
+      "recursion": "none",
+      "adjacency": "sealed",
+      "posture_alignment": "strict"
+    }
+  }
+}
+
