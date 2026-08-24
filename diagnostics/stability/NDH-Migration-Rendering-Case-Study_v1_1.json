@@ -1,0 +1,159 @@
+{
+  "artifact": "NDH-Migration-Rendering-Case-Study",
+  "version": "1.1",
+  "altitude": "A9-A12",
+  "lane": "NDH-RESEARCH-PILOT/diagnostics/stability",
+  "mode": "Structural-Only",
+  "non_activating": true,
+  "purpose": {
+    "summary": "Render the Stability Migration as a RESM-governed transition sequence.",
+    "details": [
+      "Provide a governance-grade model of the migration.",
+      "Enable invariant-based validation and simulation.",
+      "Prevent recursive repo structures.",
+      "Preserve altitude separation and membrane purity.",
+      "Support Research-Pilot analysis without activation."
+    ]
+  },
+  "states": {
+    "ontology_lane_mixed": {
+      "id": "ontology_lane_mixed",
+      "altitude": "A7-A8",
+      "membrane": "ontology",
+      "role": "conceptual_lane_with_contamination",
+      "issues": [
+        "altitude_contamination",
+        "membrane_breach",
+        "recursive_structure"
+      ],
+      "description": "Ontology lane containing stability artifacts, causing contamination and recursion risk."
+    },
+    "stability_lane_pure": {
+      "id": "stability_lane_pure",
+      "altitude": "A9-A12",
+      "membrane": "stability",
+      "role": "structural_lane_sovereign",
+      "status": "sovereign",
+      "description": "Stability lane containing only stability artifacts, with restored sovereignty and purity."
+    },
+    "error": {
+      "id": "error",
+      "altitude": "A9-A12",
+      "membrane": "diagnostics",
+      "role": "failure_state",
+      "description": "State entered when invariants fail or sovereignty is breached."
+    }
+  },
+  "transition": {
+    "name": "migrate_stability_artifacts",
+    "type": "unionized",
+    "from_state": "ontology_lane_mixed",
+    "to_state": "stability_lane_pure",
+    "description": "Relocates stability artifacts from ontology lane to stability lane using unionized logic.",
+    "pre_invariants": ["ABV-R", "LSV-R", "MTV-R", "CPV-R", "CRV-R"],
+    "post_invariants": ["ABV-R", "LSV-R", "MTV-R", "CPV-R", "CRV-R"],
+    "non_activating": true
+  },
+  "invariants": {
+    "ABV-R": {
+      "name": "ABV-R",
+      "evaluator": "altitude_ladder_evaluator",
+      "scope": ["ontology_lane_mixed", "stability_lane_pure"],
+      "description": "Ensures altitude bands are correct and non-collapsing."
+    },
+    "LSV-R": {
+      "name": "LSV-R",
+      "evaluator": "membrane_sovereignty_evaluator",
+      "scope": ["ontology_lane_mixed", "stability_lane_pure"],
+      "description": "Ensures membranes remain sovereign and uncontaminated."
+    },
+    "MTV-R": {
+      "name": "MTV-R",
+      "evaluator": "sequencing_evaluator",
+      "scope": ["transition"],
+      "description": "Ensures migration sequencing respects governance order."
+    },
+    "CPV-R": {
+      "name": "CPV-R",
+      "evaluator": "adjacency_evaluator",
+      "scope": ["states"],
+      "description": "Ensures adjacency relationships between lanes are valid and non-recursive."
+    },
+    "CRV-R": {
+      "name": "CRV-R",
+      "evaluator": "apex_resonance_evaluator",
+      "scope": ["stability_lane_pure"],
+      "description": "Ensures apex gradients remain neutral and non-activating."
+    }
+  },
+  "failure_modes": [
+    {
+      "id": "altitude_collapse",
+      "description": "Altitude bands overlap or collapse, breaking separation."
+    },
+    {
+      "id": "membrane_breach",
+      "description": "Artifacts cross membranes without lineage justification."
+    },
+    {
+      "id": "recursive_contamination",
+      "description": "Repo structure becomes recursive, with lanes referencing their own parents or siblings."
+    },
+    {
+      "id": "lineage_inversion",
+      "description": "Lineage direction reverses or loops, breaking semantic flow."
+    },
+    {
+      "id": "provenance_fracture",
+      "description": "Provenance anchors are lost or broken during migration."
+    }
+  ],
+  "acceptance_conditions": {
+    "all_invariants_pass_pre": true,
+    "all_invariants_pass_post": true,
+    "membrane_sovereign": true,
+    "altitude_correct": true,
+    "lineage_continuous": true,
+    "recursive_structure_prevented": true,
+    "description": "Transition is accepted only if invariants pass before and after, sovereignty and altitude are correct, and recursion is prevented."
+  },
+  "sovereignty_rules": {
+    "ontology": {
+      "role": "conceptual_only",
+      "allowed_artifacts": ["ontology", "semantic_models"],
+      "forbidden_artifacts": ["stability_logic", "enforcement_geometry"]
+    },
+    "stability": {
+      "role": "structural_only",
+      "allowed_artifacts": ["stability_logic", "runtime_models", "invariant_sets"],
+      "forbidden_artifacts": ["pure_ontology", "narrative_only_docs"]
+    },
+    "cross_lane_movement": {
+      "requires_unionized_logic": true,
+      "requires_invariant_validation": true,
+      "description": "Any movement between lanes must be validated by unionized logic and invariant evaluators."
+    }
+  },
+  "lineage": {
+    "anchors": [
+      "NDH Stability Stack Index (v1.0)",
+      "NDH Stability Bundle Manifest (v1.0)",
+      "NDH Triad-to-Stability Lineage Map (v1.0)",
+      "Governed Trio Sequencing Case Study (v1.0)",
+      "Emergent Case Study on Migration & Governance Logic (v1.0)",
+      "Rendering Ecosystem State Machine Operational Harness (v1.0)"
+    ],
+    "direction": "Triad → Stability → Enforcement → Completion",
+    "description": "Lineage must remain one-way and non-recursive across lanes."
+  },
+  "non_activation_clause": {
+    "description": "This JSON is descriptive-only and does not activate NDH geometry, membranes, altitudes, holonomy engines, rendering pipelines, or simulation substrates.",
+    "activation_allowed": false
+  },
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Naaldwijk, South Holland, Netherlands",
+    "timestamp": "2026-08-24T15:01:00+01:00",
+    "status": "Active • Non-Activating • Structural-Only"
+  }
+}
