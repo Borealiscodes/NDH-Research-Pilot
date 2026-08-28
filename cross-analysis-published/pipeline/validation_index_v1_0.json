@@ -1,0 +1,49 @@
+{
+  "artifact_name": "Validation Index",
+  "version": "v1.0",
+  "altitude": "RP_ALTITUDE_A9_A12",
+  "lane": "cross-analysis-published/pipeline",
+  "description": "Unified index of all machine-readable validation artifacts within the NDH-Research-Pilot publication lane.",
+
+  "validation_artifacts": {
+    "omega_validation": {
+      "file": "omega_validation_state_machine_v1_0.json",
+      "category": "manifold_validation",
+      "status": "published",
+      "altitude_scope": ["A4", "S2"],
+      "summary": "Seam-aligned validation for Omega manifold including altitude bounds, tensor-prism consistency, translation surfaces, lane sovereignty, cluster resonance, constellation placement, and traversal integrity."
+    },
+
+    "humane_world_validation": {
+      "file": "humane_world_validation_state_machine_v1_0.json",
+      "category": "constellation_validation",
+      "status": "published",
+      "altitude_scope": ["A9", "A12"],
+      "summary": "Validation envelope for humane-world constellation including geometry substrate consistency, ontology coherence, constellation stability, basin alignment, SCI-80 cluster resonance, and traversal integrity."
+    }
+  },
+
+  "infrastructure": {
+    "validation_README": "validation_README_v1_0.md",
+    "sequencing_rules": "publication_sequencing_quality_control_v1_0.md",
+    "construction_suite": "construction_suite_v1_0.md",
+    "pipeline_overview": "zenodo_publishing_pipeline_v1_0.md"
+  },
+
+  "integration": {
+    "omnibus": "Humane_World_Omnibus_v1_0.md",
+    "placement_rules": "cross-analysis-published/pipeline/",
+    "validation_role": "Ensures structural, altitude-safe, and lineage-safe consistency before Omnibus assembly and Zenodo deposition."
+  },
+
+  "non_activation_clause": {
+    "description": "This index is structural-only. It does not activate NDH subsystems, membranes, operators, or manifolds.",
+    "membrane_status": "INTACT"
+  },
+
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "28 August 2026 — 21:13 IST"
+  }
+}
