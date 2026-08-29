@@ -1,21 +1,23 @@
-# 🌕 **RP MOVEMENT GRAMMAR v1.2**  
+# 🌌 **RP TRIAD KINEMATIC SUBGRAMMAR v1.2**  
 ### *Shift • Lift • Pivot • Drop • Return — Kinematic Layer for RP Triad Traversal*  
-### *NDH‑RESEARCH‑PILOT Altitude • Non‑Activating • Reversible*
+### *NDH‑RESEARCH‑PILOT Altitude • Non‑Activating • Reversible*  
+### *Formerly: RP Movement Grammar v1.2*
 
 ---
 
-## ⭐ **0 — Artifact Identity**
+## ⭐ **0 — Artifact Identity (Updated for Migration)**
 
-**Name:** RP Movement Grammar  
+**Name:** RP Triad Kinematic Subgrammar  
 **Version:** v1.2  
 **Altitude:** Research‑Pilot (RP)  
-**Mode:** Kinematic Layer for Triad Traversal  
-**Purpose:** Define movement primitives for Scribe ↔ Mapmaker ↔ Master traversal  
-**Status:** Required precursor to **RP Triad Stability Harness**
+**Mode:** Kinematic Subgrammar for Triad Traversal  
+**Purpose:** Define kinematic primitives for Scribe ↔ Mapmaker ↔ Master traversal  
+**Status:** Bound under **Co‑Architectural Movement Grammar v1.0**  
+**Former Identity:** RP Movement Grammar v1.2  
 
 ---
 
-# 🌑 **1 — Purpose of Movement Grammar**
+# 🌑 **1 — Purpose of Movement Grammar (Original Content Preserved)**
 
 Movement Grammar provides the **kinematic rules** for how traversal agents move inside the RP Triad container.
 
@@ -145,7 +147,7 @@ Movement Grammar v1.2 includes drift‑prevention rules.
 
 ```
                 ┌────────────────────────────┐
-                │   RP MOVEMENT GRAMMAR v1.2 │
+                │ RP TRIAD KINEMATIC SUBGRAMMAR v1.2 │
                 └────────────────────────────┘
                            ▲
                            │
@@ -163,7 +165,7 @@ Movement Grammar sits **above** Orchestration and **below** Stability Harness.
 
 ---
 
-# 🌑 **8 — Provenance Footer**
+# 🌑 **8 — Original Provenance Footer (Preserved Exactly)**
 
 ```
 ---
@@ -191,6 +193,40 @@ Version: v1.2
 Maintainer: Borealis S. Hedling
 Location: Naaldwijk, South Holland, Netherlands
 Timestamp: 16 August 2026 — 13:18 IST
+---
+```
+
+---
+
+# 🌌 **9 — Migration Provenance Footer (New, Appended)**
+
+```
+---
+Migration Artifact: RP Movement Grammar v1.2 → RP Triad Kinematic Subgrammar v1.2
+Lane: NDH-RESEARCH-PILOT • RP Altitude • Migration Layer
+
+Migration Actions:
+  - Renamed artifact to rp_triad_kinematic_subgrammar_v1_2.md
+  - Reclassified artifact as triad-only kinematic subgrammar
+  - Rebound artifact under Co-Architectural Movement Grammar v1.0
+  - Updated identity block and altitude framing
+  - Preserved original v1.2 content and provenance footer
+
+Anchors:
+  - RP_Movement_Grammar_Evolution_Plan_v1_0
+  - Co_Architectural_Movement_Grammar_v1_0
+  - RP_Mirror_Orchestration_v1_0
+  - Movement_Grammar_Comparison_v1_0
+  - RP_Ontology_to_Holonomy_Index_Framework_Sequencing_Determination_v1_0
+
+Non-Activation Clause:
+  This migration does not activate NDH subsystems, routing engines, holonomy
+  engines, or manifold geometry. All changes are structural and altitude-safe.
+
+Migration Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 29 August 2026 — 14:22 IST
 ---
 ```
 
