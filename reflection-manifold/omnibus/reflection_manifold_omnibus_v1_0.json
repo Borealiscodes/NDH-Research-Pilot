@@ -1,0 +1,49 @@
+{
+  "artifact_id": "OMN-01",
+  "artifact_name": "Reflection-Manifold Omnibus",
+  "version": "v1_0",
+  "altitude": "RP",
+  "lane": "reflection-manifold",
+  "artifact_type": "omnibus",
+  "description": "Full-lane consolidation artifact binding CPS-01, SOD-01, MIB-01, Bands A–D, and framework files into a single holonomy-stable manifold.",
+  "components": {
+    "plateau": "CPS-01",
+    "orbit": "SOD-01",
+    "bridge": "MIB-01",
+    "bands": {
+      "band_a": ["artifact_01", "artifact_02", "artifact_03", "artifact_04"],
+      "band_b": ["artifact_05", "artifact_06", "artifact_07", "artifact_08", "artifact_09", "artifact_10", "artifact_11", "artifact_12"],
+      "band_c": ["artifact_13", "artifact_14", "artifact_15", "artifact_16", "artifact_17"],
+      "band_d": ["artifact_18", "artifact_19", "artifact_20"]
+    },
+    "framework": [
+      "reflection_manifold_population_framework_v1_0",
+      "micro_interpretations_module_v1_0"
+    ]
+  },
+  "holonomy": {
+    "class": "H",
+    "token": "HT::H::Omnibus-01::RP"
+  },
+  "continuity_envelopes": {
+    "structural": "SCE",
+    "reflective": "RCE",
+    "holonomy": "HCE"
+  },
+  "stability": {
+    "movement_grammar": true,
+    "orchestration": true,
+    "triad_traversal": true,
+    "continuity_envelope_integrity": true,
+    "holonomy_index_registered": true,
+    "collapse_resolution": true,
+    "omnibus_stability": "verified"
+  },
+  "sealed": true,
+  "non_activation_clause": true,
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-08-29T20:00:00+01:00"
+  }
+}
