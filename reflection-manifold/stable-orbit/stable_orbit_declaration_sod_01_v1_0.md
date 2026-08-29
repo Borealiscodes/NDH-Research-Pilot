@@ -149,3 +149,9 @@ Prevents:
 ---
 
 
+---
+## Provenance — Active
+This is the active orbit declaration for the Reflection-Manifold lane. It locks
+altitude around CPS-01 and is preserved for governance clarity.
+Version: v1_0
+---
