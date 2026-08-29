@@ -1,0 +1,45 @@
+{
+  "artifact_id": "SOD-01",
+  "artifact_name": "Stable Orbit Declaration 01",
+  "version": "v1_0",
+  "altitude": "RP",
+  "lane": "reflection-manifold",
+  "artifact_type": "stable-orbit",
+  "description": "Establishes a drift-neutral conceptual orbit around CPS-01 to prevent altitude drift and ensure safe transition into the Manifold-Integration Band.",
+  "orbit": {
+    "center": "CPS-01",
+    "radius": "global_topology_coherence_field",
+    "stability": "drift-neutral",
+    "function": [
+      "prevent_altitude_drift",
+      "maintain_global_coherence",
+      "protect_relational_geometry",
+      "prepare_for_MIB_01"
+    ]
+  },
+  "holonomy": {
+    "class": "H",
+    "token": "HT::H::Orbit-01::RP"
+  },
+  "continuity_envelopes": {
+    "structural": "SCE",
+    "reflective": "RCE",
+    "holonomy": "HCE"
+  },
+  "stability": {
+    "movement_grammar": true,
+    "orchestration": true,
+    "triad_traversal": true,
+    "continuity_envelope_integrity": true,
+    "holonomy_index_registered": true,
+    "collapse_resolution": true,
+    "orbit_stability": "verified"
+  },
+  "sealed": true,
+  "non_activation_clause": true,
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-08-29T19:31:00+01:00"
+  }
+}
