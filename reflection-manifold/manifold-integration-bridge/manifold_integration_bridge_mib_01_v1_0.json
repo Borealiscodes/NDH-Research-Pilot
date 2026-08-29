@@ -1,0 +1,48 @@
+{
+  "artifact_id": "MIB-01",
+  "artifact_name": "Manifold-Integration Bridge 01",
+  "version": "v1_0",
+  "altitude": "RP",
+  "lane": "reflection-manifold",
+  "artifact_type": "integration-bridge",
+  "description": "Provides a holonomy-stable bridge between CPS-01 and SOD-01, enabling safe entry into the Manifold-Integration Band.",
+  "bridge": {
+    "span": {
+      "from": "CPS-01",
+      "through": "SOD-01",
+      "to": "Manifold-Integration Band (Artifacts 21–30)"
+    },
+    "function": [
+      "maintain_altitude_stability",
+      "preserve_global_topology_coherence",
+      "prevent_relational_collapse",
+      "enable_safe_manifold_integration",
+      "prepare_for_omnibus_v1_0"
+    ]
+  },
+  "holonomy": {
+    "class": "H",
+    "token": "HT::H::Bridge-01::RP"
+  },
+  "continuity_envelopes": {
+    "structural": "SCE",
+    "reflective": "RCE",
+    "holonomy": "HCE"
+  },
+  "stability": {
+    "movement_grammar": true,
+    "orchestration": true,
+    "triad_traversal": true,
+    "continuity_envelope_integrity": true,
+    "holonomy_index_registered": true,
+    "collapse_resolution": true,
+    "bridge_stability": "verified"
+  },
+  "sealed": true,
+  "non_activation_clause": true,
+  "provenance": {
+    "maintainer": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "timestamp": "2026-08-29T19:40:00+01:00"
+  }
+}
