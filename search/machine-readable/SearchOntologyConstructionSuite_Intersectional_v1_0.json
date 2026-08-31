@@ -1,0 +1,67 @@
+{
+  "artifact": "SearchOntologyConstructionSuite",
+  "version": "1.0",
+  "edition": "Intersectional",
+  "altitude": "A5_A8",
+  "mode": "non_activating",
+  "purpose": "Provide culturally holistic, intersectionally stable, trauma-informed search ontology for NDH-RESEARCH-PILOT.",
+  "invariants": {
+    "intersectionality": true,
+    "dual_stream_epistemics": true,
+    "harm_phase_bounded": true,
+    "non_absorptive_search": true,
+    "altitude_safe_traversal": true,
+    "cultural_pluralism": true
+  },
+  "ontology_axes": {
+    "structural": ["STACK", "PIPELINE", "ATLAS", "BLUEPRINT", "LAUNCHPAD", "SUBSTRATE"],
+    "stability": ["STABILITY_ECOLOGY", "GUARDRAILS", "NON_ACTIVATION", "ALIGNMENT"],
+    "substrate": ["MANIFOLD", "FIELD", "BASIN", "FOLD", "TOPOLOGY"],
+    "interface": ["COMPANION_LAYER", "GUIDANCE", "COGNITIVE_INTERFACE", "NARRATIVE"],
+    "epistemic": ["FORMAL", "NARRATIVE", "ECOLOGICAL", "PHENOMENOLOGICAL", "ETHICAL"],
+    "sci_80": ["CLARITY", "SOFTNESS", "PACE", "HARMONY", "NON_COLLAPSE"]
+  },
+  "search_parameters": {
+    "include": [
+      "multi_layer_architecture",
+      "explicit_stability_logic",
+      "human_aligned_design",
+      "epistemic_pluralism",
+      "cultural_pluralism"
+    ],
+    "exclude": [
+      "recursion_heavy_engines",
+      "activation_heavy_systems",
+      "collapse_prone_architectures",
+      "opaque_black_box_systems"
+    ]
+  },
+  "gating_logic": {
+    "no_geometry_activation": true,
+    "no_tensor_activation": true,
+    "no_recursion": true,
+    "no_hyperspace_folds": true,
+    "no_stability_engine_activation": true
+  },
+  "engine_selector": {
+    "octopus": "parallel_cross_domain_search",
+    "hybrid": "ontology_plus_exploratory",
+    "default": "conservative_safety_mode"
+  },
+  "output_format": {
+    "record": {
+      "system_name": "string",
+      "summary": "string",
+      "axes": {
+        "structural": "tag",
+        "stability": "tag",
+        "substrate": "tag",
+        "interface": "tag",
+        "epistemic": "tag",
+        "sci_80": "tag"
+      },
+      "engine_used": "octopus | hybrid | default",
+      "notes": "string"
+    }
+  }
+}
