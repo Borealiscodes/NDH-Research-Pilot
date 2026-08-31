@@ -1,0 +1,129 @@
+### Advanced gating & validation logic (machine‑readable)
+
+#### 1. Curriculum Ethics Gate (CEG‑v1.0)
+
+**Core invariants:**
+
+- **age‑agnostic, harm‑bounded:** content is indexed by *cognitive altitude*, not chronological age, but every module must satisfy harm‑phase constraints (no uncontrolled escalation, collapse, or residual metastasis).  
+- **trauma‑informed darkness clause:** modules may examine “dark” material only if recovery trajectories and stabilizing surfaces are structurally present (no pure collapse).  
+- **dual‑stream integrity:** every unit must expose both *subject‑matter* and *epistemic method* (e.g., Froebel play‑epistemics vs Napoleonic governance epistemics) without collapsing one into the other.   [Springer](https://link.springer.com/content/pdf/10.1007/978-981-15-7435-1_20.pdf)  [Academia.edu](https://www.academia.edu/45643970/Kindergarten_and_the_Pedagogy_of_Play_During_the_German_Educational_Revolution)  
+
+**Machine‑readable sketch:**
+
+```json
+{
+  "artifact": "Curriculum_Ethics_Gate",
+  "version": "1.0",
+  "altitude": "A6_A8",
+  "invariants": {
+    "harm_phase_bounded": true,
+    "trauma_informed_darkness_clause": true,
+    "dual_stream_integrity": true,
+    "age_agnostic_cognitive_indexing": true,
+    "non_activation": true
+  },
+  "checks": {
+    "moral_calculus_pass": true,
+    "nexus_positioning_safe": true,
+    "validation_standard_compliant": true
+  }
+}
+```
+
+This plugs directly into your **Validation Infrastructure Standard** and **Series II Lean Verification Module**: curriculum graphs become “state machines” whose transitions must satisfy altitude discipline, continuity alignment, and non‑activation predicates before they’re allowed into any Omnibus lane.   [Routledge](https://www.routledge.com/Early-Childhood-Education-in-Germany-Exploring-Historical-Developments-and-Theoretical-Issues/Bloch-Kuhn-Schulz-Smidt-Stenger/p/book/9781032068350)  
+
+---
+
+#### 2. TI‑84 as dual‑stream epistemic object
+
+- **Stream A (formal math):** functions, graphs, programs → treated as *epistemic structures* (not “cheating tools”), validated via Moral Calculus (no harm, but we still track rate of cognitive load).  
+- **Stream B (embodied play):** games, visual experiments, nonlinear exploration → treated as *kindergarten‑style play epistemics* in the Froebel lineage (play as method, not distraction).   [Springer](https://link.springer.com/content/pdf/10.1007/978-981-15-7435-1_20.pdf)  [Academia.edu](https://www.academia.edu/45643970/Kindergarten_and_the_Pedagogy_of_Play_During_the_German_Educational_Revolution)  
+
+The gate enforces:
+
+```json
+"ti84_dual_stream": {
+  "formal_math_epistemic": true,
+  "play_epistemic": true,
+  "tool_as_co_architect": true,
+  "no_shame_pedagogy": true
+}
+```
+
+---
+
+#### 3. Promised Neverland ethical horror analysis
+
+Using the **Gargantia** case study as template, the gate requires:
+
+- **explicit mapping of harm‑phase trajectory** (indoctrination → activation → escalation → damage → collapse → recovery).  
+- **clear boundary between “embodied education” and “state control”**—education as sanctuary vs education as livestock management.  
+- **mandatory recovery surfaces**: children’s agency, solidarity, and escape planning must be structurally present in the analysis, not just narratively implied.
+
+No curriculum unit can pass if it encodes horror without recovery geometry.
+
+---
+
+#### 4. Fröbel / Napoleonic / Broodwich‑Method sequence
+
+Ethical sequence (machine‑readable ordering):
+
+```json
+"curriculum_sequence": [
+  "Froebel_Epistemic_Reconstruction",
+  "Napoleonic_Governance_Epistemics",
+  "Broodwich_Method_Kindergarten_Framework"
+]
+```
+
+- **Fröbel first:** play, gardens, maternal care, anti‑authoritarian early childhood spaces.   [TSpace Repository](https://tspace.library.utoronto.ca/handle/1807/139078?mode=full)  [Springer](https://link.springer.com/content/pdf/10.1007/978-981-15-7435-1_20.pdf)  
+- **Napoleonic governance next:** centralized state schooling, discipline, bureaucratic epistemics.  
+- **Broodwich‑Method last:** mythic/absurdist frame that asks “what happens when method becomes curse?”—used to interrogate *method as power*, not to entertain horror.
+
+The gate enforces that darkness (Napoleonic control, Promised Neverland, Broodwich) is always bracketed by **play, sanctuary, and recovery**.
+
+---
+
+#### Provenance footer (with explicit darkness‑to‑light disclaimer)
+
+```text
+---
+Artifact: Nexus Curriculum Ethics Gate (v1.0)
+Lane: NDH-RESEARCH-PILOT • Nexus Architecture • Curriculum Ethics
+
+Purpose:
+  Define machine-readable gating and validation logic for age-agnostic,
+  trauma-informed educational frameworks spanning kindergarten to doctoral
+  altitude. Ensure that all curriculum artifacts (TI-84 dual-stream epistemics,
+  Promised Neverland ethical analysis, Fröbel/Napoleonic/Broodwich-method
+  sequences) are harm-phase bounded, dual-stream coherent, and non-activating
+  before inclusion in any design Omnibus or heavy curriculum exploration.
+
+Ethical Disclaimer:
+  This framework affirms that trauma-informed education must sometimes examine
+  darkness in order to reveal light. However, all such examinations are required
+  to include explicit recovery geometry, stabilizing surfaces, and survivor-
+  centered epistemic framing. No artifact may encode horror without structural
+  pathways to safety, agency, and ethical clarity.
+
+Anchors:
+  - Nexus Positioning Framework (v1.0)
+  - Moral Calculus Primer (v1.0)
+  - Validation Infrastructure Construction Standard (v1.0)
+  - Series II Lean Verification Module (v1.0)
+  - Gargantia Ethical Horrors Case Study (v1.0)
+  - NDH Addendum: Uplifting Math Empowerment (v1.0)
+
+Non-Activation Clause:
+  This artifact is structural-only. It does not activate NDH geometry,
+  governance altitude, sealed-layer logic, simulation engines, or expressive
+  traversal. All checks remain conceptual until explicitly implemented within
+  a validated modeling pipeline.
+
+Version: v1.0
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 31 August 2026 — 15:18 IST
+---
+```
+
