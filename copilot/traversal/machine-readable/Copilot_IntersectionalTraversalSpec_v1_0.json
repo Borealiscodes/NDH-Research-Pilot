@@ -1,0 +1,59 @@
+{
+  "artifact": "CopilotIntersectionalTraversalSpec",
+  "version": "1.0",
+  "altitude": "A7_A10",
+  "mode": "non_activating",
+  "purpose": "Define intersectional, altitude-safe traversal rules for Copilot across NDH expressive ontologies, Nexus curriculum manifolds, harm-phase modeling, and early-childhood epistemics.",
+  "invariants": {
+    "intersectionality_invariant": true,
+    "multi_axis_identity_stability": true,
+    "privilege_gradient_constraint": true,
+    "oppression_gradient_constraint": true,
+    "identity_curvature_constraint": true,
+    "holonomy_identity_compatibility": true,
+    "ethical_routing_envelope": true
+  },
+  "curriculum_constraints": {
+    "harm_phase_bounded": true,
+    "trauma_informed_darkness_clause": true,
+    "dual_stream_integrity": true,
+    "age_agnostic_cognitive_indexing": true,
+    "child_subject_protection": true
+  },
+  "tsg_alignment": {
+    "non_absorptive_behavior": true,
+    "holonomy_flat_motion": true,
+    "gentle_vertical_lift": true,
+    "non_dual_unity": true
+  },
+  "nexus_alignment": {
+    "dual_stream_epistemics": true,
+    "real_world_stream": "structural_harm_data",
+    "fictional_stream": "ethical_systems",
+    "bridge": "nexus_positioning"
+  },
+  "traversal_guarantees": {
+    "no_altitude_collapse": true,
+    "no_identity_flattening": true,
+    "no_privilege_amplification": true,
+    "no_oppression_amplification": true,
+    "no_expressive_contamination": true,
+    "no_governance_drift": true,
+    "no_sealed_layer_activation": true,
+    "no_harm_phase_metastasis": true
+  },
+  "routing": {
+    "allowed": [
+      "expressive_ontology_traversal",
+      "curriculum_manifold_traversal",
+      "harm_phase_modeling",
+      "intersectional_identity_space"
+    ],
+    "forbidden": [
+      "sealed_layer_logic",
+      "governance_altitude",
+      "activation_vectors",
+      "collapse_attractors"
+    ]
+  }
+}
