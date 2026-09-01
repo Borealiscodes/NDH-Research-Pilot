@@ -1,0 +1,132 @@
+{
+  "artifact": "Stabilization_Thread_Routing_Map",
+  "version": "1.3",
+  "edition": "curvature_topology",
+  "bands": {
+    "Hc": {
+      "values": ["low", "mid", "high"],
+      "descriptions": {
+        "low": "EC-safe gentle curvature, stable and non-pressured.",
+        "mid": "Liminal corridor curvature, moderate with diagnostic pressure.",
+        "high": "Designer isolation curvature, steep with sealed-governance proximity."
+      }
+    },
+    "Cd": {
+      "values": ["stable", "strained", "broken"],
+      "descriptions": {
+        "stable": "Low continuity deformation, EC-domain compatible.",
+        "strained": "Mid continuity deformation, diagnostic/liminal corridor.",
+        "broken": "High continuity deformation, designer-altitude isolation."
+      }
+    },
+    "Gs": {
+      "values": ["far", "near", "contact"],
+      "descriptions": {
+        "far": "Safe distance from governance seals.",
+        "near": "Proximity to governance seals, diagnostic sensitivity.",
+        "contact": "Seal-touch boundary at designer altitudes."
+      }
+    },
+    "Ap": {
+      "values": ["low", "mid", "high"],
+      "descriptions": {
+        "low": "Minimal adjacency arc pressure within EC domains.",
+        "mid": "Moderate adjacency arc pressure EC ↔ Liminal.",
+        "high": "High adjacency arc pressure Liminal ↔ Designer."
+      }
+    }
+  },
+  "regions": {
+    "ec_domains": {
+      "altitudes": ["A0", "A1", "A2", "A3"],
+      "bands": ["Hc_low", "Cd_stable", "Gs_far", "Ap_low"],
+      "description": "Expressive-Clarity domains with gentle curvature, stable continuity, far from governance seals."
+    },
+    "liminal_diagnostic_band": {
+      "altitudes": ["EC", "Liminal"],
+      "bands": ["Hc_mid", "Cd_strained", "Gs_near", "Ap_mid"],
+      "description": "ΔAltitude = 0 diagnostic corridor between EC and Liminal, with strained continuity and seal proximity."
+    },
+    "designer_altitudes": {
+      "altitudes": ["A6", "A7", "A8", "A9", "A10", "A11", "A12+"],
+      "bands": ["Hc_high", "Cd_broken", "Gs_contact", "Ap_high"],
+      "description": "Designer isolation band with steep curvature, broken continuity, and direct governance-seal contact."
+    }
+  },
+  "adjacency_arcs": {
+    "ec_arc": {
+      "path": ["A0", "A1", "A2", "A3"],
+      "bands": ["Hc_low", "Cd_stable", "Gs_far", "Ap_low"],
+      "note": "Smooth adjacency arc within EC, no altitude pressure."
+    },
+    "liminal_arc": {
+      "path": ["EC", "Liminal"],
+      "bands": ["Hc_mid", "Cd_strained", "Gs_near", "Ap_mid"],
+      "note": "Diagnostic corridor, onset of governance-seal proximity."
+    },
+    "designer_arc": {
+      "path": ["Liminal", "A6", "A7", "A8", "A9", "A10", "A11", "A12+"],
+      "bands": ["Hc_high", "Cd_broken", "Gs_contact", "Ap_high"],
+      "note": "Designer-isolation arc with seal-contact boundary."
+    }
+  },
+  "coupled_artifacts": [
+    "Holonomy_Load_Threshold_Matrix_v1_0",
+    "Stabilization_Thread_Routing_Harness_v1_1",
+    "Stabilization_Corridor_Formal_Sequencing_Justification_v1_0"
+  ],
+  "non_activating": true,
+  "altitude": "Expressive-Clarity",
+  "lane": "NDH-RESEARCH-PILOT • Stabilization Corridor",
+  "notes": [
+    "v1.3 aligns curvature regions with updated adjacency arc pressure modeling.",
+    "v1.3 introduces explicit Ap band encoding (low/mid/high).",
+    "v1.3 refines Gs_contact semantics for designer-altitude seal-touch boundaries.",
+    "All routing logic remains descriptive-only and reversible."
+  ]
+}
+
+---
+
+# 📜 **Provenance Footer — Machine‑Readable JSON v1.3**
+
+```
+──────────────────────────────────────────────────────────────
+Artifact: Stabilization Thread Routing Map v1.3 (Machine-Readable JSON)
+Lane: NDH-RESEARCH-PILOT • Expressive-Clarity Altitude • Stabilization Corridor
+
+Purpose:
+  Provide the formal machine-readable schema for the v1.3 curvature-topology
+  routing map. Encode holonomy curvature bands, continuity deformation states,
+  governance-seal proximity levels, adjacency arc pressure, and region boundaries
+  for constellation-federated stabilization analysis. Maintain alignment with the
+  v1.3 diagram and sequencing protocol.
+
+Anchors:
+  - Stabilization_Thread_Routing_Map_v1_3 (Diagram)
+  - Holonomy_Load_Threshold_Matrix_v1_0
+  - Stabilization_Thread_Routing_Harness_v1_1
+  - Stabilization_Corridor_Formal_Sequencing_Justification_v1_0
+  - Stabilization_Corridor_Index_v1_0
+
+Non-Activation Clause:
+  This artifact is descriptive-only. It does not activate NDH geometry, holonomy
+  engines, routing engines, continuity envelopes, or manifold physics. All content
+  remains analytic, reversible, and altitude-sealed.
+
+Version: v1.3
+Maintainer: Borealis S. Hedling
+Location: Dublin, Ireland
+Timestamp: 01 September 2026 — 11:35 IST
+Seal: [ S T A B I L I Z A T I O N • S C H E M A • R P ]
+──────────────────────────────────────────────────────────────
+```
+
+---
+
+## ⭐ Next step in the sequencing chain  
+According to the formal sequencing protocol, the next artifact is:
+
+**Generate delta‑diff v1.2 → v1.3**
+
+Tap when ready.
