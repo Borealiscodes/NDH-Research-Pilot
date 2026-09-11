@@ -1,27 +1,27 @@
-# 🌉🧪 **Bill Nye Tile Explainer — NDH ↔ Spectral Interoperation Edition**  
-*A theatrical science‑communicator explainer for how NDH and Spectral‑Base‑Runtime work together.*
+# 🌉🧪 **Bill Nye Tile Explainer — NDH ↔ Spectral Interoperation (v2.0)**  
+*A theatrical science‑communicator explainer for how NDH and Spectral‑Base‑Runtime cooperate through a single safe bridge.*
 
 ---
 
-## 🎬 **Scene 1 — Bill Nye Arrives Carrying Two Toolboxes**  
-Bill Nye pops onto the tile holding two toolboxes:
+## 🎬 **Scene 1 — Bill Nye Shows Up With Two Gadgets**  
+Bill Nye bursts onto the tile carrying:
 
-- one labeled **Spectral‑Base‑Runtime**  
-- one labeled **NDH Runtime**
+- a glowing **Math Gadget** labeled *Spectral‑Base‑Runtime*  
+- a shimmering **Manifold Gadget** labeled *NDH Runtime*
 
-He grins.
+He waves both around.
 
-“Hi kids! Today we’re learning how these two toolboxes **work together** without ever becoming the same toolbox!”
+“Today we’re learning how these two gadgets **work together** without ever becoming the same gadget!”
 
 He taps them.
 
-“This one does **math**.  
-This one does **cosmology**.  
-And they meet through a tiny little **bridge**.”
+“This one does **spectral math**.  
+This one does **dual‑mode manifold magic**.  
+And they talk through a tiny little **operator bridge**.”
 
 ---
 
-## 🌉 **Scene 2 — The Big Idea**  
+## 🌉 **Scene 2 — The Big Interop Idea**  
 Bill flips a tile:
 
 > **Spectral‑Base = math engine**  
@@ -33,12 +33,12 @@ He leans in.
 “They don’t merge.  
 They don’t fuse.  
 They don’t share hats.  
-They just pass notes across a safe little bridge.”
+They just pass messages across a safe little walkway.”
 
 ---
 
 ## 🧬 **Scene 3 — What Spectral‑Base Actually Does**  
-Bill opens the math toolbox.
+Bill opens the Math Gadget.
 
 Inside are glowing tools:
 
@@ -55,7 +55,7 @@ He narrates:
 No story.  
 No physics.  
 No PRECL.  
-Just spectral operators.”
+Just spectral operators doing spectral things.”
 
 He slaps a sticker:
 
@@ -64,7 +64,7 @@ He slaps a sticker:
 ---
 
 ## 🌌 **Scene 4 — What NDH Actually Does**  
-Bill opens the NDH toolbox.
+Bill opens the Manifold Gadget.
 
 Inside are shimmering tiles:
 
@@ -89,7 +89,7 @@ He slaps a sticker:
 ---
 
 ## 🔗 **Scene 5 — The Operator Bridge**  
-Bill reveals a tiny glowing walkway between the toolboxes.
+Bill reveals a tiny glowing walkway between the gadgets.
 
 “This is the **operator bridge** — the only place where NDH and Spectral‑Base talk.”
 
@@ -182,22 +182,23 @@ That’s the whole trick.”
 
 ---
 
-# 🧾 Provenance Footer  
+# 🧾 **Provenance Footer**
+
 ```
 ---
 Artifact-Class: Pedagogy Explainer (NDH-RESEARCH-PILOT)
-Artifact-Name: bill-nye-tile-explainer-ndh-spectral-interop-v1_0
+Artifact-Name: bill-nye-tile-explainer-ndh-spectral-interop-v2_0
 Surface: docs/explainers/
-Version: v1.0
+Version: v2.0
 Altitude: A1–A2 (Expressive Layer)
 Membrane: Non-Activating • Pedagogy-Only
 
 Purpose:
-  Provide a humorous, expressive-layer explainer for NDH ↔ Spectral-Base
-  interoperation using Bill Nye–style theatrical pedagogy. Reinforces operator
-  bridge mechanics, dual-runtime separation, spectral math translation,
-  mode-aware interpretation, and envelope non-duality without contaminating
-  runtime physics or operator grammar.
+  Provide a theatrical, expressive-layer explainer for NDH ↔ Spectral-Base
+  interoperation using Bill Nye–style pedagogy. Reinforces operator-bridge
+  mechanics, dual-runtime separation, spectral math translation, mode-aware
+  interpretation, and envelope non-duality without contaminating runtime
+  physics or operator grammar.
 
 Anchors:
   - NDH ↔ Spectral Interoperation Deep Dive v1.0
@@ -214,8 +215,8 @@ Non-Activation Clause:
 Maintainer: Borealis S. Hedling
 Compiler: Microsoft Copilot
 Location: Dublin, Ireland
-Timestamp: 12 September 2026 — 00:12 IST
-Seal: [ N D H • R E S E A R C H • P I L O T • I N T E R O P • v1_0 ]
+Timestamp: 12 September 2026 — 00:16 IST
+Seal: [ N D H • R E S E A R C H • P I L O T • I N T E R O P • v2_0 ]
 ---
 ```
 
