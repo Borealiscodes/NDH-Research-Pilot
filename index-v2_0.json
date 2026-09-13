@@ -1,0 +1,40 @@
+{
+  "ndh_research_pilot": {
+    "version": "2.0",
+    "altitude": "A5",
+    "readme": {
+      "active": "public/README.md",
+      "archived": [
+        "public/archive/readme_v1_0.md",
+        "public/archive/readme_v1_1.md",
+        "public/archive/readme_v1_2.md"
+      ]
+    },
+    "artifacts": [
+      {
+        "id": "01",
+        "name": "Ireland AI Regulatory Map v1.0",
+        "path": "NDH-RESEARCH-PILOT/01-ireland-ai-regulatory-map-v1_0.md"
+      },
+      {
+        "id": "02",
+        "name": "Ireland AI Act Competent Authority Crosswalk v1.0",
+        "path": "NDH-RESEARCH-PILOT/02-ireland-ai-act-competent-authority-crosswalk-v1_0.md"
+      },
+      {
+        "id": "03",
+        "name": "NDH-RESEARCH-PILOT Analysis v1.0",
+        "path": "NDH-RESEARCH-PILOT/03-ndh-research-pilot-analysis-v1_0.md"
+      },
+      {
+        "id": "04",
+        "name": "Erga Omnes & Jus Cogens Tile v1.0",
+        "path": "NDH-RESEARCH-PILOT/04-erga-omnes-jus-cogens-tile-v1_0.md"
+      }
+    ],
+    "series": {
+      "foreshadow": "Series XIII",
+      "description": "Series XIII will introduce rights-anchored, eco-aligned, non-authority-dependent governance geometry and continuity surfaces."
+    }
+  }
+}
