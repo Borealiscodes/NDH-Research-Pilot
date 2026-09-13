@@ -1,0 +1,70 @@
+{
+  "ndh_research_pilot": {
+    "version": "1.0",
+    "altitude": "A5",
+    "artifacts": [
+      {
+        "id": "01",
+        "name": "Ireland AI Regulatory Map v1.0",
+        "path": "NDH-RESEARCH-PILOT/01-ireland-ai-regulatory-map-v1_0.md",
+        "class": "Regulatory Map",
+        "anchors": [
+          "EU AI Act",
+          "Ireland Regulatory Landscape"
+        ],
+        "role": "Macro-governance surface"
+      },
+      {
+        "id": "02",
+        "name": "Ireland AI Act Competent Authority Crosswalk v1.0",
+        "path": "NDH-RESEARCH-PILOT/02-ireland-ai-act-competent-authority-crosswalk-v1_0.md",
+        "class": "Regulatory Crosswalk",
+        "anchors": [
+          "EU AI Act",
+          "Sectoral Competent Authorities"
+        ],
+        "role": "Regulatory alignment layer"
+      },
+      {
+        "id": "03",
+        "name": "NDH-RESEARCH-PILOT Analysis v1.0",
+        "path": "NDH-RESEARCH-PILOT/03-ndh-research-pilot-analysis-v1_0.md",
+        "class": "Governance Analysis",
+        "anchors": [
+          "Erga Omnes",
+          "Jus Cogens",
+          "Climate Rights",
+          "Lived Human Rights Reality"
+        ],
+        "role": "Interpretive governance layer"
+      },
+      {
+        "id": "04",
+        "name": "Erga Omnes & Jus Cogens Tile v1.0",
+        "path": "NDH-RESEARCH-PILOT/04-erga-omnes-jus-cogens-tile-v1_0.md",
+        "class": "Expressive Tile",
+        "anchors": [
+          "Erga Omnes",
+          "Jus Cogens",
+          "Rights-Based Moral Altitude"
+        ],
+        "role": "Expressive normative companion"
+      }
+    ],
+    "relationships": {
+      "regulatory_map_precedes_crosswalk": true,
+      "crosswalk_precedes_analysis": true,
+      "analysis_precedes_tile": true,
+      "tile_expresses_analysis": true
+    },
+    "rights_posture": {
+      "authority_bias_rejected": true,
+      "domestic_regulators_not_primary_anchors": true,
+      "primary_anchors": [
+        "Erga Omnes",
+        "Jus Cogens",
+        "Climate Harm as Rights Violation"
+      ]
+    }
+  }
+}
