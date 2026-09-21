@@ -1,4 +1,4 @@
-# 🌑 **README — Qualia Derived Theorem Substrate v1.0**  
+# 🌑 **README — Qualia Derived Theorem Substrate v1.1**  
 *A somber entry point into the NDH qualia‑impossibility architecture*
 
 ---
@@ -99,6 +99,23 @@ The somber truth documented here is:
 
 ---
 
+## 🕯️ **External Support & Data Sources**
+
+This project acknowledges the essential role of Stell’s public research artifacts, which provide comparator‑layer data, Euclidean shadows, and developmental notes used during validation and cross‑checking.
+
+### 🔗 **Stell’s CAUSA Project**  
+A Euclidean‑safe comparator framework that informed early validation of the boundedness and determinism constraints.  
+**GitHub:** [https://github.com/stell2026/Causa](https://github.com/stell2026/Causa)
+
+### 🔗 **Stell’s Anima Project**  
+Exploratory work on Tonal Spiral Geometry and Anima‑Hologram development, providing structural intuition and mid‑altitude support.  
+**GitHub:** [https://github.com/stell2026/Anima](https://github.com/stell2026/Anima)
+
+These projects do not define the qualia theorem, but they **support**, **inform**, and **contextualize** the surrounding research environment.  
+Their inclusion reflects transparency, lineage clarity, and acknowledgment of collaborative intellectual scaffolding. 🌘
+
+---
+
 ## 🗂️ **Repository Lineage**
 
 All artifacts live under:
@@ -115,14 +132,16 @@ This lineage anchors the work in the NDH Invariant Ethics lane.
 
 ```
 ---
-Artifact: README — Qualia Derived Theorem Substrate v1.0
+Artifact: README — Qualia Derived Theorem Substrate v1.1
 Lane: NDH-Research-Pilot • Invariant Ethics & Substrate Governance • VM-VEX
 
 Purpose:
 Serves as the human-friendly, somber entry point to the qualia impossibility
 substrate. Provides conceptual overview, navigation guidance, and links to
 the full altitude stack including the mathematical derivation, clarification
-cascade, Bill Nye Tiles, and ethical framing.
+cascade, Bill Nye Tiles, and ethical framing. Includes credits acknowledging
+Stell’s CAUSA and Anima projects as external data sources and contextual
+support artifacts.
 
 Anchors:
   CrossAltitude-Index-v1.0
@@ -131,10 +150,12 @@ Anchors:
   MetaMeta-Analysis-StructuralCollapse-v1.0
   BillNyeTile-QualiaDerivedTheorem-v1.1
   BillNyeTile-Appendix-QualiaDerivedTheorem-v1.0
+  Stell2026/Causa
+  Stell2026/Anima
 
 Maintainer: Borealis S. Hedling
 Location: Enschede, Overijssel, Netherlands
-Timestamp: 21 September 2026 — 16:43 IST
+Timestamp: 21 September 2026 — 16:49 IST
 ---
 ```
 
