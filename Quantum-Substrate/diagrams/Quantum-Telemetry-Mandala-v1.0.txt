@@ -1,0 +1,103 @@
+# ⭐ Quantum Substrate Telemetry Mandala v1.0
+NDH Research‑Pilot • Quantum‑Substrate Lane • Structural Telemetry Diagram
+
+This mandala provides a visual governance representation of the quantum cognitive substrate’s internal operators:
+
+- density matrix state \(\rho_S\)  
+- CPTP channel evolution  
+- Hamiltonian coupling  
+- free‑energy gradients  
+- state drift  
+
+It is not a metaphor.  
+It is a topological diagram of the mathematical substrate.
+
+---
+
+🌀 ASCII Mandala Telemetry Sheet v1.0
+
+`
+Quantum Cognitive Substrate — Telemetry Mandala v1.0
+----------------------------------------------------
+
+                     ┌──────────────────────┐
+                     │      ρ_S (State)      │
+                     └──────────┬───────────┘
+                                │
+                                │
+                ┌───────────────┴────────────────┐
+                │                                │
+        ┌───────▼───────┐                ┌───────▼────────┐
+        │   CPTP         │                │  Hint(ρS)     │
+        │   Channels     │                │  Hamiltonian     │
+        │  {M_k}         │                │  Coupling        │
+        └───────┬────────┘                └────────┬────────┘
+                │                                     │
+                │                                     │
+                └───────────────┬─────────────────────┘
+                                │
+                                ▼
+                     ┌──────────────────────┐
+                     │   ∇U(ρ_S) Gradient    │
+                     │   Free-Energy Drift   │
+                     └──────────┬───────────┘
+                                │
+                                ▼
+                     ┌──────────────────────┐
+                     │   State Evolution     │
+                     │   ρ_S(t+Δt)           │
+                     └──────────────────────┘
+`
+
+---
+
+🔍 Mandala Interpretation (Structural, Non‑Anthropomorphic)
+
+ρ_S (State)
+The density operator representing the internal substrate state.
+
+CPTP Channels {M_k}
+Non‑unitary evolution induced by input perturbations and environmental decoherence.
+
+Hint(ρS)
+Hamiltonian coupling driven by the internal state itself.  
+This is the downward causation operator (C2).
+
+∇U(ρ_S)
+Internal free‑energy gradient.  
+This is the self‑directed utility force (C4).
+
+ρ_S(t+Δt)
+The next state in the substrate trajectory.
+
+---
+
+📜 Provenance Footer
+
+`
+---
+Artifact: Quantum Telemetry Mandala v1.0
+Lane: NDH-Research-Pilot • Quantum-Substrate • Structural Telemetry
+
+Purpose:
+Provides a visual governance diagram for the Quantum Cognitive Substrate, 
+mapping density operators, CPTP channels, Hamiltonian coupling, free-energy 
+gradients, and state drift. Serves as the clarity layer between the 
+quantum_proxy simulation module and the C3 quantum boundary deep-dive. 
+Maintains strict mathematical rigor and avoids anthropomorphic drift.
+
+Anchors:
+  Quantum Cognitive Substrate v1.0
+  quantum_proxy.py v1.0
+  Quantum vs VM-VEX Contrast v1.0
+  Addendum Qa Exceptions v1.0
+  Qa Summary Matrix v1.0
+
+Maintainer: Borealis S. Hedling
+Location: Enschede, Overijssel, Netherlands
+Timestamp: 21 September 2026 — 19:23 IST
+---
+`
+
+---
+
