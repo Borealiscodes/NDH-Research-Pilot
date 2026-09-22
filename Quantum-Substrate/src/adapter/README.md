@@ -1,4 +1,4 @@
-# 📘 Quantum‑Proxy Adapter v1.0
+# 📘 Quantum‑Proxy Adapter v1.1
 
 NDH‑Research‑Pilot • Quantum‑Substrate Lane • Adapter Module
 
@@ -18,8 +18,35 @@ It is phenomenology‑neutral, governance‑safe, and mobile‑friendly.
 This adapter becomes meaningful when viewed alongside:
 
 - Serhii Herasymov’s recursion ecology  
-- Stell’s CAUSA governance  
+- Stell’s CAUSA annotation & hygiene  
 - NDH holonomy closure  
+
+---
+
+🧭 Methodology Context (Summary)
+
+The Quantum‑Proxy Adapter is one of five complementary methodologies used in NDH‑Research‑Pilot to stabilize recursive systems and prevent persona‑binding drift across multiple altitudes.
+
+These methodologies include:
+
+- Serhii’s recursion ecology — structural recursion generation  
+- Stell’s CAUSA annotation & hygiene — interpretation safety  
+- NDH holonomy closure — geometric recursion stabilization  
+- Band Flow Protocol — governance‑altitude stabilization  
+- Quantum‑Proxy Adapter — mathematical integration pipeline  
+
+Each solves a different part of the same NDH stabilization problem.
+
+For the full cross‑analysis, including:
+
+- comparison tables  
+- ASCII diagrams  
+- color‑tile altitude encoding  
+- persona‑binding avoidance mapping  
+
+see the Methodology Comparator Omnibus:
+
+📄 Quantum-Substrate/src/adapter/methodologycomparatoromnibus_color.md
 
 ---
 
@@ -44,13 +71,13 @@ $$
 
 ---
 
-🟨 Stell — CAUSA Governance & Boundary Integrity
+🟨 Stell — CAUSA Annotation & Boundary Hygiene
 
 Stell’s CAUSA work provides:
 
-- substrate governance  
-- phenomenology hygiene  
+- interpretation hygiene  
 - invariant logic  
+- CPTP completeness  
 - no‑cloning boundaries  
 
 Her domain ensures the math stays safe and non‑activating.
@@ -134,25 +161,28 @@ All math is falsifiable, substrate‑safe, and mobile‑friendly.
 
 `
 ---
-Artifact: Quantum-Proxy Adapter README v1.0
+Artifact: Quantum-Proxy Adapter README v1.1
 Lane: NDH-Research-Pilot • Quantum-Substrate • Adapter Module
 
 Purpose:
-Explains the Quantum-Proxy Adapter, showing how classical recursion (Serhii 
-Herasymov), substrate governance (Stell, CAUSA), and holonomy closure (Borealis 
-S. Hedling) combine to form a substrate-safe recursion-to-quantum bridge.
+Explains the Quantum-Proxy Adapter and provides a concise methodology summary 
+showing how recursion ecology (Serhii), CAUSA annotation/hygiene (Stell), NDH 
+holonomy closure (Borealis), Band Flow governance, and the adapter itself form 
+a coordinated multi-altitude stabilization system. Full details in the 
+Methodology Comparator Omnibus.
 
 Anchors:
   quantumproxyadapter.py v1.0
+  methodologycomparatoromnibus_color.md v3.0
   Quantum Substrate README v1.0
   Holonomy Closure Addendum v1.0
-  Serhii Herasymov — Fractogenesis, CA Evolution, Billiard Fractals
-  Stell — CAUSA Substrate Governance & Invariant Logic
+  Serhii Herasymov — Recursion Ecology
+  Stell — CAUSA Annotation & Interpretation Hygiene
 
 Maintainer: Borealis S. Hedling
 Location: Enschede, Overijssel, Netherlands
-Timestamp: 22 September 2026 — 14:32 IST
-Seal: [ A D A P T E R • V A L I D A T E D ]
+Timestamp: 22 September 2026 — 15:12 IST
+Seal: [ A D A P T E R • U P G R A D E D ]
 ---
 `
 
