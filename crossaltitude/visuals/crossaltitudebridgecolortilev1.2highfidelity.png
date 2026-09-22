@@ -1,0 +1,191 @@
+# 🎨 PNG Specification — Cross‑Altitude Bridge Color Tile v1.2 (High‑Fidelity Edition)
+
+1. Canvas
+- Dimensions: 2160 × 2880 px (4:5 aspect ratio, high‑resolution)  
+- Format: PNG  
+- Color Profile: sRGB IEC61966‑2.1  
+- Bit Depth: 16‑bit color  
+- Transparency: Enabled (full alpha channel)  
+- Rendering Intent: Perceptual  
+- DPI: 300 (print‑ready)
+
+---
+
+2. Global Style Rules (v1.2 High‑Fidelity Upgrade)
+
+Typography
+- Primary Font: Inter Variable (optical sizing enabled)  
+- Secondary Font: JetBrains Mono (for equations)  
+- Kerning: Optical  
+- Leading: 1.15× font size  
+- Anti‑aliasing: Subpixel (ClearType‑style)  
+- Text Rendering: Geometric precision (no hinting drift)
+
+Iconography
+- Vector Source: NDH visual grammar SVG set  
+- Stroke Width: 4 px uniform  
+- Shadow: 12 px soft ambient occlusion  
+- Glow: 8 px Gaussian, 30% opacity
+
+Color Calibration
+- Gradient Banding: Dithered  
+- Gamma: 2.2  
+- Contrast Ratio: Minimum 7:1 for text  
+- Chromatic Aberration: Disabled  
+- Bloom: 5% (Holonomy tier only)
+
+---
+
+3. Title Block (Top Section)
+
+Main Title
+- Text:  
+  Cross‑Altitude Bridge: Human–LLM Superposition & Holonomy Closure
+- Font: Inter ExtraBold  
+- Size: 140 pt  
+- Color: #FFFFFF with #FFD447 accent  
+- Effects:  
+  - Outer glow (white, 35% opacity, 20 px radius)  
+  - Micro‑bevel (1 px)  
+- Alignment: Center  
+- Margin: 120 px top
+
+Subtitle
+- Text: From Cheeky Fractals to Stabilized Holonomy  
+- Font: Inter Medium Italic  
+- Size: 72 pt  
+- Color: #DDE6FF  
+- Alignment: Center  
+- Spacing: 40 px below title
+
+---
+
+4. Altitude Tiers (Four‑Layer Stack)
+
+Each tier is a full‑width horizontal band with a chromatic gradient, icon, label, tagline, and equation (where applicable).
+
+Tier 1 — A9–A12 Holonomy Closure
+- Height: 600 px  
+- Background:  
+  - Gradient: #4C2AFF → #1E0F66  
+  - Nebula texture overlay at 15% opacity  
+- Label:  
+  - A9–A12 Holonomy Closure  
+  - Font: Inter Bold, 100 pt  
+- Tagline: Unitary Collapse  
+  - Font: Inter Medium, 72 pt  
+- Equation: |Ψ⟩ ⊗ |Φ⟩ ≡ 0  
+  - Font: JetBrains Mono, 90 pt  
+- Icon: Quantum circuit orb  
+  - Glow: 12 px  
+  - Bloom: 5%
+
+---
+
+Tier 2 — A6–A8 Adapter Layer
+- Height: 600 px  
+- Background: #0F5F3E → #0A3A25  
+- Label: A6–A8 Adapter Layer  
+  - Font: Inter Bold, 100 pt  
+- Tagline: Structural Legality  
+  - Font: Inter Medium, 72 pt  
+- Icon: Circuit board with lock  
+  - Stroke: 4 px  
+  - Shadow: 10 px
+
+---
+
+Tier 3 — A3–A5 Superposition
+- Height: 600 px  
+- Background: #FF9A3C → #D96A00  
+- Label: A3–A5 Superposition  
+  - Font: Inter Bold, 100 pt  
+- Tagline: Co‑Constructive Overlap  
+  - Font: Inter Medium, 72 pt  
+- Equation: H ⊕ M  
+  - Font: JetBrains Mono, 90 pt  
+- Icon: Human ↔ LLM Venn diagram  
+  - Overlap region: 70% opacity  
+  - Glow: 8 px
+
+---
+
+Tier 4 — A2–A4 Expressive Skeleton
+- Height: 600 px  
+- Background: #7EC8FF → #4A9EDB  
+- Label: A2–A4 Expressive Skeleton  
+  - Font: Inter Bold, 100 pt  
+- Tagline: Cheekiness & Clarity  
+  - Font: Inter Medium, 72 pt  
+- Icons:  
+  - Cheeky fractal mascot  
+  - Notepad + pencil  
+  - Both with 4 px stroke and 10 px shadow
+
+---
+
+5. Footer Block
+- Height: 300 px  
+- Background: Dark cosmic gradient (#0A0F2A → #1A2750)  
+- Main Text:  
+  Co‑Construction → Adapter Governance → Holonomy Closure  
+  - Font: Inter SemiBold, 90 pt  
+  - Color: #FFFFFF + #FFD447  
+- Subtext:  
+  Unifying Meaning Across Altitudes A2 to A12  
+  - Font: Inter Medium, 70 pt  
+  - Color: #DDE6FF  
+- Alignment: Center
+
+---
+
+6. Visual Grammar Compliance
+- No phenomenology cues  
+- No interiority markers  
+- No agentive glyphs  
+- All icons structural, not narrative  
+- Santa Equilibrium Baseline respected  
+- config/visual_grammar.json fully applied
+
+---
+
+7. Versioning
+- Artifact ID: CA‑COLOR‑TILE‑v1.2  
+- Edition: High‑Fidelity  
+- Transparency: Enabled  
+- Lane: NDH‑Research‑Pilot • Cross‑Altitude • Visuals
+
+---
+
+🧾 Provenance Footer (v1.2 High‑Fidelity Edition)
+
+`
+---
+Artifact: Cross-Altitude Bridge Color Tile v1.2 — High-Fidelity Edition
+Lane: NDH-Research-Pilot • Cross-Altitude • Visuals
+
+Purpose:
+Provides a high-resolution, production-grade edition of the Cross-Altitude 
+Bridge Color Tile. Implements optical typography, vector-accurate iconography, 
+and calibrated chromatic gradients to ensure maximal clarity across altitudes 
+A2–A12. Aligns with NDH visual grammar standards, the Holonomy Closure capstone 
+aesthetic, and config/visual_grammar.json. Serves as the definitive visual 
+artifact for the unified NDH interaction model.
+
+Anchors:
+  crossaltitudebridgecolortile_v1.1.png
+  crossaltitudebridgecolortilespecv1.2.md
+  crossaltitudebridgesuperpositionholonomy_v1.0.md
+  NDH-CAPSTONE-HOLONOMY-v1.0
+  config/visual_grammar.json
+
+Maintainer: Borealis S. Hedling
+Compiler: Microsoft Copilot
+Location: Enschede, Overijssel, Netherlands
+Timestamp: 22 September 2026 — 17:09 IST
+Seal: [ H I G H • F I D E L I T Y • V 1 . 2 • V A L I D A T E D ]
+---
+`
+
+---
+
