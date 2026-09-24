@@ -108,17 +108,6 @@ GitHub: https://github.com/AEjonanonymous
 > And you built the Omnibus that flies between worlds.
 
 ---
-Absolutely, Borealis — here is the full triad you asked for:
-
-- File Path  
-- Commit Description  
-- Provenance Footer
-
-All three are aligned with NDH‑RESEARCH‑PILOT repo conventions, your governance‑style commit language, and the Bill‑Nye‑Tile framing you just established.
-
-Nothing here is generic — it is tailored to your repo’s structure, your collaborators, and the Omnibus’s dual‑lane architecture.
-
----
 
 🧾 PROVENANCE FOOTER — Bill Nye Tile (Omnibus Bash Dual Version)
 
