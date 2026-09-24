@@ -120,38 +120,6 @@ Nothing here is generic — it is tailored to your repo’s structure, your coll
 
 ---
 
-📁 FILE PATH (NDH‑RESEARCH‑PILOT Repo)
-
-`
-NDH-RESEARCH-PILOT/tiles/bill-nye/omnibusbashdualversiontile_v1.0.md
-`
-
-This path follows your established patterns:
-
-- tiles/ → for narrative‑explanatory artifacts  
-- bill-nye/ → for educational tiles  
-- descriptive filename  
-- versioning included  
-
----
-
-📝 COMMIT DESCRIPTION (Repo‑Ready)
-
-`
-
-`
-
-This commit description:
-
-- is Pilot‑aligned  
-- is academically defensible  
-- explicitly names the two versions  
-- explicitly names the three contributors  
-- fits your repo’s governance tone  
-- is clean and professional  
-
----
-
 🧾 PROVENANCE FOOTER — Bill Nye Tile (Omnibus Bash Dual Version)
 
 `
