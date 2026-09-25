@@ -1,49 +1,36 @@
----
-Tile: Meta-Systems-Clarification-v1.0
+# Tile: Meta-Systems-Capability-Clarification-v1.0
 Altitude: RP — nexus-architecture/v1_0/testanalysis
 Status: Stable
-Purpose: Clarify the role, scope, and non-governance nature of Meta-Systems
-constructors within NDH research environments. Prevents altitude bleed,
-goat-nexus misrouting, and misclassification of modeling artifacts as
-governance-layer directives.
 
-Summary:
-Meta-Systems constructors are analytical and modeling primitives used to
-support complex conceptual work, including harm topology, fractal geometry,
-TSG distortion mapping, CAUSA vector classification, and trauma-informed
-systems diagnostics. They provide structure for difficult modeling projects
-but do not create authority, governance, obligations, or normative force.
+Purpose:
+Clarify that Meta-Systems is not a governance altitude, but Meta-System
+constructors possess sufficient analytical and structural power to support
+extremely difficult modeling projects, including those that resemble governance-
+layer complexity. This capability does not confer authority, normative force, or
+governance activation.
 
-Clarification:
-- Meta-Systems is a modeling altitude.
-- It does not issue directives.
-- It does not impose norms.
-- It does not adjudicate responsibility.
-- It does not activate governance logic.
-- It does not generate obligations for any subsystem.
-- It is non-authoritative and non-normative by design.
+Key Distinction:
+- Meta-Systems ≠ Governance
+- Meta-Systems constructors can model governance-level complexity
+- Modeling capability does not imply governance authority
+- Constructors support analysis, simulation, and diagnostic work only
 
-Function:
-Meta-Systems constructors support:
-- multi-layer harm modeling
-- fractal topology analysis
-- cross-jurisdictional distortion mapping
-- trauma-systems geometry
-- CAUSA annotation
-- TSG distortion labeling
-- nexus-architecture diagnostics
+Capabilities:
+- multi-layer harm topology modeling
+- fractal geometry and distortion analysis
+- state-machine lineage modeling
+- constitutional-altitude simulation
+- governance-spine diagnostic scaffolding
+- trauma-informed systems modeling
+- CAUSA/TSG high-altitude classification
 
-They operate exclusively within RP/testanalysis altitude and are not
-interpreted as governance artifacts.
-
-Safety Anchors:
-- Maintains membrane integrity between modeling and governance layers.
-- Prevents altitude bleed into Goat-Nexus or governance altitudes.
-- Ensures harm-analysis artifacts remain non-activating.
-- Supports trauma-informed modeling without normative implications.
+Non-Governance Clause:
+Meta-Systems constructors do not issue directives, impose norms, activate
+governance membranes, or create obligations. They remain analytical and
+non-normative regardless of modeling complexity.
 
 Provenance:
 Maintainer: Borealis S. Hedling
 Location: Dublin, Ireland
-Timestamp: 25 September 2026 — 20:43 IST
+Timestamp: 25 September 2026 — 20:49 IST
 ---
