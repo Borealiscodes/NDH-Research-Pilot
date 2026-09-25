@@ -1,0 +1,101 @@
+# Ireland — AI Ethics & Climate-Focused Public Charities (Email Extract)
+
+1. Friends of the Earth Ireland
+Email: info@foe.ie
+Phone: +353 1 639 4652
+Address: 9 Upper Mount Street, Dublin 2, D02 K659
+Focus: Climate justice, energy policy, data-centre environmental impacts.
+
+2. Irish Alliance for Trustworthy AI (IATAI)
+Email: contact via public form (no direct email published)
+Website: https://trustworthyai.ie
+Focus: AI ethics, trustworthy AI, public participation, governance frameworks.
+
+3. Climate Change Advisory Council (CCAC)
+Email: info@climatecouncil.ie
+Media: media@climatecouncil.ie
+Focus: Climate mitigation, carbon budgets, national climate strategy.
+
+4. AI2Peat (UCD / CeADAR)
+Email: info@ai2peat.ie
+Address: University College Dublin, Belfield, Dublin 4
+Focus: AI for ecological monitoring, peatland emissions, climate restoration.
+
+5. Just Transition Commission (Ireland)
+Email: info@justtransitioncommission.ie
+Media: media@alicepr.com
+Focus: Climate justice, regional transition, community engagement.
+
+6. Irish Council for Civil Liberties (ICCL)
+Email: info@iccl.ie
+Focus: Digital rights, algorithmic accountability, AI transparency.
+
+7. Digital Rights Ireland (DRI)
+Email: info@digitalrights.ie
+Focus: Privacy, surveillance, AI transparency, data governance.
+
+8. Transparency International Ireland
+Email: info@transparency.ie
+Focus: Governance, anti-corruption, public-interest technology.
+
+9. An Taisce — The National Trust for Ireland
+Email: info@antaisce.org
+Focus: Environmental protection, climate policy, ecological governance.
+
+10. Stop Climate Chaos Coalition
+Email: info@stopclimatechaos.ie
+Focus: Climate-policy coordination, national climate advocacy.
+
+11. VOICE Ireland
+Email: info@voiceireland.org
+Focus: Sustainability, environmental rights, circular economy.
+
+------------------------------------------------------------
+
+Ireland — Regulators Relevant to AI Ethics & Climate
+
+AI Office of Ireland (EU AI Act Competent Authority)
+Email: contact via official service desk (no direct email published)
+Role: National AI regulator; coordinates AI oversight across Ireland.
+
+Environmental Protection Agency (EPA)
+Email: info@epa.ie
+Role: Climate, emissions, environmental harm, data-centre environmental impact.
+
+Data Protection Commission (DPC)
+Email: info@dataprotection.ie
+Role: AI systems processing personal data; algorithmic transparency.
+
+Irish Human Rights and Equality Commission (IHREC)
+Email: info@ihrec.ie
+Role: Fundamental rights impacts of AI; equality and non-discrimination.
+
+Coimisiún na Meán
+Email: info@cnam.ie
+Role: Digital content, transparency, misinformation, algorithmic media systems.
+
+Ombudsman
+Email: info@ombudsman.ie
+Role: Public-service AI impacts, administrative fairness.
+
+Ombudsman for Children
+Email: oco@oco.ie
+Role: AI impacts on children, digital rights, safety.
+
+------------------------------------------------------------
+
+📜 Provenance Footer
+`
+---
+Provenance:
+- Author: NDH Research Pilot (Independent Epistemics Division)
+- Context: Stakeholder mapping for climate-governance and AI-ethics regulatory engagement in Ireland.
+- Sources: Publicly listed contact information from Irish charities and regulators; verified through public registers and official websites.
+- Lineage: Added to NDH-RESEARCH-PILOT/climate-studies to support regulatory submissions, ecological diagnostics, and rights-based computational governance.
+- Membrane: Neutral; public-facing; no external dependencies.
+- Version: v1.0 (Initial inclusion)
+---
+`
+
+
+
