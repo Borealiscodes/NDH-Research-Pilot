@@ -1,21 +1,81 @@
-MIT License
+NDH‑RESEARCH‑PILOT — Real Physics License v3.0
+Copyright (c) 2026 Borealis S. Hedling
 
-Copyright (c) 2026 Borealis S Hedling
+NDH‑RESEARCH‑PILOT (“the Work”) contains real physics, mathematical structures,
+dimensional transforms, stability analysis, and experimental manifold kernels.
+It is intended for scientific research, humane technology, and non‑dual systems design.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license preserves attribution, provenance, and dual‑use safeguards while allowing
+legitimate scientific and engineering exploration.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+----------------------------------------------------------------------
+1. PERMITTED USES
+----------------------------------------------------------------------
+You may:
+• Use, study, and extend the real physics and mathematical structures.
+• Build research tools, simulations, and experimental models.
+• Apply the Work to scientific, academic, or humane engineering contexts.
+• Create derivative works that preserve attribution, provenance, and NDH ethics membranes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Real physics is allowed. Real engineering is allowed. Real modeling is allowed.
+
+----------------------------------------------------------------------
+2. PROHIBITED USES (DUAL‑USE SAFEGUARD)
+----------------------------------------------------------------------
+The Work may not be used for:
+• weapons development, targeting, guidance, or control;
+• autonomous weapons systems or kinetic optimization;
+• surveillance systems that violate human rights;
+• any activity restricted under international arms‑control treaties, including:
+    – Missile Technology Control Regime (MTCR),
+    – Wassenaar Arrangement,
+    – Hague Code of Conduct (HCoC),
+    – and related dual‑use export‑control frameworks.
+
+These references define ethical boundaries only. They are not operational guidance.
+
+----------------------------------------------------------------------
+3. ATTRIBUTION, PROVENANCE & DERIVATIVE DRIFT DISCLOSURE
+----------------------------------------------------------------------
+Derivative works must:
+• preserve clear attribution to the original author;
+• maintain provenance of NDH physics and mathematical structures;
+• disclose any reinterpretation of NDH physics into weapons‑adjacent systems;
+• disclose any removal or modification of NDH ethical membranes;
+• disclose any reframing of NDH primitives into harmful or dual‑use contexts.
+
+Failure to disclose derivative drift constitutes a violation of this license.
+
+----------------------------------------------------------------------
+4. REAL PHYSICS DISCLAIMER
+----------------------------------------------------------------------
+The Work contains real physics and mathematical structures. These may be used for
+scientific research, engineering, and modeling, but may not be used for any harmful,
+weapons‑adjacent, or arms‑controlled applications.
+
+Any attempt to repurpose the Work for targeting, guidance, or kinetic optimization
+violates this license.
+
+----------------------------------------------------------------------
+5. ETHICS & DIGNITY INVARIANTS
+----------------------------------------------------------------------
+The Work is built on dignity‑preserving design principles. Derivative works must:
+• uphold humane technology standards,
+• avoid harm amplification,
+• preserve NDH ethical membranes,
+• maintain non‑dual interpretive clarity.
+
+----------------------------------------------------------------------
+6. WARRANTY & LIABILITY
+----------------------------------------------------------------------
+The Work is provided “as‑is,” without warranty of any kind. The author is not liable
+for misuse, misinterpretation, or derivative drift resulting from removal of ethical safeguards.
+
+----------------------------------------------------------------------
+7. LICENSE COMPATIBILITY
+----------------------------------------------------------------------
+This license is compatible with NDH‑Platforms License v1.0 and NDH‑Simulation‑Suite License v2.1.
+It may be used alongside AGPL‑3.0 provided that NDH dual‑use safeguards and attribution
+requirements remain intact.
+
+END OF LICENSE
