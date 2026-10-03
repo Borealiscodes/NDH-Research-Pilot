@@ -1,0 +1,141 @@
+{
+  "artifact": "Megaton Moral Architecture Preprint",
+  "version": "Triadic v2.0",
+  "file_path": "NDH-Research-Pilot/preprints/megaton_moral_architecture_preprint_triadv2.0.md",
+  "domain": "fictional_system_testbed",
+  "triadic_alignment": {
+    "altitudes": ["A3", "A4", "A5", "A6", "A7", "A8"],
+    "membranes": ["M1", "M2", "M3"],
+    "components": {
+      "1": "Triadic Altitude Map v1.0",
+      "2": "Triadic Membrane Separation Protocol v1.0",
+      "3": "Triadic Dissertation Spine Specification v1.0",
+      "4": "Triadic Collision-Prevention Layer v1.0",
+      "5": "Triadic Nexus-Safe Integration Tile v1.0"
+    }
+  },
+  "frontmatter": {
+    "title": "Megaton Moral Architecture Preprint (Triadic v2.0)",
+    "abstract": "A fictional testbed designed to evaluate the Triadic Dissertation Architecture across diagnostic, expressive, and integrative altitudes using the Megaton moral decision system.",
+    "keywords": [
+      "triadic architecture",
+      "fictional harm topology",
+      "moral choice",
+      "membrane containment",
+      "altitude analysis",
+      "NDH Research Pilot"
+    ],
+    "fictional_domain_declaration": true,
+    "non_runtime": true,
+    "zenodo_ready": true
+  },
+  "outline": {
+    "1_introduction": [
+      "Purpose of fictional testbed",
+      "Megaton as triadic stress-test",
+      "Triadic architecture overview",
+      "Containment rationale",
+      "NDH lineage"
+    ],
+    "2_system_description": [
+      "City structure",
+      "Bomb chamber topology",
+      "Moral decision architecture",
+      "Fallout geometry",
+      "NPC moral-response patterns"
+    ],
+    "3_diagnostic_altitude_A6_A8": [
+      "Harm topology",
+      "Humanitarian invariants",
+      "Fallout propagation",
+      "Diagnostic lineage",
+      "Containment notes"
+    ],
+    "4_expressive_altitude_A3_A5": [
+      "Narrative geometry",
+      "Belonging logic",
+      "Spectral inheritance",
+      "Expressive topology",
+      "Containment notes"
+    ],
+    "5_integrative_altitude_A5_A6": [
+      "Cross-analysis",
+      "Non-absorptive routing",
+      "Altitude neutrality",
+      "Spine-safe traversal"
+    ],
+    "6_collision_prevention_A5_A8": [
+      "Altitude fusion risks",
+      "Membrane breach scenarios",
+      "Spectral contamination",
+      "Harm-modeling contamination",
+      "Interception logic"
+    ],
+    "7_nexus_safe_integration_A5_A8": [
+      "Non-absorptive interface",
+      "Simulation-Suite encoding",
+      "Containment rules",
+      "Expressive neutralization",
+      "Harm-modeling isolation"
+    ],
+    "8_triadic_operation_results": [
+      "Altitude stability",
+      "Membrane stability",
+      "Routing stability",
+      "Collision-prevention stability",
+      "Integration stability"
+    ],
+    "9_discussion": [
+      "Triadic insights",
+      "Fictional system benefits",
+      "Implications",
+      "Limitations",
+      "Next steps"
+    ],
+    "10_conclusion": [
+      "Summary of triadic behavior",
+      "Containment confirmation",
+      "Altitude stability",
+      "Membrane integrity",
+      "Nexus-safe operation"
+    ]
+  },
+  "references": {
+    "triadic_architecture": [
+      "Hedling, B. NDH-Research-Pilot: Governance Membranes and Altitude Architecture. GitHub, 2026.",
+      "Hedling, B. Triadic Dissertation Architecture Components v1.0. NDH-Research-Pilot, 2026.",
+      "Hedling, B. Nexus Architecture v1.0. NDH-Research-Pilot, 2026."
+    ],
+    "fictional_systems": [
+      "Bethesda Game Studios. Fallout 3. 2008.",
+      "Howard, T. Designing Moral Choice in Open Worlds. GDC, 2009.",
+      "Pagliarulo, E. Narrative Design in Post-Apocalyptic Worlds. Developer Commentary, 2008."
+    ],
+    "moral_philosophy": [
+      "Foot, P. The Problem of Abortion and the Doctrine of Double Effect. Oxford Review, 1967.",
+      "Thomson, J. Killing, Letting Die, and the Trolley Problem. The Monist, 1976.",
+      "Greene, J. Moral Tribes. Penguin, 2013."
+    ],
+    "systems_theory": [
+      "Bateson, G. Steps to an Ecology of Mind. 1972.",
+      "Deleuze & Guattari. A Thousand Plateaus. 1987.",
+      "Barabási, A.-L. Network Science. 2016."
+    ],
+    "governance_safety": [
+      "Perrow, C. Normal Accidents. 1984.",
+      "Rasmussen, J. Risk Management in a Dynamic Society. 1997.",
+      "Woods, D. Graceful Extensibility. 2018."
+    ],
+    "metadata_infrastructure": [
+      "Zenodo Metadata Guidelines. CERN, 2025.",
+      "GitHub Citation File Format Specification. GitHub Docs, 2024."
+    ]
+  },
+  "integration_flags": {
+    "nexus_safe": true,
+    "simulation_suite_safe": true,
+    "runtime_prohibited": true,
+    "expressive_prohibited": true
+  },
+  "stability_checksum": "MEGATON-T2.0-STRUCTURE-STABLE"
+}
