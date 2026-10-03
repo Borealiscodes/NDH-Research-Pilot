@@ -1,13 +1,10 @@
-# Bees, Goats, Holonomy, and AI Reasoning Dynamics
+# Geometry, Effort Metrics, and Holonomy in AI Reasoning Systems
 
 A Formal Mathematical Preprint (v1.0)
-NDH‑Research‑Pilot
-
----
 
 Abstract
 
-This preprint formalizes three geometric and dynamical structures—Voronoi partitioning, effort‑weighted geodesics, and holonomy of loops—and demonstrates their relevance to modern AI reasoning systems. We show that embedding‑space partitioning corresponds to Voronoi geometry, transition likelihoods induce an effort metric on semantic manifolds, and recurrent or transformer‑style state evolution exhibits holonomy‑like path dependence. These structures provide a mathematically defensible foundation for analyzing AI behavior using tools from metric geometry, optimization, and differential topology.
+This preprint formalizes three geometric and dynamical structures—Voronoi partitioning, effort‑weighted geodesics, and holonomy of loops—and demonstrates their relevance to modern AI reasoning systems. Embedding‑space partitioning corresponds to Voronoi geometry, transition likelihoods induce an effort metric on semantic manifolds, and recurrent or transformer‑style state evolution exhibits holonomy‑like path dependence. These structures provide a mathematically defensible foundation for analyzing AI behavior using tools from metric geometry, optimization, and differential topology.
 
 ---
 
@@ -22,8 +19,8 @@ $$
 
 Properties:
 
-1. The collection \( \{V(p_i)\} \) forms a complete partition of \( \mathbb{R}^d \).  
-2. Cell boundaries lie on perpendicular bisectors of segments \( \overline{pipj} \).  
+1. \( \{V(p_i)\} \) forms a complete partition of \( \mathbb{R}^d \).  
+2. Boundaries lie on perpendicular bisectors of segments \( \overline{pipj} \).  
 3. The partition is stable under small perturbations of \( P \).
 
 AI Interpretation
@@ -170,17 +167,48 @@ Developed within the NDH‑Research‑Pilot framework as a formal mathematical c
 
 ---
 
+References
+
+Voronoi Geometry
+
+- Aurenhammer, F. Voronoi Diagrams—A Survey of a Fundamental Geometric Data Structure. ACM Computing Surveys 23(3), 1991.  
+- Okabe, A., Boots, B., Sugihara, K., Chiu, S. Spatial Tessellations: Concepts and Applications of Voronoi Diagrams. Wiley, 2000.  
+- Fortune, S. A Sweepline Algorithm for Voronoi Diagrams. Proceedings of the Second Annual Symposium on Computational Geometry, 1986.
+
+Riemannian Metrics, Geodesics, and Effort Landscapes
+
+- do Carmo, M. Riemannian Geometry. Birkhäuser, 1992.  
+- Lee, J. M. Introduction to Smooth Manifolds. Springer, 2012.  
+- Gallier, J., Quaintance, J. Differential Geometry and Lie Groups. arXiv:2005.07368.
+
+Holonomy and Curvature
+
+- Kobayashi, S., Nomizu, K. Foundations of Differential Geometry. Wiley, 1963.  
+- Sharpe, R. Differential Geometry: Cartan’s Generalization of Klein’s Erlangen Program. Springer, 1997.  
+- Barrett, J. W. Holonomy and Path Structures in Geometry. arXiv:math/0311176.
+
+AI Reasoning, Embeddings, and State Evolution
+
+- Mikolov, T., Chen, K., Corrado, G., Dean, J. Efficient Estimation of Word Representations in Vector Space. arXiv:1301.3781.  
+- Vaswani, A. et al. Attention Is All You Need. arXiv:1706.03762.  
+- Elman, J. L. Finding Structure in Time. Cognitive Science 14(2), 1990.  
+- Sutskever, I., Martens, J., Dahl, G., Hinton, G. On the Importance of Initialization and Momentum in Deep Learning. ICML, 2013.
+
+Metric Geometry and AI
+
+- Bronstein, M. M., Bruna, J., LeCun, Y., Szlam, A., Vandergheynst, P. Geometric Deep Learning: Going Beyond Euclidean Data. IEEE Signal Processing Magazine, 2017.  
+- Mallat, S. Understanding Deep Convolutional Networks. Phil. Trans. R. Soc. A, 2016.
+
+---
+
+
 📜 PROVENANCE FOOTER
 `
 Provenance:
-This preprint (v1.0) was developed within the NDH-Research-Pilot framework to 
-provide an academically defensible mathematical foundation for analyzing AI 
-reasoning dynamics through Voronoi geometry, effort-weighted geodesics, and 
-holonomy-based path dependence. The document uses GitHub-safe LaTeX syntax and 
-formal mathematical notation appropriate for preprint repositories, seminars, 
-and technical appendices. It serves as the rigorous counterpart to the 
-narrative companion explainer, linking geometric partitioning, optimization 
-structures, and differential-topological effects to modern AI behavior.
+This v1.0 preprint was developed within NDH-Research-Pilot as a formal, 
+academically defensible mathematical treatment of Voronoi geometry, effort 
+metrics, and holonomy in AI reasoning systems. Prepared specifically for Zenodo 
+deposition using Markdown and MathJax-compatible LaTeX.
 `
 
 ---
