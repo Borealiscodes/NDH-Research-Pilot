@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this preprint, please cite it using the metadata below."
+title: "Geometry, Effort Metrics, and Holonomy in AI Reasoning Systems"
+version: "1.0"
+authors:
+  - family-names: "Hedling"
+    given-names: "Borealis S."
+    orcid: "0009-0004-7968-5707"
+abstract: >
+  This preprint formalizes Voronoi partitioning, effort-weighted geodesics, and
+  holonomy-driven path dependence, demonstrating their relevance to modern AI
+  reasoning systems. Embedding-space partitioning corresponds to Voronoi
+  geometry, transition likelihoods induce an effort metric on semantic
+  manifolds, and recurrent or transformer-style state evolution exhibits
+  holonomy-like path dependence. The work provides a mathematically defensible
+  foundation for analyzing AI behavior using tools from metric geometry,
+  optimization, and differential topology.
+keywords:
+  - Voronoi geometry
+  - effort metrics
+  - holonomy
+  - AI reasoning
+  - NDH-Research-Pilot
+  - differential topology
+  - metric geometry
+license: "CC-BY-4.0"
+type: "preprint"
