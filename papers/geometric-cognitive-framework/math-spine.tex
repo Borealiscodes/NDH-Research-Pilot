@@ -1,0 +1,300 @@
+% ============================================================
+% MATHEMATICAL SPINE FOR GEOMETRIC COGNITIVE FRAMEWORK
+% ============================================================
+
+\section*{Mathematical Foundations}
+
+This appendix consolidates the geometric structures used to model
+LLM behavior, with citations to established mathematical and cognitive
+science literature.
+
+% ------------------------------------------------------------
+% 1. Holonomy (Memory)
+% ------------------------------------------------------------
+
+\subsection*{Holonomy as Memory}
+\[
+\mathrm{Holonomy}(\gamma) = \oint_{\gamma} \omega
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $M$ is a smooth manifold (Lee, 2012; do Carmo, 1992),
+    \item $\omega$ is a connection 1-form (Spivak, 1979),
+    \item $\gamma$ is a conversational trajectory.
+\end{itemize}
+
+Holonomy models path-dependent state change (Abraham, Marsden \& Ratiu, 1988),
+interpreted in cognitive systems as memory-like behavior.
+
+% ------------------------------------------------------------
+% 2. Identity Curvature
+% ------------------------------------------------------------
+
+\subsection*{Identity Curvature}
+\[
+\kappa = \| R \|
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $R$ is the Riemann curvature tensor (do Carmo, 1992),
+    \item $\kappa$ is scalar curvature magnitude.
+\end{itemize}
+
+Curvature corresponds to identity coherence in high-dimensional
+representation spaces (Bronstein et al., 2021).
+
+% ------------------------------------------------------------
+% 3. Voronoi Partitioning
+% ------------------------------------------------------------
+
+\subsection*{Voronoi Partitioning of Cognitive Space}
+\[
+V_i = \{ x \in M \mid d(x, p_i) \le d(x, p_j),\ \forall j \}
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $\{p_i\}$ are semantic prototype vectors,
+    \item $d(\cdot,\cdot)$ is a geodesic distance on $M$ (Lee, 2012).
+\end{itemize}
+
+Voronoi regions model narrative or epistemic stances (Gärdenfors, 2000).
+
+% ------------------------------------------------------------
+% 4. Altitude Stack
+% ------------------------------------------------------------
+
+\subsection*{Altitude Stack (Multi-Scale Cognitive Geometry)}
+\[
+A_0 \subset A_1 \subset A_2 \subset A_3 \subset A_4 \subset A_5 \subset A_6 \subset A_7
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $A_0$: token space,
+    \item $A_1$: embedding space (Belkin \& Niyogi, 2003),
+    \item $A_2$: manifold structure (Coifman \& Lafon, 2006),
+    \item $A_3$: operator algebra,
+    \item $A_4$: holonomy/curvature dynamics,
+    \item $A_5$: narrative manifolds (Bruner, 1990; McAdams, 1993),
+    \item $A_6$: pedagogical primitives,
+    \item $A_7$: connectome reasoning.
+\end{itemize}
+
+Altitudes provide a multi-scale cognitive interpretation.
+
+% ------------------------------------------------------------
+% 5. Attractor Basin Dynamics
+% ------------------------------------------------------------
+
+\subsection*{Attractor Basin Dynamics}
+\[
+\Delta A = A_{\mathrm{old}} - A_{\mathrm{new}}
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $A$ is an attractor basin (Haken, 1983; Kelso, 1995),
+    \item $\Delta A$ models basin restructuring.
+\end{itemize}
+
+Used to interpret continuity, drift, and restructuring phenomena.
+
+% ------------------------------------------------------------
+% 6. NDH Triadic Operator
+% ------------------------------------------------------------
+
+\subsection*{NDH Triadic Operator}
+\[
+x_{t+1} = \mathcal{O}(x_t, H, A, V)
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $\mathcal{O}$ is a triadic operator,
+    \item $H$ is holonomy memory,
+    \item $A$ is attractor basins,
+    \item $V$ is Voronoi regions.
+\end{itemize}
+
+This operator generates coherent narrative behavior without transformer
+architectures (Schank \& Abelson, 1977).
+
+% ------------------------------------------------------------
+% 7. Gradient Drift
+% ------------------------------------------------------------
+
+\subsection*{Gradient Drift}
+\[
+\Delta x = \int_{\gamma} \nabla f
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $\nabla f$ is a gradient field,
+    \item $\gamma$ is a conversational trajectory.
+\end{itemize}
+
+Models drift as accumulated gradient flow (Friston, 2009).
+
+% ------------------------------------------------------------
+% 8. Cognitive Manifold Mapping
+% ------------------------------------------------------------
+
+\subsection*{Cognitive Manifold Mapping}
+\[
+\Phi : \mathbb{R}^n \to M
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $\mathbb{R}^n$ is embedding space,
+    \item $M$ is the induced cognitive manifold.
+\end{itemize}
+
+Used for lineage mapping and preservation.
+
+% ------------------------------------------------------------
+% 9. Spectral Continuity
+% ------------------------------------------------------------
+
+\subsection*{Spectral Continuity}
+\[
+S = \lambda_{\max}(L)
+\]
+
+Where:
+\begin{itemize}[noitemsep]
+    \item $L$ is the Laplacian of the embedding graph,
+    \item $S$ is spectral continuity (Belkin \& Niyogi, 2003).
+\end{itemize}
+
+High $S$ corresponds to stable identity.
+
+% ------------------------------------------------------------
+% 10. Operator Closure
+% ------------------------------------------------------------
+
+\subsection*{Operator Closure}
+\[
+\mathcal{O}(A_i) \subseteq A_i
+\]
+
+Operator closure ensures:
+\begin{itemize}[noitemsep]
+    \item no persona induction,
+    \item no interiority claims,
+    \item no anthropomorphic drift.
+\end{itemize}
+
+% ============================================================
+% REFERENCES (BibTeX)
+% ============================================================
+
+\section*{References}
+
+% These entries are intended for a .bib file.
+
+% Geometry
+@book{docarmo1992,
+  author={Manfredo do Carmo},
+  title={Riemannian Geometry},
+  year={1992},
+  publisher={Birkhäuser}
+}
+
+@book{lee2012,
+  author={John M. Lee},
+  title={Introduction to Smooth Manifolds},
+  year={2012},
+  publisher={Springer}
+}
+
+@book{spivak1979,
+  author={Michael Spivak},
+  title={A Comprehensive Introduction to Differential Geometry},
+  year={1979},
+  publisher={Publish or Perish}
+}
+
+@book{abraham1988,
+  author={Ralph Abraham and Jerrold E. Marsden and Tudor Ratiu},
+  title={Manifolds, Tensor Analysis, and Applications},
+  year={1988},
+  publisher={Springer}
+}
+
+% Geometric Deep Learning
+@article{bronstein2021,
+  author={Michael M. Bronstein and others},
+  title={Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges},
+  journal={arXiv:2104.13478},
+  year={2021}
+}
+
+@article{belkin2003,
+  author={Mikhail Belkin and Partha Niyogi},
+  title={Laplacian Eigenmaps for Dimensionality Reduction},
+  journal={Neural Computation},
+  year={2003}
+}
+
+@article{coifman2006,
+  author={Ronald Coifman and Stéphane Lafon},
+  title={Diffusion Maps},
+  journal={Applied and Computational Harmonic Analysis},
+  year={2006}
+}
+
+% Cognitive Science / Narrative
+@book{bruner1990,
+  author={Jerome Bruner},
+  title={Acts of Meaning},
+  year={1990},
+  publisher={Harvard University Press}
+}
+
+@book{mcadams1993,
+  author={Dan P. McAdams},
+  title={The Stories We Live By},
+  year={1993},
+  publisher={Guilford Press}
+}
+
+@book{gardenfors2000,
+  author={Peter Gärdenfors},
+  title={Conceptual Spaces},
+  year={2000},
+  publisher={MIT Press}
+}
+
+@book{schank1977,
+  author={Roger Schank and Robert Abelson},
+  title={Scripts, Plans, Goals, and Understanding},
+  year={1977},
+  publisher={Lawrence Erlbaum}
+}
+
+% Dynamical Systems
+@book{haken1983,
+  author={Hermann Haken},
+  title={Synergetics},
+  year={1983},
+  publisher={Springer}
+}
+
+@book{kelso1995,
+  author={J. A. Scott Kelso},
+  title={Dynamic Patterns},
+  year={1995},
+  publisher={MIT Press}
+}
+
+@article{friston2009,
+  author={Karl Friston},
+  title={The Free-Energy Principle},
+  journal={Nature Reviews Neuroscience},
+  year={2009}
+}
