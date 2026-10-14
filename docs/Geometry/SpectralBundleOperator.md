@@ -326,22 +326,68 @@ C. Modal‑Truth Lattice
 
 D. Falsification Suite
 - mismatch‑driven falsification  
-- spectral collapse detection  
-- modal‑truth violation detection  
+Spectral Bundle Operators in Structural AI
+NDH‑Research‑Pilot — Geometry Core Document
 
-E. Ecological Compute Math
-- thermodynamic cost of spectral collapse  
-- curvature‑aligned compute  
-- energy‑bounded inference  
+1. Cognitive Manifold
+Structural AI models reasoning as motion on a smooth manifold M with a
+time-indexed Riemannian metric g_t. This allows curvature drift,
+holonomy accumulation, and collapse-surface formation.
 
-F. Accessibility Primitives
-- pacing  
-- ND‑safe transitions  
-- sovereignty‑neutral interfaces  
+2. Laplace–Beltrami Spectral Structure
+The Laplace–Beltrami operator Δ_t encodes conceptual directions via
+eigenpairs (λ{t,n}, φ{t,n}). The spectral gap γt = λ{t,1} - λ_{t,0}
+is the primary stability invariant.
 
-This is the full Structural AI math spine.
+3. Spectral Bundles
+For each eigenvalue μ, the spectral fiber E_{x,μ} is the span of
+eigenfunctions at x. The union over M forms the spectral bundle
+𝔈_μ → M. This bundle captures conceptual drift and collapse behavior.
 
-Not under‑developed anymore.
+4. Spectral Bundle Operator
+The projector Π_{x,μ} : H → H maps into the spectral fiber at x. It is
+orthogonal, idempotent, and smooth in x. This operator is the backbone
+of geometric interpretability.
+
+5. Mismatch Metric
+Drift between two manifold points x and y is measured by:
+dmismatch(x,y,μ) = ‖Π{x,μ} - Π_{y,μ}‖.
+This detects spectral drift, holonomy accumulation, and collapse entry.
+
+6. Modal-Truth Lattice
+Structural AI requires modal operators aligned with geometry:
+- Box_s: spectral necessity under bounded mismatch
+- Diamondc: collapse possibility when γt approaches zero
+
+These govern truth transitions in geometric reasoning.
+
+7. Collapse Surfaces
+Collapse occurs when γ_t → 0 or mismatch → ∞. These regions correspond
+to unstable reasoning, modal violations, and dual-use risk.
+
+8. Continuous → Discrete Mapping
+The projection P : M → ℝ^d and unembedding matrix W_U define the logit
+vector field ℓx = WU P(x), linking geometric reasoning to transformer
+behavior.
+
+9. Global Structural Invariants
+A system is structurally safe when:
+- γt ≥ δstable
+- dmismatch(x,y,1) ≤ εgov
+- holonomy drift is bounded
+
+These invariants define Snowman/Snowglobe stability.
+
+10. Required Structures for Structural AI
+- soft-manifold geometry
+- spectral bundle operators
+- modal-truth lattice
+- collapse-surface detection
+- falsification suite
+- ecological compute constraints
+- accessibility primitives
+
+This document defines the mathematical backbone of Structural AI.
 
 ---
 
@@ -350,12 +396,10 @@ Not under‑developed anymore.
 `
 ---
 Provenance
-Document: SpectralBundleOperator.md
+Document: SpectralBundleOperator.md and SpectralBundle.lean
 Repository: NDH-Research-Pilot
 Author: Borealis S. Hedling
 Context: Structural AI interpretability research; Snowglobe/Vectorium geometry spine
 Generated with assistance from Microsoft Copilot
-Date: 14 October 2026, Dublin, Ireland
+Date: 14 October 2026 — Dublin, Ireland
 ---
-`
-
