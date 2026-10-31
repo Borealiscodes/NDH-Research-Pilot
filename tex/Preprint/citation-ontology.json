@@ -1,0 +1,184 @@
+{
+  "geometry": {
+    "Lee-Intro-Riemannian": {
+      "authors": "Lee, J. M.",
+      "year": 2018,
+      "title": "Introduction to Riemannian manifolds (2nd ed.)",
+      "publisher": "Springer"
+    },
+    "DoCarmo-Riemannian": {
+      "authors": "Do Carmo, M. P.",
+      "year": 1992,
+      "title": "Riemannian geometry",
+      "publisher": "Academic Press"
+    },
+    "Spivak-DifferentialGeometry": {
+      "authors": "Spivak, M.",
+      "year": 1999,
+      "title": "A comprehensive introduction to differential geometry (Vols. 1–5)",
+      "publisher": "Publish or Perish"
+    },
+    "ONeill-SemiRiemannian": {
+      "authors": "O’Neill, B.",
+      "year": 1983,
+      "title": "Semi-Riemannian geometry with applications to relativity",
+      "publisher": "Academic Press"
+    },
+    "Nakahara-GeometryTopologyPhysics": {
+      "authors": "Nakahara, M.",
+      "year": 2003,
+      "title": "Geometry, topology and physics (2nd ed.)",
+      "publisher": "Taylor & Francis"
+    }
+  },
+
+  "laplacian_spectral": {
+    "Chung-SpectralGraphTheory": {
+      "authors": "Chung, F. R. K.",
+      "year": 1997,
+      "title": "Spectral graph theory",
+      "publisher": "American Mathematical Society"
+    },
+    "Grigoryan-HeatKernel": {
+      "authors": "Grigoryan, A.",
+      "year": 2009,
+      "title": "Heat kernel and analysis on manifolds",
+      "publisher": "American Mathematical Society"
+    },
+    "BelkinNiyogi-LaplacianEigenmaps": {
+      "authors": "Belkin, M., & Niyogi, P.",
+      "year": 2003,
+      "title": "Laplacian eigenmaps for dimensionality reduction and data representation",
+      "journal": "Neural Computation",
+      "volume": 15,
+      "issue": 6,
+      "pages": "1373–1396"
+    },
+    "CoifmanLafon-DiffusionMaps": {
+      "authors": "Coifman, R. R., & Lafon, S.",
+      "year": 2006,
+      "title": "Diffusion maps",
+      "journal": "Applied and Computational Harmonic Analysis",
+      "volume": 21,
+      "issue": 1,
+      "pages": "5–30"
+    }
+  },
+
+  "embeddings": {
+    "Tenenbaum-Isomap": {
+      "authors": "Tenenbaum, J. B., de Silva, V., & Langford, J. C.",
+      "year": 2000,
+      "title": "A global geometric framework for nonlinear dimensionality reduction",
+      "journal": "Science",
+      "volume": 290,
+      "issue": 5500,
+      "pages": "2319–2323"
+    },
+    "RoweisSaul-LLE": {
+      "authors": "Roweis, S. T., & Saul, L. K.",
+      "year": 2000,
+      "title": "Nonlinear dimensionality reduction by locally linear embedding",
+      "journal": "Science",
+      "volume": 290,
+      "issue": 5500,
+      "pages": "2323–2326"
+    },
+    "Bronstein-GeometricDeepLearning": {
+      "authors": "Bronstein, M. M., Bruna, J., LeCun, Y., Szlam, A., & Vandergheynst, P.",
+      "year": 2017,
+      "title": "Geometric deep learning: Going beyond Euclidean data",
+      "journal": "IEEE Signal Processing Magazine",
+      "volume": 34,
+      "issue": 4,
+      "pages": "18–42"
+    }
+  },
+
+  "holonomy": {
+    "KobayashiNomizu-Foundations1": {
+      "authors": "Kobayashi, S., & Nomizu, K.",
+      "year": 1963,
+      "title": "Foundations of differential geometry (Vol. 1)",
+      "publisher": "Wiley"
+    },
+    "KobayashiNomizu-Foundations2": {
+      "authors": "Kobayashi, S., & Nomizu, K.",
+      "year": 1969,
+      "title": "Foundations of differential geometry (Vol. 2)",
+      "publisher": "Wiley"
+    },
+    "Sharpe-CartanGeometry": {
+      "authors": "Sharpe, R. W.",
+      "year": 1997,
+      "title": "Differential geometry: Cartan’s generalization of Klein’s Erlangen program",
+      "publisher": "Springer"
+    }
+  },
+
+  "ai_geometry": {
+    "Bronstein-ErlangenML": {
+      "authors": "Bronstein, M. M.",
+      "year": 2021,
+      "title": "Geometric deep learning: The Erlangen program of machine learning",
+      "archive": "arXiv:2104.13478"
+    },
+    "Thompson-SpectralCognition": {
+      "authors": "Thompson, G.",
+      "year": 2024,
+      "title": "Spectral cognition and holonomy in AI systems",
+      "archive": "arXiv:2403.11231"
+    },
+    "Mallat-UnderstandingCNNs": {
+      "authors": "Mallat, S.",
+      "year": 2016,
+      "title": "Understanding deep convolutional networks",
+      "journal": "Philosophical Transactions of the Royal Society A",
+      "volume": 374,
+      "issue": 2065,
+      "pages": "20150203"
+    }
+  },
+
+  "dynamical_systems": {
+    "KatokHasselblatt-DynamicalSystems": {
+      "authors": "Katok, A., & Hasselblatt, B.",
+      "year": 1995,
+      "title": "Introduction to the modern theory of dynamical systems",
+      "publisher": "Cambridge University Press"
+    },
+    "Arnold-ClassicalMechanics": {
+      "authors": "Arnold, V. I.",
+      "year": 1989,
+      "title": "Mathematical methods of classical mechanics (2nd ed.)",
+      "publisher": "Springer"
+    },
+    "Wiggins-NonlinearDynamics": {
+      "authors": "Wiggins, S.",
+      "year": 2003,
+      "title": "Introduction to applied nonlinear dynamical systems and chaos (2nd ed.)",
+      "publisher": "Springer"
+    }
+  },
+
+  "contextual": {
+    "Bharata-Natyasastra": {
+      "authors": "Bharata",
+      "year": 2016,
+      "title": "Nāṭyaśāstra",
+      "publisher": "Motilal Banarsidass"
+    },
+    "Abhinavagupta-Abhinavabharati": {
+      "authors": "Abhinavagupta",
+      "year": 2018,
+      "title": "Abhinavabhāratī",
+      "publisher": "Motilal Banarsidass"
+    },
+    "Hedling-GMC-Toolkit": {
+      "authors": "Hedling, B. S.",
+      "year": 2026,
+      "title": "Geometric Multimodal Control Toolkit",
+      "publisher": "Unpublished manuscript"
+    }
+  }
+    }
