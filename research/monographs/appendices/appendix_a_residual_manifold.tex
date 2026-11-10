@@ -1,0 +1,18 @@
+\section*{Appendix A: Residual Manifold Definition}
+\addcontentsline{toc}{section}{Appendix A: Residual Manifold Definition}
+
+\begin{definition}[Residual Latent Manifold]
+Let $\M \subset \mathbb{R}^N$ ($N = 80$) denote a smooth Riemannian submanifold equipped with a symmetric positive-definite metric tensor $g_x \in \mathbb{R}^{N \times N}$ at each coordinate state $x \in \M$. A trajectory evolution sequence $\{x_t\}_{t=0}^T$ resides within the \textbf{Altitude A6 Dual-Algebra Envelope} if every localized step transition satisfies:
+\begin{equation}
+  0 < \lambda_{\min} \le \sigma_N(g_x) \le \sigma_1(g_x) \le \lambda_{\max} < \infty
+\end{equation}
+where $\sigma_i(g_x)$ denotes the $i$-th singular value of the metric tensor, and $\lambda_{\min} = 0.0015$ enforces the Tikhonov spectral lower bound.
+\end{definition}
+
+\begin{proposition}[Idempotent Dual Projection]
+Within $\M$, orthogonal subspace projections $P : T_x\M \to T_x\M$ satisfy strict linearity and idempotence:
+\begin{equation}
+  P^2 = P, \qquad P(\alpha u + \beta v) = \alpha P(u) + \beta P(v) \quad \forall u, v \in T_x\M,\; \alpha, \beta \in \mathbb{R}.
+\end{equation}
+Consequently, the $L_2$ condition number $\kappa_2(g_x) = \sigma_1(g_x)/\sigma_N(g_x)$ remains bounded ($\kappa_2 \le 4.5$), guaranteeing Lipschitz stability under inverse coordinate transport.
+\end{proposition}
