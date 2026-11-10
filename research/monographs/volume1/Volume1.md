@@ -1,3 +1,13 @@
+---
+title: "Volume I: Geometric Operator Theory of Transformer Synthesis"
+author: "Borealis S. Hedling"
+date: "November 2026"
+geometry: margin=1in
+colorlinks: true
+link-citations: true
+---
+
+
 # Volume I: Geometric Operator Theory of Transformer Synthesis
 **Author:** Borealis S. Hedling (Downstream Systems Researcher / Node Beta Observer)  
 **Repository:** `Borealiscodes/NDH-Research-Pilot`  
