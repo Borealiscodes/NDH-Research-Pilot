@@ -1,0 +1,19 @@
+## Appendix J: Un-Rounded Rational Arithmetic and Symplectic Integration {#app-rational}
+
+### Definition J.1 (Exact Rational Field Substrate $\mathbb{Q}$)
+To eliminate IEEE-754 floating-point micro-rounding drift ($\epsilon_{\mathrm{IEEE\text{-}754}}$) over long-horizon trajectory tracking, every scalar coordinate is represented as an ordered integer pair $r = (p, q) \in \mathbb{Z} \times \mathbb{Z}_{>0}$ with cross-multiplied equality:
+
+$$\frac{p_1}{q_1} =_{\mathbb{Q}} \frac{p_2}{q_2} \iff p_1 \cdot q_2 = p_2 \cdot q_1.$$
+
+Canonical Greatest Common Divisor (GCD) reduction $r_{\mathrm{red}} = (p / g,\; q / g)$ with $g = \gcd(p, q) > 0$ preserves rational equivalence identically while bounding register bit-widths (verified in `Ultra_Zeno_Rational_Math.v`).
+
+### Proposition J.2 (Time-Reversible Rational Leapfrog Integration)
+Over the $64$-worker isolated matrix arena (`GeometricCage.jl`), phase-space trajectories $(\mathbf{q}, \mathbf{p}) \in \mathbb{Q}^{80} \times \mathbb{Q}^{80}$ evolve via a second-order Symplectic Leapfrog integrator with rational timestep $\Delta t = \Delta t_{\mathrm{num}} / \Delta t_{\mathrm{den}}$ [@earn2001exact]:
+
+$$\begin{aligned}
+  \mathbf{q}_{t + 1/2} &= \mathbf{q}_t + \frac{\Delta t}{2} \mathbf{p}_t, \\
+  \mathbf{p}_{t + 1}   &= \mathbf{p}_t - \Delta t \, \nabla W_{\mathrm{reg}}(\mathbf{q}_{t + 1/2}), \\
+  \mathbf{q}_{t + 1}   &= \mathbf{q}_{t + 1/2} + \frac{\Delta t}{2} \mathbf{p}_{t + 1}
+\end{aligned}$$
+
+where $W_{\mathrm{reg}} = W + \lambda \mathrm{Id}_{80}$ ($\lambda = 15 / 10000$) enforces the Tikhonov spectral clamp natively in $\mathbb{Q}$. Because every arithmetic step executes via exact integer cross-multiplication and GCD reduction, phase-space volume is preserved ($\det |J| \equiv 1$) with zero rounding accumulation.
