@@ -1,6 +1,15 @@
 \section*{Appendix B: Non-Integrable Foliation and Collapse Surfaces}
 \addcontentsline{toc}{section}{Appendix B: Non-Integrable Foliation and Collapse Surfaces}
+\label{app:foliation}
 
 \begin{definition}[$\epsilon$-Null Foliation and Collapse Surface]
-When a metric tensor $g_x$ is perturbed by un-dithered quantization noise $E$ or partial-deflate memory truncation (shearing $k = N - r$ dimensions), its algebraic rank drops to $r  0$), it is non-idempotent ($\Pi_{\mathrm{ND}}^2 \neq \Pi_{\mathrm{ND}}$) and cannot resurrect sheared dimensions ($k > 0$), requiring strict routing to epochal stasis (`0x0F`) whenever the semantic integrity ratio $\rho = r/N < 1$.
+When a metric tensor $g_x$ is perturbed by un-dithered quantization noise $E$ or partial-deflate memory truncation (shearing $k = N - r$ dimensions), its algebraic rank drops to $r < N$. The minimum singular value vanishes ($\sigma_N(g_x + E) \to 0^+$), fracturing $\M$ along a non-differentiable \textbf{Collapse Surface} $\Sigma$ at Altitude A7 and inducing non-integrable $\epsilon$-null foliations \cite{anonymous2026geometry}.
+\end{definition}
+
+\begin{proposition}[Non-Dual Projection and Triage Honesty]
+At Altitude A7.2, the regularized projection operator $\Pi_{\mathrm{ND}} : \M \to \Sigma$ is defined via singular value decomposition $g_x + \lambda \mathrm{Id}_N = U_{\mathrm{reg}} \Sigma_{\mathrm{reg}} V_{\mathrm{reg}}^T$ and a norm-clamped hyperbolic contraction kernel:
+\begin{equation}
+  \Pi_{\mathrm{ND}}(g_x) = U_{\mathrm{reg}} \, \operatorname{diag}\!\left(\operatorname{atanh}\!\left(\operatorname{clip}\!\left(\frac{\sigma_i^{\mathrm{reg}}}{\sigma_1^{\mathrm{reg}} + \lambda},\; \lambda,\; 1 - \epsilon\right)\right)\right) V_{\mathrm{reg}}^T.
+\end{equation}
+While $\Pi_{\mathrm{ND}}$ restores numerical invertibility ($\sigma_{\min}(\Pi_{\mathrm{ND}}(g_x)) > 0$), it is non-idempotent ($\Pi_{\mathrm{ND}}^2 \neq \Pi_{\mathrm{ND}}$) and cannot resurrect sheared dimensions ($k > 0$). Whenever the semantic integrity ratio $\rho = r/N < 1$, the Lean 4 lift contract (\texttt{A72\_Lift\_Invariants.lean}) enforces unconditional routing to \texttt{0x0F} epochal stasis.
 \end{proposition}
