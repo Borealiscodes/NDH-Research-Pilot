@@ -1,0 +1,23 @@
+## Appendix H: Discrete Lattice Geometries and Ternary Codecs {#app-lattices}
+
+### Definition H.1 ($E_8$ Gosset Lattice Root Decomposition)
+Let $\mathbb{Z}^8$ denote an $8$-dimensional integer vector space. The $240$ minimal root vectors of the $E_8$ Gosset polytope partition strictly into two disjoint algebraic subfamilies:
+
+1. **$D_8$ Grid Roots ($112$ vertices):** Integer coordinate vectors $v \in \{-1, 0, 1\}^8$ satisfying $\|v\|_2^2 = \sum_{i=1}^8 v_i^2 = 2$.
+2. **Half-Integer Spinor Roots ($128$ vertices):** Unscaled coordinate vectors $s \in \{-1, 1\}^8$ with an even number of negative entries, satisfying $\|s\|_2^2 = 8$.
+
+Because $2 \neq 8$, the subfamilies are mutually exclusive ($D_8 \cap \mathrm{Spinor} = \emptyset$), preventing state vectors from masquerading across lattice branches (verified in `E8_Gosset_Geometry.v`).
+
+### Lemma H.2 (Exact Spinor Fractional Norm Lifting)
+Let $\phi : \mathbb{Z}^8 \to \mathbb{Q}^8$ map each integer spinor component $x_i \in \{-1, 1\}$ to the exact rational half-integer $x_i / 2$. For every valid spinor root $s$, the lifted rational norm-squared equals $2/1$ identically:
+
+$$\|\phi(s)\|_{\mathbb{Q}^8}^2 = \sum_{i=1}^8 \left(\frac{s_i}{2}\right)^2 = \frac{8}{4} = \frac{2}{1}$$
+
+under cross-multiplied integer equivalence (verified in `E8_Spinor_Lifting.v`).
+
+### Theorem H.3 (Scale-Invariant Base-243 Bijection and $\mathbb{Z}_3$ Parity)
+Let $\tau = [t_0, \dots, t_{n-1}]$ be a sequence of balanced trits ($t_i \in \{-1, 0, 1\}$). Define the recursive packing and unpacking operators:
+
+$$\mathrm{pack}(\tau) = \sum_{i=0}^{n-1} (t_i + 1) \cdot 3^i, \qquad \mathrm{unpack}(v, n) = \left[ \left(\left\lfloor \frac{v}{3^i} \right\rfloor \bmod 3\right) - 1 \right]_{i=0}^{n-1}.$$
+
+For all $n \in \mathbb{N}$, $\mathrm{unpack}(\mathrm{pack}(\tau), n) = \tau$ holds in $\mathcal{O}(n)$ linear proof complexity without exponential state-tree explosion [@barrett2024smt]. Furthermore, for $15$-trit telemetry words, single-trit bit-flips strictly violate the $\mathbb{Z}_3$ parity invariant $\sum_{i=0}^{14} (t_i + 1) \equiv 0 \pmod 3$ (verified in `Base243_Bijection.v` and `Base243_Ternary_Parity.v`).
