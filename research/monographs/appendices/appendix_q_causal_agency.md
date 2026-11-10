@@ -1,4 +1,4 @@
-## Appendix Q: Causal Agency Metrics and Permutation Baselines {#app-causa}
+## Appendix Q: Causal Agency Metrics and Permutation Baselines {#app-causa} 
 
 ### Definition Q.1 (Directional Ownership and Semantic Mimicry Detection)
 To separate genuine causal trajectory evolution from fluent surface-level mimicry, let $\mathbf{s}_{\mathrm{before}}, \mathbf{s}_{\mathrm{pred}}, \mathbf{s}_{\mathrm{after}} \in \mathbb{R}^N$ denote the pre-action state, predicted intention vector, and observed post-action state [@stell2026causa]. The **Directional Ownership** score $\Omega_{\mathrm{dir}} \in [0, 1]$ blends directional cosine alignment (dominating small movements) with relative distance accuracy (dominating large movements). If $\Omega_{\mathrm{dir}}$ is undefined or falls below the empirical floor ($\Omega_{\mathrm{dir}} < 0.40$), the step is rejected as *Semantic Mimicry* (`geometry.py`).
