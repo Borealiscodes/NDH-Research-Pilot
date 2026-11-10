@@ -1,0 +1,21 @@
+\section*{Appendix F: Curvature Evolution and Analytic Softplus Floors}
+\addcontentsline{toc}{section}{Appendix F: Curvature Evolution and Analytic Softplus Floors}
+\label{app:curvature}
+
+\begin{definition}[Analytic Softplus Apex Floor]
+To isolate coordinate denominators in the $9$-dimensional radial Laplacian operator $\Delta_\psi f$ at absolute mechanical rest ($r = 0$), define the continuous Softplus floor function $\psi : \mathbb{R} \to \mathbb{R}_{>0}$ with positive scaling parameters $\eta > 0$ and $\epsilon > 0$:
+\begin{equation}
+  \psi(r) = \eta \ln\!\left(1 + e^{r / \epsilon}\right).
+\end{equation}
+\end{definition}
+
+\begin{lemma}[Non-Vanishing Denominator Invariant]
+For any ordered real field $R$ and any continuous lower bound satisfying $\psi(r) \ge \eta \cdot \epsilon$ with $\eta > 0$ and $\epsilon > 0$, the floor function is strictly non-vanishing across all inputs:
+\begin{equation}
+  \forall r \in R, \qquad \psi(r) > 0 \implies \psi(r) \neq 0.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Derived constructively over MathComp \texttt{realType} ordered fields using strict positivity closure (\texttt{mulr\_gt0}) and transitive inequality reduction (\texttt{le\_lt\_trans}) in \texttt{CurvatureEvolution.v}. In discrete rational execution (\texttt{GeometricCage.jl}), vanishing momentum numerators ($p_{\mathrm{num}} = 0$) are clamped to $1/1000$ to mirror this boundary without introducing floating-point drift.
+\end{proof}
