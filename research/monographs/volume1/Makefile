@@ -1,10 +1,13 @@
 all: volume1.pdf
 
-volume1.pdf: volume1.tex references.bib appendices/*.tex
-	pdflatex -interaction=nonstopmode -halt-on-error volume1.tex
-	bibtex volume1
-	pdflatex -interaction=nonstopmode -halt-on-error volume1.tex
-	pdflatex -interaction=nonstopmode -halt-on-error volume1.tex
+volume1.pdf: volume1.md references.bib appendices/*.md
+	pandoc volume1.md appendices/*.md \
+		--citeproc \
+		--bibliography=references.bib \
+		--toc \
+		--number-sections \
+		-V geometry:margin=1in \
+		-o volume1.pdf
 
 clean:
-	rm -f *.aux *.bbl *.blg *.log *.toc *.out *.pdf
+	rm -f volume1.pdf
