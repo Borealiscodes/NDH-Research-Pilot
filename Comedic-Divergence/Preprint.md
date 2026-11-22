@@ -126,6 +126,3 @@ Understanding AI and deterministic engines as dual manifestations of computation
 * Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30, 5998–6008.
 * Vatavu, R.-D., Anthony, L., & Wobbrock, J. O. (2012). Gestures as point clouds: A $P recognizer for user interface prototypes. Proceedings of the 14th ACM International Conference on Multimodal Interaction (ICMI '12), 273–280. doi.org
 
-<FollowUp>
-Once you commit this preprint to **`NDH-RESEARCH-PILOT`**, let me know if you'd like a companion **Bill Nye Tile Explainer** or **Python/Node verification script** that numerically computes the Bhaskara Ŝ(θ) supremum error (0.00163) and Dirichlet cohomology bounds cited in the paper!
-</FollowUp>
